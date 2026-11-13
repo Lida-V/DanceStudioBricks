@@ -907,6 +907,16 @@ class HiddenDancer(unittest.TestCase):
         self.assertNotIn("hidden", studio.dancers[0])
 
 
+class PageIsNotKept(unittest.TestCase):
+    def test_the_page_asks_the_browser_to_check_again(self):
+        import asyncio
+        from dsb.server import _Page
+        with tempfile.TemporaryDirectory() as folder:
+            (Path(folder) / "index.html").write_text("<html></html>", encoding="utf-8")
+            response = asyncio.run(_Page(directory=folder, html=True).get_response("index.html", {"type": "http", "method": "GET", "headers": []}))
+        self.assertEqual(response.headers["cache-control"], "no-cache")
+
+
 class SeededLibrary(unittest.TestCase):
     """The phrases shipped with the app fill an empty library on the first start, and never touch one that exists."""
 

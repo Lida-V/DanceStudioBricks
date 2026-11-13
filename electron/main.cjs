@@ -91,6 +91,7 @@ app.whenReady().then(async () => {
       }, 2500);
     });
   }
+  await window.webContents.session.clearCache();  // a page kept from before an update would hide the new one
   await window.loadURL(URL);
 });
 

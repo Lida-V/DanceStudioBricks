@@ -370,6 +370,16 @@ def _shutdown():
     studio.close()
 
 
+class _Page(StaticFiles):
+    """The built page. A browser must ask again each time, or it keeps showing the page from before an update
+    (the Electron shell kept the old index.html and never requested the new one)."""
+
+    async def get_response(self, path: str, scope):
+        response = await super().get_response(path, scope)
+        response.headers["Cache-Control"] = "no-cache"
+        return response
+
+
 _dist = Path(os.environ.get("DSB_DIST", ROOT / "frontend" / "dist"))
 if _dist.is_dir():
-    app.mount("/", StaticFiles(directory=str(_dist), html=True), name="ui")
+    app.mount("/", _Page(directory=str(_dist), html=True), name="ui")
