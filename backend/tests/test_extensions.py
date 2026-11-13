@@ -808,5 +808,38 @@ class RestPose(unittest.TestCase):
         self.assertLess(float(np.abs(self.written("a").poses[0, self.skeleton.index("LeftArm"), 6])), 0.95)  # on an A-pose rest the T-pose lifts the arms
 
 
+class SeededLibrary(unittest.TestCase):
+    """The phrases shipped with the app fill an empty library on the first start, and never touch one that exists."""
+
+    def setUp(self):
+        from dsb.motion import write_bvh
+        from dsb.retarget import rebased, rest_pose
+        folder = tempfile.TemporaryDirectory()
+        self.addCleanup(folder.cleanup)
+        self.root = Path(folder.name)
+        skeleton = soma_skeleton()
+        still = np.repeat(tpose(skeleton), 61, axis=0)
+        still[:, 0, 0] += np.linspace(0.0, 0.5, 61)
+        skeleton, poses = rebased(still, skeleton, rest_pose(skeleton, "t", 45.0))
+        (self.root / "motions" / "abc").mkdir(parents=True)
+        write_bvh(self.root / "motions" / "abc" / "source.bvh", skeleton, poses, 30.0)
+        index = [{"id": "abc", "name": "Shipped", "duration": 2.0}, {"id": "gone", "name": "No file", "duration": 2.0}]
+        (self.root / "motions" / "index.json").write_text(json.dumps(index), encoding="utf-8")
+
+    def test_an_empty_library_takes_the_shipped_phrases(self):
+        studio = Studio(self.root / "data", engine=object(), seed=self.root / "motions")
+        self.assertEqual(list(studio.library.items), ["abc"])
+        self.assertEqual(studio.library.poses("abc").shape, (61, 77, 7))
+        self.assertAlmostEqual(float(studio.library.poses("abc")[-1, 0, 0] - studio.library.poses("abc")[0, 0, 0]), 0.5, places=4)
+
+    def test_a_library_that_exists_is_left_alone(self):
+        Studio(self.root / "data", engine=object(), seed=self.root / "motions").library.delete("abc")
+        again = Studio(self.root / "data", engine=object(), seed=self.root / "motions")
+        self.assertEqual(again.library.items, {})
+
+    def test_without_a_seed_the_library_starts_empty(self):
+        self.assertEqual(Studio(self.root / "data", engine=object()).library.items, {})
+
+
 if __name__ == "__main__":
     unittest.main()

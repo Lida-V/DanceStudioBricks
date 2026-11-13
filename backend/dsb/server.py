@@ -14,7 +14,7 @@ from .mb_client import EngineError
 from .studio import ROOT, Studio, StudioError
 
 app = FastAPI(title="Dance Studio Bricks")
-studio = Studio(background=True)
+studio = Studio(background=True, seed=ROOT / "motions")
 installer = Installer(warm=lambda: studio.engine.start(timeout=PREPARE_TIMEOUT), abort_warm=studio.engine.abort_start, on_ready=studio.environment_changed)
 
 

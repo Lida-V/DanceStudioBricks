@@ -85,6 +85,32 @@ def thumbnail(world: np.ndarray, skeleton: Skeleton, accents: list[float]) -> di
     return {skeleton.names[i]: [round(float(x[i]), 3), round(float(pose[i, 1]), 3)] for i in keep}
 
 
+def seed_library(root: Path, source: Path) -> int:
+    """Fill an empty library from the phrases shipped with the app (`index.json` and `<id>/source.bvh`). Returns how many were added."""
+    root, source = Path(root), Path(source)
+    if (root / "index.json").is_file() or not (source / "index.json").is_file():
+        return 0
+    items = json.loads((source / "index.json").read_text(encoding="utf-8"))
+    kept = []
+    for item in items:
+        file = source / item["id"] / "source.bvh"
+        if not file.is_file():
+            continue
+        motion = read_bvh(file)
+        poses = sample(motion.poses, motion.fps, np.arange(0.0, motion.duration + 1e-6, 1.0 / MODEL_FPS))
+        folder = root / item["id"]
+        folder.mkdir(parents=True, exist_ok=True)
+        shutil.copyfile(file, folder / "source.bvh")
+        np.save(folder / "poses.npy", poses.astype(np.float32))
+        kept.append(item)
+    if (source / "embeddings.npz").is_file():
+        shutil.copyfile(source / "embeddings.npz", root / "embeddings.npz")
+    temp = root / "index.tmp"
+    temp.write_text(json.dumps(kept, ensure_ascii=False, indent=1), encoding="utf-8")
+    temp.replace(root / "index.json")  # written last, so a start that was cut short seeds again
+    return len(kept)
+
+
 class Library:
     def __init__(self, root: Path) -> None:
         self.root = Path(root)

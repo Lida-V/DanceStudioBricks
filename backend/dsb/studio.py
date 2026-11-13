@@ -19,7 +19,7 @@ import numpy as np
 from .arrange import AUTO_SPEED_RANGE, DEFAULT_FLOW, FAST_MOVE_SPEED, MIN_JOIN_SECONDS, STAGE_X, STAGE_Z, TARGET_MOVE_SPEED, arrange, base_stem, candidates_for, clean_filter_tags, fill_gap_clips, filter_phrases_by_tags, has_ending_pose, join_seconds
 from .compose import BakeMemory, JoinCache, clip_trim, compose, generate_join, lay_clips, measure_join, sound_times, warp_for
 from .formation import close_calls, plan_vias
-from .library import CATEGORIES, Library
+from .library import CATEGORIES, Library, seed_library
 from .components import python_of, usable
 from .mb_client import Engine, EngineError
 from .motion import MODEL_FPS, MotionError, pose_spot, write_bvh, world_positions
@@ -117,10 +117,12 @@ def _labels(sections: list[dict]) -> None:
 
 
 class Studio:
-    def __init__(self, data: Path = DATA, engine: Engine | None = None, background: bool = False) -> None:
+    def __init__(self, data: Path = DATA, engine: Engine | None = None, background: bool = False, seed: Path | None = None) -> None:
         self.data = Path(data)
         for name in ("library", "songs", "cache/joins", "exports", "projects"):
             (self.data / name).mkdir(parents=True, exist_ok=True)
+        if seed is not None:
+            seed_library(self.data / "library", seed)
         self.library = Library(self.data / "library")
         self.engine = engine or Engine()
         self.cache = JoinCache(self.data / "cache" / "joins")
