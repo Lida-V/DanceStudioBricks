@@ -26126,5 +26126,13683 @@
    "license": "",
    "credit": ""
   }
+ },
+ {
+  "id": "ca3528d6c02e",
+  "name": "Hiphop Step 01",
+  "duration": 4.933,
+  "frames": 149,
+  "bars": 2,
+  "usage": "auto",
+  "sourceBpm": 97.3,
+  "category": "foot",
+  "energy": 5,
+  "travel": 2.58,
+  "turnDegrees": 89,
+  "handSpeed": 3.02,
+  "footSpeed": 1.77,
+  "accents": [
+   0.167,
+   0.433,
+   0.767,
+   1.367,
+   1.933,
+   2.2,
+   2.5,
+   3.1,
+   3.467,
+   3.7,
+   4.033,
+   4.3,
+   4.533
+  ],
+  "thumb": {
+   "Hips": [
+    0.0,
+    0.922
+   ],
+   "Spine1": [
+    0.005,
+    0.972
+   ],
+   "Spine2": [
+    0.017,
+    1.037
+   ],
+   "Chest": [
+    0.035,
+    1.11
+   ],
+   "Neck1": [
+    0.121,
+    1.353
+   ],
+   "Neck2": [
+    0.133,
+    1.418
+   ],
+   "Head": [
+    0.138,
+    1.474
+   ],
+   "LeftShoulder": [
+    0.119,
+    1.308
+   ],
+   "LeftArm": [
+    0.261,
+    1.259
+   ],
+   "LeftForeArm": [
+    0.413,
+    1.019
+   ],
+   "LeftHand": [
+    0.609,
+    0.965
+   ],
+   "RightShoulder": [
+    0.091,
+    1.318
+   ],
+   "RightArm": [
+    -0.034,
+    1.397
+   ],
+   "RightForeArm": [
+    -0.31,
+    1.467
+   ],
+   "RightHand": [
+    -0.312,
+    1.681
+   ],
+   "LeftLeg": [
+    0.09,
+    0.827
+   ],
+   "LeftShin": [
+    0.108,
+    0.47
+   ],
+   "LeftFoot": [
+    0.129,
+    0.07
+   ],
+   "LeftToeBase": [
+    0.172,
+    0.038
+   ],
+   "RightLeg": [
+    -0.109,
+    0.85
+   ],
+   "RightShin": [
+    -0.211,
+    0.499
+   ],
+   "RightFoot": [
+    -0.285,
+    0.247
+   ],
+   "RightToeBase": [
+    -0.34,
+    0.147
+   ]
+  },
+  "tags": [
+   "ヒップホップ",
+   "ストリート",
+   "ステップ",
+   "基本ステップ",
+   "足技",
+   "2小節",
+   "ジャンプ",
+   "腰",
+   "足上げ",
+   "バウンス",
+   "ワイドスタンス"
+  ],
+  "description": "ヒップホップの基本ステップ",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "7fe31f4ef554",
+  "name": "Hiphop Step 02",
+  "duration": 4.767,
+  "frames": 144,
+  "bars": 2,
+  "usage": "auto",
+  "sourceBpm": 100.7,
+  "category": "foot",
+  "energy": 5,
+  "travel": 2.27,
+  "turnDegrees": 64,
+  "handSpeed": 2.13,
+  "footSpeed": 0.64,
+  "accents": [
+   0.333,
+   0.633,
+   0.9,
+   1.433,
+   1.733,
+   1.967,
+   2.533,
+   2.867,
+   3.067,
+   3.667,
+   4.133
+  ],
+  "thumb": {
+   "Hips": [
+    0.0,
+    0.695
+   ],
+   "Spine1": [
+    0.001,
+    0.745
+   ],
+   "Spine2": [
+    0.008,
+    0.813
+   ],
+   "Chest": [
+    0.025,
+    0.886
+   ],
+   "Neck1": [
+    0.118,
+    1.124
+   ],
+   "Neck2": [
+    0.141,
+    1.184
+   ],
+   "Head": [
+    0.163,
+    1.234
+   ],
+   "LeftShoulder": [
+    0.113,
+    1.077
+   ],
+   "LeftArm": [
+    0.263,
+    1.023
+   ],
+   "LeftForeArm": [
+    0.126,
+    0.867
+   ],
+   "LeftHand": [
+    -0.012,
+    1.096
+   ],
+   "RightShoulder": [
+    0.085,
+    1.087
+   ],
+   "RightArm": [
+    -0.049,
+    1.159
+   ],
+   "RightForeArm": [
+    -0.298,
+    1.082
+   ],
+   "RightHand": [
+    -0.208,
+    1.174
+   ],
+   "LeftLeg": [
+    0.098,
+    0.608
+   ],
+   "LeftShin": [
+    0.264,
+    0.388
+   ],
+   "LeftFoot": [
+    0.203,
+    0.078
+   ],
+   "LeftToeBase": [
+    0.261,
+    0.018
+   ],
+   "RightLeg": [
+    -0.103,
+    0.615
+   ],
+   "RightShin": [
+    -0.25,
+    0.408
+   ],
+   "RightFoot": [
+    -0.273,
+    0.086
+   ],
+   "RightToeBase": [
+    -0.309,
+    0.019
+   ]
+  },
+  "tags": [
+   "ヒップホップ",
+   "ストリート",
+   "ステップ",
+   "基本ステップ",
+   "足技",
+   "2小節",
+   "ジャンプ",
+   "腰",
+   "バウンス",
+   "スクワット",
+   "しゃがみ",
+   "ワイドスタンス"
+  ],
+  "description": "ヒップホップの基本ステップ",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "efb010f557f4",
+  "name": "Hiphop Step 03",
+  "duration": 4.667,
+  "frames": 141,
+  "bars": 2,
+  "usage": "auto",
+  "sourceBpm": 102.9,
+  "category": "foot",
+  "energy": 5,
+  "travel": 2.49,
+  "turnDegrees": 88,
+  "handSpeed": 2.17,
+  "footSpeed": 1.43,
+  "accents": [
+   0.3,
+   0.933,
+   1.367,
+   1.733,
+   2.0,
+   2.467,
+   2.833,
+   3.167,
+   3.767,
+   4.1,
+   4.533
+  ],
+  "thumb": {
+   "Hips": [
+    0.0,
+    0.863
+   ],
+   "Spine1": [
+    -0.003,
+    0.913
+   ],
+   "Spine2": [
+    -0.007,
+    0.979
+   ],
+   "Chest": [
+    -0.013,
+    1.052
+   ],
+   "Neck1": [
+    -0.034,
+    1.294
+   ],
+   "Neck2": [
+    -0.041,
+    1.351
+   ],
+   "Head": [
+    -0.048,
+    1.402
+   ],
+   "LeftShoulder": [
+    -0.015,
+    1.243
+   ],
+   "LeftArm": [
+    0.139,
+    1.278
+   ],
+   "LeftForeArm": [
+    0.391,
+    1.153
+   ],
+   "LeftHand": [
+    0.188,
+    1.037
+   ],
+   "RightShoulder": [
+    -0.045,
+    1.241
+   ],
+   "RightArm": [
+    -0.201,
+    1.249
+   ],
+   "RightForeArm": [
+    -0.433,
+    1.079
+   ],
+   "RightHand": [
+    -0.238,
+    1.021
+   ],
+   "LeftLeg": [
+    0.105,
+    0.784
+   ],
+   "LeftShin": [
+    0.14,
+    0.47
+   ],
+   "LeftFoot": [
+    -0.0,
+    0.156
+   ],
+   "LeftToeBase": [
+    0.029,
+    0.09
+   ],
+   "RightLeg": [
+    -0.096,
+    0.775
+   ],
+   "RightShin": [
+    -0.117,
+    0.474
+   ],
+   "RightFoot": [
+    -0.085,
+    0.07
+   ],
+   "RightToeBase": [
+    -0.155,
+    0.066
+   ]
+  },
+  "tags": [
+   "ヒップホップ",
+   "ストリート",
+   "ステップ",
+   "基本ステップ",
+   "足技",
+   "2小節",
+   "ジャンプ",
+   "腰",
+   "バウンス",
+   "スクワット",
+   "しゃがみ",
+   "ワイドスタンス"
+  ],
+  "description": "ヒップホップの基本ステップ",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "3b4e1fdb9865",
+  "name": "Hiphop Step 04",
+  "duration": 4.233,
+  "frames": 128,
+  "bars": 2,
+  "usage": "auto",
+  "sourceBpm": 113.4,
+  "category": "foot",
+  "energy": 4,
+  "travel": 1.67,
+  "turnDegrees": 39,
+  "handSpeed": 1.55,
+  "footSpeed": 0.64,
+  "accents": [
+   0.133,
+   0.333,
+   0.8,
+   1.1,
+   1.433,
+   2.1,
+   2.367,
+   2.867,
+   3.267,
+   3.667,
+   4.0
+  ],
+  "thumb": {
+   "Hips": [
+    0.0,
+    0.793
+   ],
+   "Spine1": [
+    -0.001,
+    0.843
+   ],
+   "Spine2": [
+    -0.004,
+    0.91
+   ],
+   "Chest": [
+    -0.014,
+    0.984
+   ],
+   "Neck1": [
+    -0.087,
+    1.225
+   ],
+   "Neck2": [
+    -0.109,
+    1.286
+   ],
+   "Head": [
+    -0.122,
+    1.342
+   ],
+   "LeftShoulder": [
+    -0.062,
+    1.183
+   ],
+   "LeftArm": [
+    0.075,
+    1.25
+   ],
+   "LeftForeArm": [
+    0.315,
+    1.168
+   ],
+   "LeftHand": [
+    0.387,
+    1.007
+   ],
+   "RightShoulder": [
+    -0.091,
+    1.174
+   ],
+   "RightArm": [
+    -0.224,
+    1.137
+   ],
+   "RightForeArm": [
+    -0.39,
+    0.938
+   ],
+   "RightHand": [
+    -0.415,
+    1.012
+   ],
+   "LeftLeg": [
+    0.102,
+    0.709
+   ],
+   "LeftShin": [
+    0.265,
+    0.436
+   ],
+   "LeftFoot": [
+    0.153,
+    0.086
+   ],
+   "LeftToeBase": [
+    0.211,
+    0.06
+   ],
+   "RightLeg": [
+    -0.099,
+    0.707
+   ],
+   "RightShin": [
+    -0.227,
+    0.427
+   ],
+   "RightFoot": [
+    -0.188,
+    0.073
+   ],
+   "RightToeBase": [
+    -0.275,
+    0.035
+   ]
+  },
+  "tags": [
+   "ヒップホップ",
+   "ストリート",
+   "ステップ",
+   "基本ステップ",
+   "足技",
+   "2小節",
+   "ジャンプ",
+   "腰",
+   "スクワット",
+   "しゃがみ"
+  ],
+  "description": "ヒップホップの基本ステップ",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "8591ee70a502",
+  "name": "Hiphop Step 05",
+  "duration": 4.533,
+  "frames": 137,
+  "bars": 2,
+  "usage": "auto",
+  "sourceBpm": 105.9,
+  "category": "foot",
+  "energy": 4,
+  "travel": 1.08,
+  "turnDegrees": 72,
+  "handSpeed": 1.52,
+  "footSpeed": 0.63,
+  "accents": [
+   0.067,
+   0.567,
+   1.067,
+   1.5,
+   1.733,
+   2.033,
+   2.3,
+   2.867,
+   3.233,
+   4.033,
+   4.367
+  ],
+  "thumb": {
+   "Hips": [
+    0.0,
+    0.92
+   ],
+   "Spine1": [
+    0.01,
+    0.969
+   ],
+   "Spine2": [
+    0.03,
+    1.033
+   ],
+   "Chest": [
+    0.048,
+    1.106
+   ],
+   "Neck1": [
+    0.074,
+    1.354
+   ],
+   "Neck2": [
+    0.088,
+    1.407
+   ],
+   "Head": [
+    0.102,
+    1.451
+   ],
+   "LeftShoulder": [
+    0.085,
+    1.304
+   ],
+   "LeftArm": [
+    0.241,
+    1.333
+   ],
+   "LeftForeArm": [
+    0.198,
+    1.127
+   ],
+   "LeftHand": [
+    -0.042,
+    1.035
+   ],
+   "RightShoulder": [
+    0.055,
+    1.307
+   ],
+   "RightArm": [
+    -0.094,
+    1.319
+   ],
+   "RightForeArm": [
+    -0.226,
+    1.069
+   ],
+   "RightHand": [
+    -0.358,
+    0.935
+   ],
+   "LeftLeg": [
+    0.081,
+    0.817
+   ],
+   "LeftShin": [
+    0.149,
+    0.462
+   ],
+   "LeftFoot": [
+    0.207,
+    0.074
+   ],
+   "LeftToeBase": [
+    0.266,
+    0.056
+   ],
+   "RightLeg": [
+    -0.115,
+    0.86
+   ],
+   "RightShin": [
+    -0.243,
+    0.526
+   ],
+   "RightFoot": [
+    -0.304,
+    0.135
+   ],
+   "RightToeBase": [
+    -0.335,
+    0.06
+   ]
+  },
+  "tags": [
+   "ヒップホップ",
+   "ストリート",
+   "ステップ",
+   "基本ステップ",
+   "足技",
+   "2小節",
+   "ジャンプ",
+   "腰",
+   "スクワット",
+   "しゃがみ",
+   "ワイドスタンス"
+  ],
+  "description": "ヒップホップの基本ステップ",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "e1e948e15e45",
+  "name": "Hiphop Step 06",
+  "duration": 1.933,
+  "frames": 59,
+  "bars": 1,
+  "usage": "manual",
+  "sourceBpm": 124.1,
+  "category": "foot",
+  "energy": 4,
+  "travel": 0.69,
+  "turnDegrees": 73,
+  "handSpeed": 1.26,
+  "footSpeed": 0.85,
+  "accents": [
+   0.3,
+   0.8,
+   1.233,
+   1.467
+  ],
+  "thumb": {
+   "Hips": [
+    0.0,
+    0.901
+   ],
+   "Spine1": [
+    -0.003,
+    0.95
+   ],
+   "Spine2": [
+    -0.007,
+    1.021
+   ],
+   "Chest": [
+    -0.009,
+    1.096
+   ],
+   "Neck1": [
+    -0.002,
+    1.359
+   ],
+   "Neck2": [
+    -0.001,
+    1.433
+   ],
+   "Head": [
+    -0.005,
+    1.492
+   ],
+   "LeftShoulder": [
+    0.014,
+    1.327
+   ],
+   "LeftArm": [
+    0.165,
+    1.289
+   ],
+   "LeftForeArm": [
+    0.239,
+    1.013
+   ],
+   "LeftHand": [
+    0.112,
+    0.891
+   ],
+   "RightShoulder": [
+    -0.016,
+    1.328
+   ],
+   "RightArm": [
+    -0.172,
+    1.32
+   ],
+   "RightForeArm": [
+    -0.268,
+    1.056
+   ],
+   "RightHand": [
+    -0.277,
+    0.88
+   ],
+   "LeftLeg": [
+    0.105,
+    0.829
+   ],
+   "LeftShin": [
+    0.156,
+    0.49
+   ],
+   "LeftFoot": [
+    0.16,
+    0.084
+   ],
+   "LeftToeBase": [
+    0.189,
+    0.039
+   ],
+   "RightLeg": [
+    -0.095,
+    0.818
+   ],
+   "RightShin": [
+    -0.15,
+    0.433
+   ],
+   "RightFoot": [
+    -0.127,
+    0.099
+   ],
+   "RightToeBase": [
+    -0.153,
+    0.052
+   ]
+  },
+  "tags": [
+   "ヒップホップ",
+   "ストリート",
+   "ステップ",
+   "基本ステップ",
+   "足技",
+   "1小節",
+   "ジャンプ",
+   "腰"
+  ],
+  "description": "ヒップホップの基本ステップ",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "ffebe1e980cb",
+  "name": "Hiphop Step 07",
+  "duration": 3.967,
+  "frames": 120,
+  "bars": 2,
+  "usage": "auto",
+  "sourceBpm": 121.0,
+  "category": "foot",
+  "energy": 4,
+  "travel": 1.29,
+  "turnDegrees": 26,
+  "handSpeed": 1.48,
+  "footSpeed": 0.91,
+  "accents": [
+   0.233,
+   0.567,
+   0.833,
+   1.733,
+   2.1,
+   2.4,
+   2.733,
+   3.0,
+   3.333,
+   3.733
+  ],
+  "thumb": {
+   "Hips": [
+    0.0,
+    0.997
+   ],
+   "Spine1": [
+    -0.005,
+    1.046
+   ],
+   "Spine2": [
+    -0.013,
+    1.114
+   ],
+   "Chest": [
+    -0.022,
+    1.189
+   ],
+   "Neck1": [
+    -0.064,
+    1.438
+   ],
+   "Neck2": [
+    -0.08,
+    1.49
+   ],
+   "Head": [
+    -0.08,
+    1.538
+   ],
+   "LeftShoulder": [
+    -0.05,
+    1.393
+   ],
+   "LeftArm": [
+    0.106,
+    1.423
+   ],
+   "LeftForeArm": [
+    0.233,
+    1.168
+   ],
+   "LeftHand": [
+    0.06,
+    1.242
+   ],
+   "RightShoulder": [
+    -0.08,
+    1.389
+   ],
+   "RightArm": [
+    -0.206,
+    1.394
+   ],
+   "RightForeArm": [
+    -0.246,
+    1.16
+   ],
+   "RightHand": [
+    -0.318,
+    1.263
+   ],
+   "LeftLeg": [
+    0.108,
+    0.923
+   ],
+   "LeftShin": [
+    0.198,
+    0.626
+   ],
+   "LeftFoot": [
+    0.106,
+    0.344
+   ],
+   "LeftToeBase": [
+    0.151,
+    0.244
+   ],
+   "RightLeg": [
+    -0.092,
+    0.904
+   ],
+   "RightShin": [
+    -0.053,
+    0.51
+   ],
+   "RightFoot": [
+    -0.049,
+    0.108
+   ],
+   "RightToeBase": [
+    -0.033,
+    0.073
+   ]
+  },
+  "tags": [
+   "ヒップホップ",
+   "ストリート",
+   "ステップ",
+   "基本ステップ",
+   "足技",
+   "2小節",
+   "ジャンプ",
+   "腰",
+   "バウンス"
+  ],
+  "description": "ヒップホップの基本ステップ",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "eb76a49f2b7e",
+  "name": "Hiphop Step 08",
+  "duration": 4.233,
+  "frames": 128,
+  "bars": 2,
+  "usage": "auto",
+  "sourceBpm": 113.4,
+  "category": "foot",
+  "energy": 3,
+  "travel": 1.5,
+  "turnDegrees": 63,
+  "handSpeed": 1.18,
+  "footSpeed": 0.48,
+  "accents": [
+   0.3,
+   1.233,
+   1.533,
+   1.867,
+   2.167,
+   2.533,
+   2.767,
+   3.433,
+   3.867,
+   4.067
+  ],
+  "thumb": {
+   "Hips": [
+    0.0,
+    0.93
+   ],
+   "Spine1": [
+    0.006,
+    0.979
+   ],
+   "Spine2": [
+    0.018,
+    1.046
+   ],
+   "Chest": [
+    0.024,
+    1.121
+   ],
+   "Neck1": [
+    -0.002,
+    1.37
+   ],
+   "Neck2": [
+    -0.003,
+    1.437
+   ],
+   "Head": [
+    -0.017,
+    1.494
+   ],
+   "LeftShoulder": [
+    0.027,
+    1.326
+   ],
+   "LeftArm": [
+    0.156,
+    1.385
+   ],
+   "LeftForeArm": [
+    0.326,
+    1.331
+   ],
+   "LeftHand": [
+    0.296,
+    1.209
+   ],
+   "RightShoulder": [
+    -0.003,
+    1.321
+   ],
+   "RightArm": [
+    -0.155,
+    1.278
+   ],
+   "RightForeArm": [
+    -0.253,
+    1.01
+   ],
+   "RightHand": [
+    -0.331,
+    0.949
+   ],
+   "LeftLeg": [
+    0.089,
+    0.833
+   ],
+   "LeftShin": [
+    0.182,
+    0.487
+   ],
+   "LeftFoot": [
+    0.257,
+    0.08
+   ],
+   "LeftToeBase": [
+    0.298,
+    0.073
+   ],
+   "RightLeg": [
+    -0.11,
+    0.859
+   ],
+   "RightShin": [
+    -0.261,
+    0.461
+   ],
+   "RightFoot": [
+    -0.348,
+    0.077
+   ],
+   "RightToeBase": [
+    -0.445,
+    0.066
+   ]
+  },
+  "tags": [
+   "ヒップホップ",
+   "ストリート",
+   "ステップ",
+   "基本ステップ",
+   "足技",
+   "2小節",
+   "ジャンプ",
+   "腰",
+   "スクワット",
+   "しゃがみ",
+   "ワイドスタンス"
+  ],
+  "description": "ヒップホップの基本ステップ",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "b2a3acd21298",
+  "name": "Hiphop Step 09",
+  "duration": 3.233,
+  "frames": 98,
+  "bars": 2,
+  "usage": "manual",
+  "sourceBpm": 148.5,
+  "category": "foot",
+  "energy": 2,
+  "travel": 1.06,
+  "turnDegrees": 5,
+  "handSpeed": 0.39,
+  "footSpeed": 0.31,
+  "accents": [
+   0.067,
+   0.367,
+   0.667,
+   1.167,
+   1.6,
+   1.8,
+   2.033,
+   2.8
+  ],
+  "thumb": {
+   "Hips": [
+    0.0,
+    0.992
+   ],
+   "Spine1": [
+    -0.002,
+    1.042
+   ],
+   "Spine2": [
+    -0.007,
+    1.112
+   ],
+   "Chest": [
+    -0.011,
+    1.188
+   ],
+   "Neck1": [
+    -0.034,
+    1.445
+   ],
+   "Neck2": [
+    -0.036,
+    1.521
+   ],
+   "Head": [
+    -0.038,
+    1.583
+   ],
+   "LeftShoulder": [
+    -0.015,
+    1.404
+   ],
+   "LeftArm": [
+    0.131,
+    1.419
+   ],
+   "LeftForeArm": [
+    0.225,
+    1.163
+   ],
+   "LeftHand": [
+    0.296,
+    0.923
+   ],
+   "RightShoulder": [
+    -0.045,
+    1.401
+   ],
+   "RightArm": [
+    -0.19,
+    1.386
+   ],
+   "RightForeArm": [
+    -0.178,
+    1.105
+   ],
+   "RightHand": [
+    -0.166,
+    0.871
+   ],
+   "LeftLeg": [
+    0.104,
+    0.912
+   ],
+   "LeftShin": [
+    0.102,
+    0.482
+   ],
+   "LeftFoot": [
+    0.106,
+    0.095
+   ],
+   "LeftToeBase": [
+    0.108,
+    0.028
+   ],
+   "RightLeg": [
+    -0.097,
+    0.906
+   ],
+   "RightShin": [
+    -0.048,
+    0.477
+   ],
+   "RightFoot": [
+    -0.02,
+    0.104
+   ],
+   "RightToeBase": [
+    -0.007,
+    0.031
+   ]
+  },
+  "tags": [
+   "ヒップホップ",
+   "ストリート",
+   "ステップ",
+   "基本ステップ",
+   "足技",
+   "2小節",
+   "ジャンプ",
+   "腰"
+  ],
+  "description": "ヒップホップの基本ステップ",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "e5653ab3fbbb",
+  "name": "Hiphop Step 10",
+  "duration": 4.9,
+  "frames": 148,
+  "bars": 2,
+  "usage": "auto",
+  "sourceBpm": 98.0,
+  "category": "foot",
+  "energy": 1,
+  "travel": 0.71,
+  "turnDegrees": 5,
+  "handSpeed": 0.22,
+  "footSpeed": 0.11,
+  "accents": [
+   0.267,
+   0.6,
+   1.067,
+   1.333,
+   1.7,
+   2.533,
+   2.833,
+   3.033,
+   3.3,
+   3.9
+  ],
+  "thumb": {
+   "Hips": [
+    0.0,
+    0.994
+   ],
+   "Spine1": [
+    -0.002,
+    1.044
+   ],
+   "Spine2": [
+    -0.006,
+    1.114
+   ],
+   "Chest": [
+    -0.009,
+    1.19
+   ],
+   "Neck1": [
+    -0.03,
+    1.447
+   ],
+   "Neck2": [
+    -0.03,
+    1.523
+   ],
+   "Head": [
+    -0.031,
+    1.585
+   ],
+   "LeftShoulder": [
+    -0.01,
+    1.407
+   ],
+   "LeftArm": [
+    0.136,
+    1.42
+   ],
+   "LeftForeArm": [
+    0.222,
+    1.162
+   ],
+   "LeftHand": [
+    0.285,
+    0.917
+   ],
+   "RightShoulder": [
+    -0.04,
+    1.404
+   ],
+   "RightArm": [
+    -0.186,
+    1.389
+   ],
+   "RightForeArm": [
+    -0.179,
+    1.108
+   ],
+   "RightHand": [
+    -0.168,
+    0.868
+   ],
+   "LeftLeg": [
+    0.103,
+    0.913
+   ],
+   "LeftShin": [
+    0.095,
+    0.481
+   ],
+   "LeftFoot": [
+    0.093,
+    0.091
+   ],
+   "LeftToeBase": [
+    0.094,
+    0.024
+   ],
+   "RightLeg": [
+    -0.098,
+    0.908
+   ],
+   "RightShin": [
+    -0.047,
+    0.479
+   ],
+   "RightFoot": [
+    -0.003,
+    0.104
+   ],
+   "RightToeBase": [
+    0.01,
+    0.028
+   ]
+  },
+  "tags": [
+   "ヒップホップ",
+   "ストリート",
+   "ステップ",
+   "基本ステップ",
+   "足技",
+   "2小節",
+   "ジャンプ",
+   "腰"
+  ],
+  "description": "ヒップホップの基本ステップ",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "91c4907c9e4c",
+  "name": "Creative Move 01",
+  "duration": 2.667,
+  "frames": 81,
+  "bars": 2,
+  "usage": "manual",
+  "sourceBpm": 180.0,
+  "category": "groove",
+  "energy": 2,
+  "travel": 1.22,
+  "turnDegrees": 50,
+  "handSpeed": 0.58,
+  "footSpeed": 0.58,
+  "accents": [
+   0.067,
+   0.333,
+   1.567,
+   2.367
+  ],
+  "thumb": {
+   "Hips": [
+    0.0,
+    0.965
+   ],
+   "Spine1": [
+    0.003,
+    1.015
+   ],
+   "Spine2": [
+    0.012,
+    1.083
+   ],
+   "Chest": [
+    0.027,
+    1.157
+   ],
+   "Neck1": [
+    0.081,
+    1.415
+   ],
+   "Neck2": [
+    0.068,
+    1.487
+   ],
+   "Head": [
+    0.044,
+    1.542
+   ],
+   "LeftShoulder": [
+    0.084,
+    1.378
+   ],
+   "LeftArm": [
+    0.238,
+    1.349
+   ],
+   "LeftForeArm": [
+    0.406,
+    1.126
+   ],
+   "LeftHand": [
+    0.197,
+    1.049
+   ],
+   "RightShoulder": [
+    0.054,
+    1.384
+   ],
+   "RightArm": [
+    -0.087,
+    1.419
+   ],
+   "RightForeArm": [
+    -0.278,
+    1.299
+   ],
+   "RightHand": [
+    -0.263,
+    1.08
+   ],
+   "LeftLeg": [
+    0.095,
+    0.872
+   ],
+   "LeftShin": [
+    0.071,
+    0.441
+   ],
+   "LeftFoot": [
+    0.031,
+    0.09
+   ],
+   "LeftToeBase": [
+    0.036,
+    0.022
+   ],
+   "RightLeg": [
+    -0.106,
+    0.887
+   ],
+   "RightShin": [
+    -0.057,
+    0.532
+   ],
+   "RightFoot": [
+    -0.043,
+    0.124
+   ],
+   "RightToeBase": [
+    -0.047,
+    0.05
+   ]
+  },
+  "tags": [
+   "創作ダンス",
+   "振り",
+   "グルーヴ",
+   "2小節",
+   "移動"
+  ],
+  "description": "創作ダンス向けの短い振り",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "229a6a752fce",
+  "name": "Creative Move 02",
+  "duration": 2.9,
+  "frames": 88,
+  "bars": 2,
+  "usage": "manual",
+  "sourceBpm": 165.5,
+  "category": "groove",
+  "energy": 2,
+  "travel": 0.79,
+  "turnDegrees": 105,
+  "handSpeed": 0.63,
+  "footSpeed": 0.48,
+  "accents": [
+   0.167,
+   0.7,
+   0.9,
+   1.2,
+   1.467,
+   1.967,
+   2.6
+  ],
+  "thumb": {
+   "Hips": [
+    0.0,
+    0.954
+   ],
+   "Spine1": [
+    -0.005,
+    1.004
+   ],
+   "Spine2": [
+    -0.013,
+    1.075
+   ],
+   "Chest": [
+    -0.013,
+    1.147
+   ],
+   "Neck1": [
+    0.006,
+    1.407
+   ],
+   "Neck2": [
+    -0.004,
+    1.481
+   ],
+   "Head": [
+    -0.026,
+    1.536
+   ],
+   "LeftShoulder": [
+    0.013,
+    1.383
+   ],
+   "LeftArm": [
+    0.172,
+    1.374
+   ],
+   "LeftForeArm": [
+    0.143,
+    1.144
+   ],
+   "LeftHand": [
+    -0.126,
+    1.145
+   ],
+   "RightShoulder": [
+    -0.016,
+    1.384
+   ],
+   "RightArm": [
+    -0.17,
+    1.417
+   ],
+   "RightForeArm": [
+    -0.172,
+    1.211
+   ],
+   "RightHand": [
+    0.094,
+    1.182
+   ],
+   "LeftLeg": [
+    0.108,
+    0.884
+   ],
+   "LeftShin": [
+    0.108,
+    0.452
+   ],
+   "LeftFoot": [
+    0.095,
+    0.094
+   ],
+   "LeftToeBase": [
+    0.094,
+    0.018
+   ],
+   "RightLeg": [
+    -0.092,
+    0.865
+   ],
+   "RightShin": [
+    -0.078,
+    0.527
+   ],
+   "RightFoot": [
+    -0.132,
+    0.191
+   ],
+   "RightToeBase": [
+    -0.192,
+    0.084
+   ]
+  },
+  "tags": [
+   "創作ダンス",
+   "振り",
+   "グルーヴ",
+   "2小節"
+  ],
+  "description": "創作ダンス向けの短い振り",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "e4ace2a06762",
+  "name": "Creative Move 03",
+  "duration": 4.133,
+  "frames": 125,
+  "bars": 2,
+  "usage": "auto",
+  "sourceBpm": 116.1,
+  "category": "groove",
+  "energy": 3,
+  "travel": 1.89,
+  "turnDegrees": 43,
+  "handSpeed": 1.11,
+  "footSpeed": 0.43,
+  "accents": [
+   0.2,
+   0.433,
+   1.067,
+   1.733,
+   2.233,
+   2.767,
+   3.167
+  ],
+  "thumb": {
+   "Hips": [
+    0.0,
+    0.937
+   ],
+   "Spine1": [
+    -0.009,
+    0.986
+   ],
+   "Spine2": [
+    -0.026,
+    1.055
+   ],
+   "Chest": [
+    -0.04,
+    1.128
+   ],
+   "Neck1": [
+    -0.072,
+    1.386
+   ],
+   "Neck2": [
+    -0.088,
+    1.458
+   ],
+   "Head": [
+    -0.107,
+    1.511
+   ],
+   "LeftShoulder": [
+    -0.055,
+    1.364
+   ],
+   "LeftArm": [
+    0.083,
+    1.423
+   ],
+   "LeftForeArm": [
+    0.189,
+    1.632
+   ],
+   "LeftHand": [
+    0.005,
+    1.824
+   ],
+   "RightShoulder": [
+    -0.085,
+    1.36
+   ],
+   "RightArm": [
+    -0.227,
+    1.411
+   ],
+   "RightForeArm": [
+    -0.364,
+    1.621
+   ],
+   "RightHand": [
+    -0.243,
+    1.84
+   ],
+   "LeftLeg": [
+    0.114,
+    0.871
+   ],
+   "LeftShin": [
+    0.21,
+    0.458
+   ],
+   "LeftFoot": [
+    0.228,
+    0.067
+   ],
+   "LeftToeBase": [
+    0.275,
+    0.023
+   ],
+   "RightLeg": [
+    -0.084,
+    0.836
+   ],
+   "RightShin": [
+    -0.249,
+    0.444
+   ],
+   "RightFoot": [
+    -0.426,
+    0.092
+   ],
+   "RightToeBase": [
+    -0.429,
+    0.049
+   ]
+  },
+  "tags": [
+   "創作ダンス",
+   "振り",
+   "グルーヴ",
+   "2小節",
+   "スクワット",
+   "しゃがみ",
+   "ワイドスタンス"
+  ],
+  "description": "創作ダンス向けの短い振り",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "9918b5f3c843",
+  "name": "Creative Move 04",
+  "duration": 1.5,
+  "frames": 46,
+  "bars": 1,
+  "usage": "manual",
+  "sourceBpm": 160.0,
+  "category": "groove",
+  "energy": 2,
+  "travel": 0.41,
+  "turnDegrees": 53,
+  "handSpeed": 0.59,
+  "footSpeed": 0.25,
+  "accents": [
+   0.5,
+   0.833,
+   1.067
+  ],
+  "thumb": {
+   "Hips": [
+    0.0,
+    0.976
+   ],
+   "Spine1": [
+    -0.004,
+    1.026
+   ],
+   "Spine2": [
+    -0.009,
+    1.097
+   ],
+   "Chest": [
+    -0.007,
+    1.171
+   ],
+   "Neck1": [
+    0.049,
+    1.426
+   ],
+   "Neck2": [
+    0.058,
+    1.499
+   ],
+   "Head": [
+    0.057,
+    1.555
+   ],
+   "LeftShoulder": [
+    0.065,
+    1.397
+   ],
+   "LeftArm": [
+    0.184,
+    1.321
+   ],
+   "LeftForeArm": [
+    0.225,
+    1.037
+   ],
+   "LeftHand": [
+    0.468,
+    1.076
+   ],
+   "RightShoulder": [
+    0.036,
+    1.404
+   ],
+   "RightArm": [
+    -0.11,
+    1.454
+   ],
+   "RightForeArm": [
+    -0.294,
+    1.238
+   ],
+   "RightHand": [
+    -0.539,
+    1.192
+   ],
+   "LeftLeg": [
+    0.107,
+    0.9
+   ],
+   "LeftShin": [
+    0.191,
+    0.478
+   ],
+   "LeftFoot": [
+    0.283,
+    0.073
+   ],
+   "LeftToeBase": [
+    0.277,
+    0.018
+   ],
+   "RightLeg": [
+    -0.093,
+    0.885
+   ],
+   "RightShin": [
+    -0.179,
+    0.461
+   ],
+   "RightFoot": [
+    -0.263,
+    0.074
+   ],
+   "RightToeBase": [
+    -0.284,
+    0.021
+   ]
+  },
+  "tags": [
+   "創作ダンス",
+   "振り",
+   "グルーヴ",
+   "1小節"
+  ],
+  "description": "創作ダンス向けの短い振り",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "26dad41032f3",
+  "name": "Creative Move 05",
+  "duration": 2.7,
+  "frames": 82,
+  "bars": 2,
+  "usage": "manual",
+  "sourceBpm": 177.8,
+  "category": "power",
+  "energy": 4,
+  "travel": 0.86,
+  "turnDegrees": 90,
+  "handSpeed": 1.35,
+  "footSpeed": 0.39,
+  "accents": [
+   0.267,
+   0.967,
+   1.167,
+   1.767,
+   2.067,
+   2.433
+  ],
+  "thumb": {
+   "Hips": [
+    0.0,
+    0.984
+   ],
+   "Spine1": [
+    0.003,
+    1.034
+   ],
+   "Spine2": [
+    0.007,
+    1.103
+   ],
+   "Chest": [
+    0.012,
+    1.179
+   ],
+   "Neck1": [
+    0.026,
+    1.441
+   ],
+   "Neck2": [
+    0.032,
+    1.51
+   ],
+   "Head": [
+    0.037,
+    1.565
+   ],
+   "LeftShoulder": [
+    0.046,
+    1.411
+   ],
+   "LeftArm": [
+    0.189,
+    1.399
+   ],
+   "LeftForeArm": [
+    0.318,
+    1.143
+   ],
+   "LeftHand": [
+    0.379,
+    1.283
+   ],
+   "RightShoulder": [
+    0.016,
+    1.412
+   ],
+   "RightArm": [
+    -0.133,
+    1.419
+   ],
+   "RightForeArm": [
+    -0.401,
+    1.315
+   ],
+   "RightHand": [
+    -0.61,
+    1.423
+   ],
+   "LeftLeg": [
+    0.094,
+    0.891
+   ],
+   "LeftShin": [
+    0.135,
+    0.463
+   ],
+   "LeftFoot": [
+    0.177,
+    0.071
+   ],
+   "LeftToeBase": [
+    0.193,
+    0.036
+   ],
+   "RightLeg": [
+    -0.106,
+    0.906
+   ],
+   "RightShin": [
+    -0.215,
+    0.491
+   ],
+   "RightFoot": [
+    -0.286,
+    0.079
+   ],
+   "RightToeBase": [
+    -0.321,
+    0.026
+   ]
+  },
+  "tags": [
+   "創作ダンス",
+   "振り",
+   "パワー",
+   "2小節",
+   "ワイドスタンス"
+  ],
+  "description": "創作ダンス向けの短い振り",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "2c12a950146e",
+  "name": "Creative Move 06",
+  "duration": 2.8,
+  "frames": 85,
+  "bars": 2,
+  "usage": "manual",
+  "sourceBpm": 171.4,
+  "category": "wave",
+  "energy": 2,
+  "travel": 0.53,
+  "turnDegrees": 24,
+  "handSpeed": 0.87,
+  "footSpeed": 0.06,
+  "accents": [
+   0.367,
+   1.567,
+   1.9,
+   2.267,
+   2.467
+  ],
+  "thumb": {
+   "Hips": [
+    0.0,
+    0.792
+   ],
+   "Spine1": [
+    -0.001,
+    0.842
+   ],
+   "Spine2": [
+    -0.003,
+    0.913
+   ],
+   "Chest": [
+    -0.005,
+    0.988
+   ],
+   "Neck1": [
+    -0.008,
+    1.251
+   ],
+   "Neck2": [
+    -0.002,
+    1.322
+   ],
+   "Head": [
+    -0.005,
+    1.377
+   ],
+   "LeftShoulder": [
+    0.019,
+    1.222
+   ],
+   "LeftArm": [
+    0.158,
+    1.21
+   ],
+   "LeftForeArm": [
+    0.33,
+    0.996
+   ],
+   "LeftHand": [
+    0.265,
+    0.818
+   ],
+   "RightShoulder": [
+    -0.011,
+    1.222
+   ],
+   "RightArm": [
+    -0.171,
+    1.228
+   ],
+   "RightForeArm": [
+    -0.182,
+    0.942
+   ],
+   "RightHand": [
+    -0.292,
+    0.71
+   ],
+   "LeftLeg": [
+    0.102,
+    0.71
+   ],
+   "LeftShin": [
+    0.212,
+    0.36
+   ],
+   "LeftFoot": [
+    0.216,
+    0.095
+   ],
+   "LeftToeBase": [
+    0.25,
+    0.033
+   ],
+   "RightLeg": [
+    -0.099,
+    0.708
+   ],
+   "RightShin": [
+    -0.342,
+    0.355
+   ],
+   "RightFoot": [
+    -0.314,
+    0.075
+   ],
+   "RightToeBase": [
+    -0.385,
+    0.028
+   ]
+  },
+  "tags": [
+   "創作ダンス",
+   "振り",
+   "ウェーブ",
+   "2小節",
+   "スクワット",
+   "しゃがみ",
+   "ワイドスタンス"
+  ],
+  "description": "創作ダンス向けの短い振り",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "f5cc665843ae",
+  "name": "Creative Move 07",
+  "duration": 2.767,
+  "frames": 84,
+  "bars": 2,
+  "usage": "manual",
+  "sourceBpm": 173.5,
+  "category": "groove",
+  "energy": 2,
+  "travel": 0.86,
+  "turnDegrees": 9,
+  "handSpeed": 0.64,
+  "footSpeed": 0.28,
+  "accents": [
+   0.167,
+   0.4,
+   0.733,
+   1.033,
+   2.1,
+   2.533
+  ],
+  "thumb": {
+   "Hips": [
+    0.0,
+    0.97
+   ],
+   "Spine1": [
+    0.004,
+    1.02
+   ],
+   "Spine2": [
+    0.013,
+    1.09
+   ],
+   "Chest": [
+    0.023,
+    1.163
+   ],
+   "Neck1": [
+    0.014,
+    1.423
+   ],
+   "Neck2": [
+    -0.003,
+    1.495
+   ],
+   "Head": [
+    -0.023,
+    1.551
+   ],
+   "LeftShoulder": [
+    0.021,
+    1.401
+   ],
+   "LeftArm": [
+    0.176,
+    1.433
+   ],
+   "LeftForeArm": [
+    0.161,
+    1.423
+   ],
+   "LeftHand": [
+    0.022,
+    1.631
+   ],
+   "RightShoulder": [
+    -0.008,
+    1.398
+   ],
+   "RightArm": [
+    -0.143,
+    1.364
+   ],
+   "RightForeArm": [
+    -0.128,
+    1.083
+   ],
+   "RightHand": [
+    -0.128,
+    0.813
+   ],
+   "LeftLeg": [
+    0.092,
+    0.875
+   ],
+   "LeftShin": [
+    0.049,
+    0.45
+   ],
+   "LeftFoot": [
+    -0.071,
+    0.197
+   ],
+   "LeftToeBase": [
+    -0.053,
+    0.076
+   ],
+   "RightLeg": [
+    -0.108,
+    0.894
+   ],
+   "RightShin": [
+    -0.055,
+    0.478
+   ],
+   "RightFoot": [
+    0.037,
+    0.068
+   ],
+   "RightToeBase": [
+    0.027,
+    0.02
+   ]
+  },
+  "tags": [
+   "創作ダンス",
+   "振り",
+   "グルーヴ",
+   "2小節"
+  ],
+  "description": "創作ダンス向けの短い振り",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "c26242336d6f",
+  "name": "Creative Move 08",
+  "duration": 2.867,
+  "frames": 87,
+  "bars": 2,
+  "usage": "manual",
+  "sourceBpm": 167.4,
+  "category": "groove",
+  "energy": 3,
+  "travel": 0.59,
+  "turnDegrees": 55,
+  "handSpeed": 1.09,
+  "footSpeed": 0.37,
+  "accents": [
+   0.167,
+   0.367,
+   0.8,
+   1.0,
+   1.367,
+   1.7
+  ],
+  "thumb": {
+   "Hips": [
+    0.0,
+    0.987
+   ],
+   "Spine1": [
+    -0.003,
+    1.033
+   ],
+   "Spine2": [
+    -0.007,
+    1.096
+   ],
+   "Chest": [
+    0.002,
+    1.171
+   ],
+   "Neck1": [
+    0.053,
+    1.43
+   ],
+   "Neck2": [
+    0.084,
+    1.504
+   ],
+   "Head": [
+    0.123,
+    1.553
+   ],
+   "LeftShoulder": [
+    0.045,
+    1.397
+   ],
+   "LeftArm": [
+    0.197,
+    1.424
+   ],
+   "LeftForeArm": [
+    0.09,
+    1.595
+   ],
+   "LeftHand": [
+    0.032,
+    1.716
+   ],
+   "RightShoulder": [
+    0.017,
+    1.403
+   ],
+   "RightArm": [
+    -0.085,
+    1.471
+   ],
+   "RightForeArm": [
+    -0.333,
+    1.581
+   ],
+   "RightHand": [
+    -0.094,
+    1.675
+   ],
+   "LeftLeg": [
+    0.105,
+    0.904
+   ],
+   "LeftShin": [
+    0.223,
+    0.52
+   ],
+   "LeftFoot": [
+    0.325,
+    0.184
+   ],
+   "LeftToeBase": [
+    0.416,
+    0.1
+   ],
+   "RightLeg": [
+    -0.096,
+    0.895
+   ],
+   "RightShin": [
+    -0.13,
+    0.468
+   ],
+   "RightFoot": [
+    -0.247,
+    0.068
+   ],
+   "RightToeBase": [
+    -0.18,
+    0.028
+   ]
+  },
+  "tags": [
+   "創作ダンス",
+   "振り",
+   "グルーヴ",
+   "2小節",
+   "ワイドスタンス"
+  ],
+  "description": "創作ダンス向けの短い振り",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "8aa3416aac38",
+  "name": "Creative Move 09",
+  "duration": 2.8,
+  "frames": 85,
+  "bars": 2,
+  "usage": "manual",
+  "sourceBpm": 171.4,
+  "category": "power",
+  "energy": 4,
+  "travel": 0.77,
+  "turnDegrees": 34,
+  "handSpeed": 1.42,
+  "footSpeed": 0.33,
+  "accents": [
+   0.067,
+   0.733,
+   1.7,
+   2.133,
+   2.567
+  ],
+  "thumb": {
+   "Hips": [
+    0.0,
+    0.943
+   ],
+   "Spine1": [
+    0.009,
+    0.992
+   ],
+   "Spine2": [
+    0.027,
+    1.06
+   ],
+   "Chest": [
+    0.041,
+    1.132
+   ],
+   "Neck1": [
+    0.057,
+    1.391
+   ],
+   "Neck2": [
+    0.055,
+    1.463
+   ],
+   "Head": [
+    0.052,
+    1.517
+   ],
+   "LeftShoulder": [
+    0.075,
+    1.368
+   ],
+   "LeftArm": [
+    0.211,
+    1.429
+   ],
+   "LeftForeArm": [
+    0.218,
+    1.679
+   ],
+   "LeftHand": [
+    -0.0,
+    1.838
+   ],
+   "RightShoulder": [
+    0.046,
+    1.37
+   ],
+   "RightArm": [
+    -0.091,
+    1.426
+   ],
+   "RightForeArm": [
+    -0.157,
+    1.686
+   ],
+   "RightHand": [
+    0.056,
+    1.839
+   ],
+   "LeftLeg": [
+    0.083,
+    0.841
+   ],
+   "LeftShin": [
+    0.018,
+    0.505
+   ],
+   "LeftFoot": [
+    0.073,
+    0.208
+   ],
+   "LeftToeBase": [
+    0.094,
+    0.108
+   ],
+   "RightLeg": [
+    -0.114,
+    0.879
+   ],
+   "RightShin": [
+    -0.093,
+    0.448
+   ],
+   "RightFoot": [
+    -0.012,
+    0.081
+   ],
+   "RightToeBase": [
+    -0.003,
+    0.017
+   ]
+  },
+  "tags": [
+   "創作ダンス",
+   "振り",
+   "パワー",
+   "2小節"
+  ],
+  "description": "創作ダンス向けの短い振り",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "acd088b16153",
+  "name": "Creative Move 10",
+  "duration": 2.833,
+  "frames": 86,
+  "bars": 2,
+  "usage": "manual",
+  "sourceBpm": 169.4,
+  "category": "wave",
+  "energy": 3,
+  "travel": 0.79,
+  "turnDegrees": 91,
+  "handSpeed": 0.91,
+  "footSpeed": 0.22,
+  "accents": [
+   0.267,
+   0.467,
+   0.967,
+   1.4,
+   1.6,
+   1.8
+  ],
+  "thumb": {
+   "Hips": [
+    0.0,
+    0.936
+   ],
+   "Spine1": [
+    0.001,
+    0.981
+   ],
+   "Spine2": [
+    0.002,
+    1.023
+   ],
+   "Chest": [
+    0.003,
+    1.077
+   ],
+   "Neck1": [
+    -0.002,
+    1.262
+   ],
+   "Neck2": [
+    -0.005,
+    1.313
+   ],
+   "Head": [
+    -0.024,
+    1.365
+   ],
+   "LeftShoulder": [
+    0.021,
+    1.201
+   ],
+   "LeftArm": [
+    0.176,
+    1.233
+   ],
+   "LeftForeArm": [
+    0.21,
+    0.994
+   ],
+   "LeftHand": [
+    0.103,
+    1.24
+   ],
+   "RightShoulder": [
+    -0.009,
+    1.198
+   ],
+   "RightArm": [
+    -0.167,
+    1.193
+   ],
+   "RightForeArm": [
+    -0.112,
+    0.943
+   ],
+   "RightHand": [
+    0.151,
+    0.992
+   ],
+   "LeftLeg": [
+    0.098,
+    0.846
+   ],
+   "LeftShin": [
+    0.202,
+    0.463
+   ],
+   "LeftFoot": [
+    0.333,
+    0.07
+   ],
+   "LeftToeBase": [
+    0.345,
+    0.044
+   ],
+   "RightLeg": [
+    -0.103,
+    0.852
+   ],
+   "RightShin": [
+    -0.226,
+    0.473
+   ],
+   "RightFoot": [
+    -0.333,
+    0.072
+   ],
+   "RightToeBase": [
+    -0.366,
+    0.048
+   ]
+  },
+  "tags": [
+   "創作ダンス",
+   "振り",
+   "ウェーブ",
+   "2小節",
+   "ワイドスタンス"
+  ],
+  "description": "創作ダンス向けの短い振り",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "b90cbd1f2e4c",
+  "name": "Creative Move 11",
+  "duration": 2.6,
+  "frames": 79,
+  "bars": 2,
+  "usage": "manual",
+  "sourceBpm": 184.6,
+  "category": "groove",
+  "energy": 2,
+  "travel": 0.33,
+  "turnDegrees": 12,
+  "handSpeed": 0.54,
+  "footSpeed": 0.18,
+  "accents": [
+   0.2,
+   0.867,
+   1.3,
+   1.633,
+   2.1,
+   2.4
+  ],
+  "thumb": {
+   "Hips": [
+    0.0,
+    0.932
+   ],
+   "Spine1": [
+    0.001,
+    0.982
+   ],
+   "Spine2": [
+    0.006,
+    1.053
+   ],
+   "Chest": [
+    0.012,
+    1.126
+   ],
+   "Neck1": [
+    0.035,
+    1.386
+   ],
+   "Neck2": [
+    0.021,
+    1.458
+   ],
+   "Head": [
+    -0.001,
+    1.51
+   ],
+   "LeftShoulder": [
+    0.052,
+    1.36
+   ],
+   "LeftArm": [
+    0.201,
+    1.333
+   ],
+   "LeftForeArm": [
+    0.366,
+    1.1
+   ],
+   "LeftHand": [
+    0.217,
+    0.964
+   ],
+   "RightShoulder": [
+    0.022,
+    1.362
+   ],
+   "RightArm": [
+    -0.133,
+    1.38
+   ],
+   "RightForeArm": [
+    -0.313,
+    1.156
+   ],
+   "RightHand": [
+    -0.188,
+    0.954
+   ],
+   "LeftLeg": [
+    0.098,
+    0.844
+   ],
+   "LeftShin": [
+    0.052,
+    0.417
+   ],
+   "LeftFoot": [
+    0.05,
+    0.085
+   ],
+   "LeftToeBase": [
+    0.05,
+    0.021
+   ],
+   "RightLeg": [
+    -0.102,
+    0.85
+   ],
+   "RightShin": [
+    -0.069,
+    0.418
+   ],
+   "RightFoot": [
+    -0.035,
+    0.073
+   ],
+   "RightToeBase": [
+    0.001,
+    0.019
+   ]
+  },
+  "tags": [
+   "創作ダンス",
+   "振り",
+   "グルーヴ",
+   "2小節"
+  ],
+  "description": "創作ダンス向けの短い振り",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "d242e1e36428",
+  "name": "Creative Move 12",
+  "duration": 3.1,
+  "frames": 94,
+  "bars": 2,
+  "usage": "manual",
+  "sourceBpm": 154.8,
+  "category": "groove",
+  "energy": 3,
+  "travel": 1.6,
+  "turnDegrees": 101,
+  "handSpeed": 1.27,
+  "footSpeed": 0.45,
+  "accents": [
+   0.267,
+   0.667,
+   0.867,
+   1.6,
+   1.867,
+   2.067,
+   2.367
+  ],
+  "thumb": {
+   "Hips": [
+    0.0,
+    0.929
+   ],
+   "Spine1": [
+    -0.003,
+    0.979
+   ],
+   "Spine2": [
+    -0.006,
+    1.049
+   ],
+   "Chest": [
+    -0.017,
+    1.124
+   ],
+   "Neck1": [
+    -0.075,
+    1.38
+   ],
+   "Neck2": [
+    -0.094,
+    1.454
+   ],
+   "Head": [
+    -0.129,
+    1.504
+   ],
+   "LeftShoulder": [
+    -0.035,
+    1.357
+   ],
+   "LeftArm": [
+    0.072,
+    1.375
+   ],
+   "LeftForeArm": [
+    0.238,
+    1.175
+   ],
+   "LeftHand": [
+    0.395,
+    1.244
+   ],
+   "RightShoulder": [
+    -0.063,
+    1.35
+   ],
+   "RightArm": [
+    -0.218,
+    1.314
+   ],
+   "RightForeArm": [
+    -0.306,
+    1.046
+   ],
+   "RightHand": [
+    -0.418,
+    0.81
+   ],
+   "LeftLeg": [
+    0.105,
+    0.848
+   ],
+   "LeftShin": [
+    0.109,
+    0.442
+   ],
+   "LeftFoot": [
+    0.224,
+    0.072
+   ],
+   "LeftToeBase": [
+    0.18,
+    0.03
+   ],
+   "RightLeg": [
+    -0.096,
+    0.839
+   ],
+   "RightShin": [
+    -0.238,
+    0.472
+   ],
+   "RightFoot": [
+    -0.363,
+    0.188
+   ],
+   "RightToeBase": [
+    -0.445,
+    0.097
+   ]
+  },
+  "tags": [
+   "創作ダンス",
+   "振り",
+   "グルーヴ",
+   "2小節",
+   "ワイドスタンス"
+  ],
+  "description": "創作ダンス向けの短い振り",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "b37a044e83b9",
+  "name": "Creative Move 13",
+  "duration": 2.5,
+  "frames": 76,
+  "bars": 1,
+  "usage": "manual",
+  "sourceBpm": 96.0,
+  "category": "foot",
+  "energy": 3,
+  "travel": 0.66,
+  "turnDegrees": 352,
+  "handSpeed": 0.89,
+  "footSpeed": 0.97,
+  "accents": [
+   0.2,
+   0.6,
+   0.967,
+   1.3,
+   2.0
+  ],
+  "thumb": {
+   "Hips": [
+    0.0,
+    1.014
+   ],
+   "Spine1": [
+    -0.015,
+    1.062
+   ],
+   "Spine2": [
+    -0.042,
+    1.128
+   ],
+   "Chest": [
+    -0.071,
+    1.195
+   ],
+   "Neck1": [
+    -0.14,
+    1.435
+   ],
+   "Neck2": [
+    -0.13,
+    1.515
+   ],
+   "Head": [
+    -0.108,
+    1.574
+   ],
+   "LeftShoulder": [
+    -0.101,
+    1.43
+   ],
+   "LeftArm": [
+    -0.009,
+    1.47
+   ],
+   "LeftForeArm": [
+    0.065,
+    1.744
+   ],
+   "LeftHand": [
+    -0.038,
+    1.992
+   ],
+   "RightShoulder": [
+    -0.129,
+    1.425
+   ],
+   "RightArm": [
+    -0.282,
+    1.47
+   ],
+   "RightForeArm": [
+    -0.294,
+    1.744
+   ],
+   "RightHand": [
+    -0.26,
+    2.007
+   ],
+   "LeftLeg": [
+    0.12,
+    0.963
+   ],
+   "LeftShin": [
+    0.171,
+    0.535
+   ],
+   "LeftFoot": [
+    0.204,
+    0.128
+   ],
+   "LeftToeBase": [
+    0.232,
+    0.047
+   ],
+   "RightLeg": [
+    -0.072,
+    0.907
+   ],
+   "RightShin": [
+    -0.086,
+    0.476
+   ],
+   "RightFoot": [
+    -0.044,
+    0.115
+   ],
+   "RightToeBase": [
+    -0.06,
+    0.058
+   ]
+  },
+  "tags": [
+   "創作ダンス",
+   "振り",
+   "足技",
+   "1小節",
+   "ターン",
+   "回転",
+   "ワイドスタンス"
+  ],
+  "description": "創作ダンス向けの短い振り",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "87740b0cabdb",
+  "name": "Creative Move 14",
+  "duration": 4.2,
+  "frames": 127,
+  "bars": 2,
+  "usage": "auto",
+  "sourceBpm": 114.3,
+  "category": "power",
+  "energy": 5,
+  "travel": 1.76,
+  "turnDegrees": 99,
+  "handSpeed": 1.97,
+  "footSpeed": 0.43,
+  "accents": [
+   0.267,
+   0.6,
+   0.8,
+   1.033,
+   1.767,
+   2.133,
+   2.533,
+   2.933,
+   3.533
+  ],
+  "thumb": {
+   "Hips": [
+    0.0,
+    1.1
+   ],
+   "Spine1": [
+    -0.003,
+    1.15
+   ],
+   "Spine2": [
+    -0.006,
+    1.219
+   ],
+   "Chest": [
+    -0.005,
+    1.294
+   ],
+   "Neck1": [
+    0.009,
+    1.556
+   ],
+   "Neck2": [
+    0.019,
+    1.627
+   ],
+   "Head": [
+    0.031,
+    1.681
+   ],
+   "LeftShoulder": [
+    0.025,
+    1.529
+   ],
+   "LeftArm": [
+    0.169,
+    1.568
+   ],
+   "LeftForeArm": [
+    0.326,
+    1.77
+   ],
+   "LeftHand": [
+    0.306,
+    2.038
+   ],
+   "RightShoulder": [
+    -0.005,
+    1.531
+   ],
+   "RightArm": [
+    -0.134,
+    1.599
+   ],
+   "RightForeArm": [
+    -0.239,
+    1.837
+   ],
+   "RightHand": [
+    -0.218,
+    2.102
+   ],
+   "LeftLeg": [
+    0.104,
+    1.018
+   ],
+   "LeftShin": [
+    0.205,
+    0.598
+   ],
+   "LeftFoot": [
+    0.292,
+    0.198
+   ],
+   "LeftToeBase": [
+    0.342,
+    0.133
+   ],
+   "RightLeg": [
+    -0.096,
+    1.01
+   ],
+   "RightShin": [
+    -0.154,
+    0.585
+   ],
+   "RightFoot": [
+    -0.215,
+    0.177
+   ],
+   "RightToeBase": [
+    -0.227,
+    0.111
+   ]
+  },
+  "tags": [
+   "創作ダンス",
+   "振り",
+   "パワー",
+   "2小節",
+   "バウンス"
+  ],
+  "description": "創作ダンス向けの短い振り",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "870d6a126402",
+  "name": "Creative Move 15",
+  "duration": 1.6,
+  "frames": 49,
+  "bars": 1,
+  "usage": "manual",
+  "sourceBpm": 150.0,
+  "category": "wave",
+  "energy": 2,
+  "travel": 0.16,
+  "turnDegrees": 11,
+  "handSpeed": 0.69,
+  "footSpeed": 0.08,
+  "accents": [
+   0.633,
+   1.367
+  ],
+  "thumb": {
+   "Hips": [
+    0.0,
+    0.929
+   ],
+   "Spine1": [
+    -0.011,
+    0.978
+   ],
+   "Spine2": [
+    -0.034,
+    1.044
+   ],
+   "Chest": [
+    -0.048,
+    1.117
+   ],
+   "Neck1": [
+    -0.068,
+    1.376
+   ],
+   "Neck2": [
+    -0.049,
+    1.451
+   ],
+   "Head": [
+    -0.021,
+    1.504
+   ],
+   "LeftShoulder": [
+    -0.051,
+    1.355
+   ],
+   "LeftArm": [
+    0.098,
+    1.377
+   ],
+   "LeftForeArm": [
+    0.356,
+    1.469
+   ],
+   "LeftHand": [
+    0.374,
+    1.729
+   ],
+   "RightShoulder": [
+    -0.081,
+    1.353
+   ],
+   "RightArm": [
+    -0.218,
+    1.385
+   ],
+   "RightForeArm": [
+    -0.469,
+    1.523
+   ],
+   "RightHand": [
+    -0.417,
+    1.785
+   ],
+   "LeftLeg": [
+    0.116,
+    0.866
+   ],
+   "LeftShin": [
+    0.09,
+    0.436
+   ],
+   "LeftFoot": [
+    0.006,
+    0.112
+   ],
+   "LeftToeBase": [
+    0.016,
+    0.02
+   ],
+   "RightLeg": [
+    -0.08,
+    0.825
+   ],
+   "RightShin": [
+    -0.027,
+    0.491
+   ],
+   "RightFoot": [
+    -0.028,
+    0.079
+   ],
+   "RightToeBase": [
+    0.001,
+    0.024
+   ]
+  },
+  "tags": [
+   "創作ダンス",
+   "振り",
+   "ウェーブ",
+   "1小節"
+  ],
+  "description": "創作ダンス向けの短い振り",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "1a9f4c1f160d",
+  "name": "Creative Move 16",
+  "duration": 2.8,
+  "frames": 85,
+  "bars": 2,
+  "usage": "manual",
+  "sourceBpm": 171.4,
+  "category": "groove",
+  "energy": 3,
+  "travel": 0.55,
+  "turnDegrees": 83,
+  "handSpeed": 1.07,
+  "footSpeed": 0.57,
+  "accents": [
+   0.4,
+   0.933,
+   1.267,
+   1.8,
+   2.4
+  ],
+  "thumb": {
+   "Hips": [
+    0.0,
+    1.007
+   ],
+   "Spine1": [
+    -0.006,
+    1.057
+   ],
+   "Spine2": [
+    -0.012,
+    1.127
+   ],
+   "Chest": [
+    -0.014,
+    1.201
+   ],
+   "Neck1": [
+    0.002,
+    1.463
+   ],
+   "Neck2": [
+    0.006,
+    1.534
+   ],
+   "Head": [
+    0.005,
+    1.586
+   ],
+   "LeftShoulder": [
+    0.02,
+    1.435
+   ],
+   "LeftArm": [
+    0.179,
+    1.436
+   ],
+   "LeftForeArm": [
+    0.108,
+    1.325
+   ],
+   "LeftHand": [
+    -0.095,
+    1.284
+   ],
+   "RightShoulder": [
+    -0.009,
+    1.437
+   ],
+   "RightArm": [
+    -0.165,
+    1.476
+   ],
+   "RightForeArm": [
+    -0.107,
+    1.316
+   ],
+   "RightHand": [
+    0.127,
+    1.254
+   ],
+   "LeftLeg": [
+    0.109,
+    0.934
+   ],
+   "LeftShin": [
+    0.118,
+    0.509
+   ],
+   "LeftFoot": [
+    0.111,
+    0.099
+   ],
+   "LeftToeBase": [
+    0.123,
+    0.037
+   ],
+   "RightLeg": [
+    -0.091,
+    0.913
+   ],
+   "RightShin": [
+    -0.044,
+    0.483
+   ],
+   "RightFoot": [
+    0.009,
+    0.077
+   ],
+   "RightToeBase": [
+    0.013,
+    0.022
+   ]
+  },
+  "tags": [
+   "創作ダンス",
+   "振り",
+   "グルーヴ",
+   "2小節",
+   "ワイドスタンス"
+  ],
+  "description": "創作ダンス向けの短い振り",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "09e08f3af704",
+  "name": "Creative Move 17",
+  "duration": 2.6,
+  "frames": 79,
+  "bars": 2,
+  "usage": "manual",
+  "sourceBpm": 184.6,
+  "category": "groove",
+  "energy": 3,
+  "travel": 1.34,
+  "turnDegrees": 91,
+  "handSpeed": 1.03,
+  "footSpeed": 0.49,
+  "accents": [
+   0.1,
+   0.433,
+   0.8,
+   1.467,
+   1.667,
+   2.3
+  ],
+  "thumb": {
+   "Hips": [
+    0.0,
+    0.947
+   ],
+   "Spine1": [
+    -0.002,
+    0.997
+   ],
+   "Spine2": [
+    -0.001,
+    1.068
+   ],
+   "Chest": [
+    0.008,
+    1.141
+   ],
+   "Neck1": [
+    0.084,
+    1.392
+   ],
+   "Neck2": [
+    0.098,
+    1.459
+   ],
+   "Head": [
+    0.099,
+    1.511
+   ],
+   "LeftShoulder": [
+    0.103,
+    1.358
+   ],
+   "LeftArm": [
+    0.236,
+    1.297
+   ],
+   "LeftForeArm": [
+    0.305,
+    1.024
+   ],
+   "LeftHand": [
+    0.137,
+    1.026
+   ],
+   "RightShoulder": [
+    0.075,
+    1.367
+   ],
+   "RightArm": [
+    -0.061,
+    1.45
+   ],
+   "RightForeArm": [
+    -0.152,
+    1.244
+   ],
+   "RightHand": [
+    0.025,
+    1.053
+   ],
+   "LeftLeg": [
+    0.104,
+    0.868
+   ],
+   "LeftShin": [
+    0.251,
+    0.486
+   ],
+   "LeftFoot": [
+    0.412,
+    0.108
+   ],
+   "LeftToeBase": [
+    0.464,
+    0.05
+   ],
+   "RightLeg": [
+    -0.097,
+    0.86
+   ],
+   "RightShin": [
+    -0.135,
+    0.43
+   ],
+   "RightFoot": [
+    -0.043,
+    0.071
+   ],
+   "RightToeBase": [
+    -0.094,
+    0.033
+   ]
+  },
+  "tags": [
+   "創作ダンス",
+   "振り",
+   "グルーヴ",
+   "2小節",
+   "ワイドスタンス"
+  ],
+  "description": "創作ダンス向けの短い振り",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "7b3c2f04b5c6",
+  "name": "Creative Move 18",
+  "duration": 3.2,
+  "frames": 97,
+  "bars": 2,
+  "usage": "manual",
+  "sourceBpm": 150.0,
+  "category": "power",
+  "energy": 4,
+  "travel": 1.12,
+  "turnDegrees": 177,
+  "handSpeed": 1.3,
+  "footSpeed": 0.49,
+  "accents": [
+   0.167,
+   0.733,
+   1.333,
+   1.967,
+   2.333
+  ],
+  "thumb": {
+   "Hips": [
+    0.0,
+    0.988
+   ],
+   "Spine1": [
+    0.001,
+    1.038
+   ],
+   "Spine2": [
+    0.003,
+    1.107
+   ],
+   "Chest": [
+    0.003,
+    1.183
+   ],
+   "Neck1": [
+    -0.012,
+    1.445
+   ],
+   "Neck2": [
+    -0.028,
+    1.517
+   ],
+   "Head": [
+    -0.06,
+    1.569
+   ],
+   "LeftShoulder": [
+    0.0,
+    1.417
+   ],
+   "LeftArm": [
+    0.136,
+    1.48
+   ],
+   "LeftForeArm": [
+    0.314,
+    1.7
+   ],
+   "LeftHand": [
+    0.079,
+    1.835
+   ],
+   "RightShoulder": [
+    -0.03,
+    1.414
+   ],
+   "RightArm": [
+    -0.179,
+    1.422
+   ],
+   "RightForeArm": [
+    -0.382,
+    1.235
+   ],
+   "RightHand": [
+    -0.303,
+    1.03
+   ],
+   "LeftLeg": [
+    0.098,
+    0.899
+   ],
+   "LeftShin": [
+    0.149,
+    0.47
+   ],
+   "LeftFoot": [
+    0.17,
+    0.078
+   ],
+   "LeftToeBase": [
+    0.205,
+    0.021
+   ],
+   "RightLeg": [
+    -0.102,
+    0.905
+   ],
+   "RightShin": [
+    -0.146,
+    0.478
+   ],
+   "RightFoot": [
+    -0.191,
+    0.092
+   ],
+   "RightToeBase": [
+    -0.229,
+    0.02
+   ]
+  },
+  "tags": [
+   "創作ダンス",
+   "振り",
+   "パワー",
+   "2小節"
+  ],
+  "description": "創作ダンス向けの短い振り",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "ca616c86a63c",
+  "name": "Creative Move 19",
+  "duration": 2.5,
+  "frames": 76,
+  "bars": 1,
+  "usage": "manual",
+  "sourceBpm": 96.0,
+  "category": "wave",
+  "energy": 2,
+  "travel": 0.25,
+  "turnDegrees": 8,
+  "handSpeed": 0.64,
+  "footSpeed": 0.05,
+  "accents": [
+   0.3,
+   0.767,
+   1.067
+  ],
+  "thumb": {
+   "Hips": [
+    0.0,
+    0.98
+   ],
+   "Spine1": [
+    -0.007,
+    1.029
+   ],
+   "Spine2": [
+    -0.02,
+    1.099
+   ],
+   "Chest": [
+    -0.027,
+    1.173
+   ],
+   "Neck1": [
+    -0.029,
+    1.433
+   ],
+   "Neck2": [
+    -0.016,
+    1.506
+   ],
+   "Head": [
+    -0.002,
+    1.563
+   ],
+   "LeftShoulder": [
+    -0.003,
+    1.409
+   ],
+   "LeftArm": [
+    0.135,
+    1.39
+   ],
+   "LeftForeArm": [
+    0.241,
+    1.138
+   ],
+   "LeftHand": [
+    0.287,
+    1.391
+   ],
+   "RightShoulder": [
+    -0.033,
+    1.409
+   ],
+   "RightArm": [
+    -0.188,
+    1.413
+   ],
+   "RightForeArm": [
+    -0.328,
+    1.205
+   ],
+   "RightHand": [
+    -0.334,
+    1.439
+   ],
+   "LeftLeg": [
+    0.112,
+    0.909
+   ],
+   "LeftShin": [
+    0.09,
+    0.48
+   ],
+   "LeftFoot": [
+    0.065,
+    0.082
+   ],
+   "LeftToeBase": [
+    0.057,
+    0.023
+   ],
+   "RightLeg": [
+    -0.087,
+    0.882
+   ],
+   "RightShin": [
+    -0.037,
+    0.457
+   ],
+   "RightFoot": [
+    -0.031,
+    0.076
+   ],
+   "RightToeBase": [
+    -0.006,
+    0.023
+   ]
+  },
+  "tags": [
+   "創作ダンス",
+   "振り",
+   "ウェーブ",
+   "1小節"
+  ],
+  "description": "創作ダンス向けの短い振り",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "460ab15aa3df",
+  "name": "Creative Move 20",
+  "duration": 2.8,
+  "frames": 85,
+  "bars": 2,
+  "usage": "manual",
+  "sourceBpm": 171.4,
+  "category": "groove",
+  "energy": 3,
+  "travel": 0.87,
+  "turnDegrees": 39,
+  "handSpeed": 1.13,
+  "footSpeed": 0.42,
+  "accents": [
+   0.233,
+   0.7,
+   1.1,
+   1.567,
+   2.1,
+   2.433
+  ],
+  "thumb": {
+   "Hips": [
+    0.0,
+    0.995
+   ],
+   "Spine1": [
+    0.001,
+    1.045
+   ],
+   "Spine2": [
+    0.003,
+    1.114
+   ],
+   "Chest": [
+    0.005,
+    1.189
+   ],
+   "Neck1": [
+    0.004,
+    1.449
+   ],
+   "Neck2": [
+    -0.022,
+    1.522
+   ],
+   "Head": [
+    -0.054,
+    1.575
+   ],
+   "LeftShoulder": [
+    0.01,
+    1.427
+   ],
+   "LeftArm": [
+    0.152,
+    1.474
+   ],
+   "LeftForeArm": [
+    0.371,
+    1.659
+   ],
+   "LeftHand": [
+    0.518,
+    1.887
+   ],
+   "RightShoulder": [
+    -0.02,
+    1.425
+   ],
+   "RightArm": [
+    -0.144,
+    1.469
+   ],
+   "RightForeArm": [
+    -0.346,
+    1.665
+   ],
+   "RightHand": [
+    -0.518,
+    1.867
+   ],
+   "LeftLeg": [
+    0.098,
+    0.906
+   ],
+   "LeftShin": [
+    0.079,
+    0.474
+   ],
+   "LeftFoot": [
+    0.055,
+    0.074
+   ],
+   "LeftToeBase": [
+    0.052,
+    0.019
+   ],
+   "RightLeg": [
+    -0.103,
+    0.912
+   ],
+   "RightShin": [
+    -0.115,
+    0.479
+   ],
+   "RightFoot": [
+    -0.141,
+    0.122
+   ],
+   "RightToeBase": [
+    -0.145,
+    0.036
+   ]
+  },
+  "tags": [
+   "創作ダンス",
+   "振り",
+   "グルーヴ",
+   "2小節"
+  ],
+  "description": "創作ダンス向けの短い振り",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "f1537725c110",
+  "name": "Creative Move 21",
+  "duration": 2.8,
+  "frames": 85,
+  "bars": 2,
+  "usage": "manual",
+  "sourceBpm": 171.4,
+  "category": "foot",
+  "energy": 4,
+  "travel": 1.37,
+  "turnDegrees": 27,
+  "handSpeed": 0.67,
+  "footSpeed": 1.39,
+  "accents": [
+   0.267,
+   0.633,
+   1.567,
+   1.767,
+   2.133,
+   2.5
+  ],
+  "thumb": {
+   "Hips": [
+    0.0,
+    1.001
+   ],
+   "Spine1": [
+    0.008,
+    1.05
+   ],
+   "Spine2": [
+    0.026,
+    1.119
+   ],
+   "Chest": [
+    0.047,
+    1.191
+   ],
+   "Neck1": [
+    0.126,
+    1.441
+   ],
+   "Neck2": [
+    0.135,
+    1.512
+   ],
+   "Head": [
+    0.129,
+    1.569
+   ],
+   "LeftShoulder": [
+    0.14,
+    1.405
+   ],
+   "LeftArm": [
+    0.276,
+    1.353
+   ],
+   "LeftForeArm": [
+    0.378,
+    1.105
+   ],
+   "LeftHand": [
+    0.239,
+    1.001
+   ],
+   "RightShoulder": [
+    0.111,
+    1.414
+   ],
+   "RightArm": [
+    -0.043,
+    1.456
+   ],
+   "RightForeArm": [
+    -0.279,
+    1.296
+   ],
+   "RightHand": [
+    -0.134,
+    1.103
+   ],
+   "LeftLeg": [
+    0.085,
+    0.901
+   ],
+   "LeftShin": [
+    0.073,
+    0.468
+   ],
+   "LeftFoot": [
+    0.1,
+    0.073
+   ],
+   "LeftToeBase": [
+    0.093,
+    0.044
+   ],
+   "RightLeg": [
+    -0.113,
+    0.936
+   ],
+   "RightShin": [
+    -0.232,
+    0.563
+   ],
+   "RightFoot": [
+    -0.306,
+    0.15
+   ],
+   "RightToeBase": [
+    -0.372,
+    0.139
+   ]
+  },
+  "tags": [
+   "創作ダンス",
+   "振り",
+   "足技",
+   "2小節",
+   "足上げ",
+   "ジャンプ",
+   "ワイドスタンス"
+  ],
+  "description": "創作ダンス向けの短い振り",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "0d9c9277d5e5",
+  "name": "Creative Move 22",
+  "duration": 4.2,
+  "frames": 127,
+  "bars": 2,
+  "usage": "auto",
+  "sourceBpm": 114.3,
+  "category": "groove",
+  "energy": 3,
+  "travel": 1.73,
+  "turnDegrees": 72,
+  "handSpeed": 1.07,
+  "footSpeed": 0.45,
+  "accents": [
+   0.433,
+   0.633,
+   1.0,
+   2.067,
+   2.5,
+   2.767,
+   2.967,
+   3.4,
+   4.067
+  ],
+  "thumb": {
+   "Hips": [
+    0.0,
+    0.916
+   ],
+   "Spine1": [
+    -0.016,
+    0.962
+   ],
+   "Spine2": [
+    -0.045,
+    1.018
+   ],
+   "Chest": [
+    -0.076,
+    1.085
+   ],
+   "Neck1": [
+    -0.165,
+    1.321
+   ],
+   "Neck2": [
+    -0.149,
+    1.391
+   ],
+   "Head": [
+    -0.112,
+    1.441
+   ],
+   "LeftShoulder": [
+    -0.128,
+    1.285
+   ],
+   "LeftArm": [
+    0.02,
+    1.345
+   ],
+   "LeftForeArm": [
+    0.002,
+    1.096
+   ],
+   "LeftHand": [
+    -0.233,
+    0.996
+   ],
+   "RightShoulder": [
+    -0.155,
+    1.273
+   ],
+   "RightArm": [
+    -0.312,
+    1.241
+   ],
+   "RightForeArm": [
+    -0.254,
+    0.971
+   ],
+   "RightHand": [
+    0.015,
+    1.005
+   ],
+   "LeftLeg": [
+    0.124,
+    0.865
+   ],
+   "LeftShin": [
+    0.299,
+    0.472
+   ],
+   "LeftFoot": [
+    0.331,
+    0.127
+   ],
+   "LeftToeBase": [
+    0.399,
+    0.055
+   ],
+   "RightLeg": [
+    -0.067,
+    0.801
+   ],
+   "RightShin": [
+    -0.124,
+    0.425
+   ],
+   "RightFoot": [
+    -0.222,
+    0.071
+   ],
+   "RightToeBase": [
+    -0.204,
+    0.034
+   ]
+  },
+  "tags": [
+   "創作ダンス",
+   "振り",
+   "グルーヴ",
+   "2小節",
+   "スクワット",
+   "しゃがみ",
+   "ワイドスタンス"
+  ],
+  "description": "創作ダンス向けの短い振り",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "c4a9d41aaddb",
+  "name": "Creative Move 23",
+  "duration": 1.467,
+  "frames": 45,
+  "bars": 1,
+  "usage": "manual",
+  "sourceBpm": 163.6,
+  "category": "groove",
+  "energy": 2,
+  "travel": 0.41,
+  "turnDegrees": 42,
+  "handSpeed": 0.57,
+  "footSpeed": 0.28,
+  "accents": [
+   0.433,
+   1.233
+  ],
+  "thumb": {
+   "Hips": [
+    0.0,
+    0.919
+   ],
+   "Spine1": [
+    -0.011,
+    0.968
+   ],
+   "Spine2": [
+    -0.031,
+    1.036
+   ],
+   "Chest": [
+    -0.05,
+    1.106
+   ],
+   "Neck1": [
+    -0.085,
+    1.362
+   ],
+   "Neck2": [
+    -0.079,
+    1.438
+   ],
+   "Head": [
+    -0.08,
+    1.497
+   ],
+   "LeftShoulder": [
+    -0.055,
+    1.344
+   ],
+   "LeftArm": [
+    0.094,
+    1.342
+   ],
+   "LeftForeArm": [
+    0.146,
+    1.13
+   ],
+   "LeftHand": [
+    -0.11,
+    1.107
+   ],
+   "RightShoulder": [
+    -0.084,
+    1.341
+   ],
+   "RightArm": [
+    -0.24,
+    1.359
+   ],
+   "RightForeArm": [
+    -0.138,
+    1.136
+   ],
+   "RightHand": [
+    0.117,
+    1.046
+   ],
+   "LeftLeg": [
+    0.115,
+    0.861
+   ],
+   "LeftShin": [
+    0.176,
+    0.447
+   ],
+   "LeftFoot": [
+    0.232,
+    0.077
+   ],
+   "LeftToeBase": [
+    0.221,
+    0.022
+   ],
+   "RightLeg": [
+    -0.081,
+    0.819
+   ],
+   "RightShin": [
+    -0.243,
+    0.422
+   ],
+   "RightFoot": [
+    -0.377,
+    0.074
+   ],
+   "RightToeBase": [
+    -0.433,
+    0.043
+   ]
+  },
+  "tags": [
+   "創作ダンス",
+   "振り",
+   "グルーヴ",
+   "1小節",
+   "ワイドスタンス"
+  ],
+  "description": "創作ダンス向けの短い振り",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "d6448a7919ad",
+  "name": "Creative Move 24",
+  "duration": 2.8,
+  "frames": 85,
+  "bars": 2,
+  "usage": "manual",
+  "sourceBpm": 171.4,
+  "category": "groove",
+  "energy": 3,
+  "travel": 0.77,
+  "turnDegrees": 67,
+  "handSpeed": 1.23,
+  "footSpeed": 0.41,
+  "accents": [
+   0.367,
+   1.167,
+   2.1,
+   2.333
+  ],
+  "thumb": {
+   "Hips": [
+    0.0,
+    0.985
+   ],
+   "Spine1": [
+    -0.007,
+    1.034
+   ],
+   "Spine2": [
+    -0.02,
+    1.101
+   ],
+   "Chest": [
+    -0.025,
+    1.176
+   ],
+   "Neck1": [
+    -0.022,
+    1.435
+   ],
+   "Neck2": [
+    0.001,
+    1.512
+   ],
+   "Head": [
+    0.044,
+    1.557
+   ],
+   "LeftShoulder": [
+    -0.002,
+    1.413
+   ],
+   "LeftArm": [
+    0.156,
+    1.42
+   ],
+   "LeftForeArm": [
+    0.098,
+    1.265
+   ],
+   "LeftHand": [
+    -0.099,
+    1.423
+   ],
+   "RightShoulder": [
+    -0.032,
+    1.413
+   ],
+   "RightArm": [
+    -0.176,
+    1.434
+   ],
+   "RightForeArm": [
+    -0.364,
+    1.221
+   ],
+   "RightHand": [
+    -0.157,
+    1.353
+   ],
+   "LeftLeg": [
+    0.112,
+    0.913
+   ],
+   "LeftShin": [
+    0.208,
+    0.501
+   ],
+   "LeftFoot": [
+    0.235,
+    0.09
+   ],
+   "LeftToeBase": [
+    0.314,
+    0.017
+   ],
+   "RightLeg": [
+    -0.087,
+    0.886
+   ],
+   "RightShin": [
+    -0.117,
+    0.453
+   ],
+   "RightFoot": [
+    -0.227,
+    0.112
+   ],
+   "RightToeBase": [
+    -0.234,
+    0.035
+   ]
+  },
+  "tags": [
+   "創作ダンス",
+   "振り",
+   "グルーヴ",
+   "2小節",
+   "ワイドスタンス"
+  ],
+  "description": "創作ダンス向けの短い振り",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "2ec0d62aa5da",
+  "name": "Creative Move 25",
+  "duration": 2.633,
+  "frames": 80,
+  "bars": 2,
+  "usage": "manual",
+  "sourceBpm": 182.3,
+  "category": "wave",
+  "energy": 2,
+  "travel": 0.33,
+  "turnDegrees": 62,
+  "handSpeed": 0.66,
+  "footSpeed": 0.04,
+  "accents": [
+   0.4,
+   0.6,
+   0.9,
+   1.2,
+   1.5,
+   1.8,
+   2.167
+  ],
+  "thumb": {
+   "Hips": [
+    0.0,
+    0.951
+   ],
+   "Spine1": [
+    -0.004,
+    1.001
+   ],
+   "Spine2": [
+    -0.011,
+    1.071
+   ],
+   "Chest": [
+    -0.024,
+    1.142
+   ],
+   "Neck1": [
+    -0.059,
+    1.388
+   ],
+   "Neck2": [
+    -0.051,
+    1.468
+   ],
+   "Head": [
+    -0.038,
+    1.531
+   ],
+   "LeftShoulder": [
+    -0.015,
+    1.377
+   ],
+   "LeftArm": [
+    0.087,
+    1.356
+   ],
+   "LeftForeArm": [
+    0.333,
+    1.245
+   ],
+   "LeftHand": [
+    0.162,
+    1.443
+   ],
+   "RightShoulder": [
+    -0.042,
+    1.378
+   ],
+   "RightArm": [
+    -0.2,
+    1.397
+   ],
+   "RightForeArm": [
+    -0.216,
+    1.486
+   ],
+   "RightHand": [
+    -0.077,
+    1.491
+   ],
+   "LeftLeg": [
+    0.107,
+    0.874
+   ],
+   "LeftShin": [
+    0.096,
+    0.481
+   ],
+   "LeftFoot": [
+    0.177,
+    0.069
+   ],
+   "LeftToeBase": [
+    0.151,
+    0.045
+   ],
+   "RightLeg": [
+    -0.093,
+    0.859
+   ],
+   "RightShin": [
+    -0.182,
+    0.438
+   ],
+   "RightFoot": [
+    -0.22,
+    0.087
+   ],
+   "RightToeBase": [
+    -0.31,
+    0.02
+   ]
+  },
+  "tags": [
+   "創作ダンス",
+   "振り",
+   "ウェーブ",
+   "2小節",
+   "ワイドスタンス"
+  ],
+  "description": "創作ダンス向けの短い振り",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "5df77fe3dd95",
+  "name": "Creative Move 26",
+  "duration": 2.8,
+  "frames": 85,
+  "bars": 2,
+  "usage": "manual",
+  "sourceBpm": 171.4,
+  "category": "groove",
+  "energy": 3,
+  "travel": 1.02,
+  "turnDegrees": 25,
+  "handSpeed": 1.26,
+  "footSpeed": 0.3,
+  "accents": [
+   0.167,
+   0.567,
+   1.267,
+   1.467,
+   2.0
+  ],
+  "thumb": {
+   "Hips": [
+    0.0,
+    0.998
+   ],
+   "Spine1": [
+    -0.001,
+    1.048
+   ],
+   "Spine2": [
+    -0.002,
+    1.117
+   ],
+   "Chest": [
+    -0.006,
+    1.192
+   ],
+   "Neck1": [
+    -0.017,
+    1.455
+   ],
+   "Neck2": [
+    -0.011,
+    1.529
+   ],
+   "Head": [
+    -0.003,
+    1.592
+   ],
+   "LeftShoulder": [
+    0.005,
+    1.426
+   ],
+   "LeftArm": [
+    0.149,
+    1.474
+   ],
+   "LeftForeArm": [
+    0.411,
+    1.548
+   ],
+   "LeftHand": [
+    0.272,
+    1.474
+   ],
+   "RightShoulder": [
+    -0.025,
+    1.424
+   ],
+   "RightArm": [
+    -0.178,
+    1.462
+   ],
+   "RightForeArm": [
+    -0.422,
+    1.513
+   ],
+   "RightHand": [
+    -0.202,
+    1.493
+   ],
+   "LeftLeg": [
+    0.101,
+    0.913
+   ],
+   "LeftShin": [
+    0.085,
+    0.57
+   ],
+   "LeftFoot": [
+    0.107,
+    0.321
+   ],
+   "LeftToeBase": [
+    0.152,
+    0.202
+   ],
+   "RightLeg": [
+    -0.1,
+    0.912
+   ],
+   "RightShin": [
+    -0.103,
+    0.479
+   ],
+   "RightFoot": [
+    -0.123,
+    0.072
+   ],
+   "RightToeBase": [
+    -0.106,
+    0.021
+   ]
+  },
+  "tags": [
+   "創作ダンス",
+   "振り",
+   "グルーヴ",
+   "2小節",
+   "スクワット",
+   "しゃがみ",
+   "ワイドスタンス"
+  ],
+  "description": "創作ダンス向けの短い振り",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "dfe42dc594d9",
+  "name": "Creative Move 27",
+  "duration": 2.7,
+  "frames": 82,
+  "bars": 2,
+  "usage": "manual",
+  "sourceBpm": 177.8,
+  "category": "power",
+  "energy": 4,
+  "travel": 0.76,
+  "turnDegrees": 7,
+  "handSpeed": 1.94,
+  "footSpeed": 0.33,
+  "accents": [
+   0.233,
+   0.8,
+   1.633,
+   2.367
+  ],
+  "thumb": {
+   "Hips": [
+    0.0,
+    0.94
+   ],
+   "Spine1": [
+    -0.001,
+    0.99
+   ],
+   "Spine2": [
+    -0.004,
+    1.06
+   ],
+   "Chest": [
+    -0.004,
+    1.135
+   ],
+   "Neck1": [
+    -0.008,
+    1.395
+   ],
+   "Neck2": [
+    -0.013,
+    1.473
+   ],
+   "Head": [
+    -0.016,
+    1.538
+   ],
+   "LeftShoulder": [
+    0.007,
+    1.372
+   ],
+   "LeftArm": [
+    0.157,
+    1.354
+   ],
+   "LeftForeArm": [
+    0.161,
+    1.082
+   ],
+   "LeftHand": [
+    0.275,
+    0.869
+   ],
+   "RightShoulder": [
+    -0.023,
+    1.371
+   ],
+   "RightArm": [
+    -0.161,
+    1.346
+   ],
+   "RightForeArm": [
+    -0.141,
+    1.071
+   ],
+   "RightHand": [
+    -0.261,
+    0.868
+   ],
+   "LeftLeg": [
+    0.102,
+    0.856
+   ],
+   "LeftShin": [
+    0.063,
+    0.428
+   ],
+   "LeftFoot": [
+    0.002,
+    0.093
+   ],
+   "LeftToeBase": [
+    0.035,
+    0.024
+   ],
+   "RightLeg": [
+    -0.099,
+    0.854
+   ],
+   "RightShin": [
+    -0.081,
+    0.514
+   ],
+   "RightFoot": [
+    -0.07,
+    0.13
+   ],
+   "RightToeBase": [
+    -0.069,
+    0.034
+   ]
+  },
+  "tags": [
+   "創作ダンス",
+   "振り",
+   "パワー",
+   "2小節",
+   "ワイドスタンス"
+  ],
+  "description": "創作ダンス向けの短い振り",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "9c7c94df8a01",
+  "name": "Creative Move 28",
+  "duration": 2.6,
+  "frames": 79,
+  "bars": 2,
+  "usage": "manual",
+  "sourceBpm": 184.6,
+  "category": "groove",
+  "energy": 2,
+  "travel": 0.93,
+  "turnDegrees": 68,
+  "handSpeed": 0.77,
+  "footSpeed": 0.35,
+  "accents": [
+   0.167,
+   0.9,
+   1.1,
+   1.367,
+   1.667
+  ],
+  "thumb": {
+   "Hips": [
+    0.0,
+    0.828
+   ],
+   "Spine1": [
+    0.003,
+    0.877
+   ],
+   "Spine2": [
+    0.008,
+    0.943
+   ],
+   "Chest": [
+    0.017,
+    1.018
+   ],
+   "Neck1": [
+    0.042,
+    1.279
+   ],
+   "Neck2": [
+    0.059,
+    1.356
+   ],
+   "Head": [
+    0.073,
+    1.417
+   ],
+   "LeftShoulder": [
+    0.055,
+    1.242
+   ],
+   "LeftArm": [
+    0.208,
+    1.218
+   ],
+   "LeftForeArm": [
+    0.192,
+    0.955
+   ],
+   "LeftHand": [
+    0.186,
+    0.694
+   ],
+   "RightShoulder": [
+    0.025,
+    1.244
+   ],
+   "RightArm": [
+    -0.125,
+    1.243
+   ],
+   "RightForeArm": [
+    -0.14,
+    0.979
+   ],
+   "RightHand": [
+    -0.177,
+    0.712
+   ],
+   "LeftLeg": [
+    0.095,
+    0.735
+   ],
+   "LeftShin": [
+    0.279,
+    0.45
+   ],
+   "LeftFoot": [
+    0.328,
+    0.07
+   ],
+   "LeftToeBase": [
+    0.376,
+    0.047
+   ],
+   "RightLeg": [
+    -0.105,
+    0.748
+   ],
+   "RightShin": [
+    -0.18,
+    0.38
+   ],
+   "RightFoot": [
+    -0.106,
+    0.078
+   ],
+   "RightToeBase": [
+    -0.141,
+    0.024
+   ]
+  },
+  "tags": [
+   "創作ダンス",
+   "振り",
+   "グルーヴ",
+   "2小節"
+  ],
+  "description": "創作ダンス向けの短い振り",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "9331a0528a2c",
+  "name": "Creative Move 29",
+  "duration": 3.333,
+  "frames": 101,
+  "bars": 2,
+  "usage": "manual",
+  "sourceBpm": 144.0,
+  "category": "power",
+  "energy": 4,
+  "travel": 1.53,
+  "turnDegrees": 59,
+  "handSpeed": 1.43,
+  "footSpeed": 0.46,
+  "accents": [
+   0.667,
+   1.167,
+   1.533,
+   2.033,
+   2.233,
+   2.567,
+   3.1
+  ],
+  "thumb": {
+   "Hips": [
+    0.0,
+    0.902
+   ],
+   "Spine1": [
+    0.008,
+    0.95
+   ],
+   "Spine2": [
+    0.027,
+    1.017
+   ],
+   "Chest": [
+    0.047,
+    1.09
+   ],
+   "Neck1": [
+    0.082,
+    1.348
+   ],
+   "Neck2": [
+    0.07,
+    1.423
+   ],
+   "Head": [
+    0.059,
+    1.481
+   ],
+   "LeftShoulder": [
+    0.083,
+    1.324
+   ],
+   "LeftArm": [
+    0.234,
+    1.369
+   ],
+   "LeftForeArm": [
+    0.387,
+    1.57
+   ],
+   "LeftHand": [
+    0.197,
+    1.759
+   ],
+   "RightShoulder": [
+    0.054,
+    1.326
+   ],
+   "RightArm": [
+    -0.063,
+    1.354
+   ],
+   "RightForeArm": [
+    -0.325,
+    1.468
+   ],
+   "RightHand": [
+    -0.113,
+    1.633
+   ],
+   "LeftLeg": [
+    0.084,
+    0.799
+   ],
+   "LeftShin": [
+    0.277,
+    0.48
+   ],
+   "LeftFoot": [
+    0.294,
+    0.071
+   ],
+   "LeftToeBase": [
+    0.367,
+    0.023
+   ],
+   "RightLeg": [
+    -0.113,
+    0.833
+   ],
+   "RightShin": [
+    -0.118,
+    0.401
+   ],
+   "RightFoot": [
+    -0.006,
+    0.081
+   ],
+   "RightToeBase": [
+    -0.028,
+    0.018
+   ]
+  },
+  "tags": [
+   "創作ダンス",
+   "振り",
+   "パワー",
+   "2小節",
+   "スクワット",
+   "しゃがみ"
+  ],
+  "description": "創作ダンス向けの短い振り",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "e16b21b61e4e",
+  "name": "Creative Move 30",
+  "duration": 2.767,
+  "frames": 84,
+  "bars": 2,
+  "usage": "manual",
+  "sourceBpm": 173.5,
+  "category": "power",
+  "energy": 5,
+  "travel": 1.6,
+  "turnDegrees": 23,
+  "handSpeed": 2.34,
+  "footSpeed": 0.35,
+  "accents": [
+   0.133,
+   1.133,
+   1.467,
+   1.7
+  ],
+  "thumb": {
+   "Hips": [
+    0.0,
+    0.891
+   ],
+   "Spine1": [
+    -0.001,
+    0.941
+   ],
+   "Spine2": [
+    -0.005,
+    1.007
+   ],
+   "Chest": [
+    -0.009,
+    1.082
+   ],
+   "Neck1": [
+    -0.024,
+    1.336
+   ],
+   "Neck2": [
+    -0.029,
+    1.399
+   ],
+   "Head": [
+    -0.035,
+    1.452
+   ],
+   "LeftShoulder": [
+    -0.001,
+    1.293
+   ],
+   "LeftArm": [
+    0.155,
+    1.32
+   ],
+   "LeftForeArm": [
+    0.109,
+    1.092
+   ],
+   "LeftHand": [
+    -0.145,
+    1.048
+   ],
+   "RightShoulder": [
+    -0.031,
+    1.29
+   ],
+   "RightArm": [
+    -0.19,
+    1.305
+   ],
+   "RightForeArm": [
+    -0.1,
+    1.063
+   ],
+   "RightHand": [
+    0.123,
+    0.921
+   ],
+   "LeftLeg": [
+    0.103,
+    0.807
+   ],
+   "LeftShin": [
+    0.2,
+    0.428
+   ],
+   "LeftFoot": [
+    0.274,
+    0.067
+   ],
+   "LeftToeBase": [
+    0.304,
+    0.038
+   ],
+   "RightLeg": [
+    -0.098,
+    0.803
+   ],
+   "RightShin": [
+    -0.266,
+    0.437
+   ],
+   "RightFoot": [
+    -0.421,
+    0.083
+   ],
+   "RightToeBase": [
+    -0.431,
+    0.051
+   ]
+  },
+  "tags": [
+   "創作ダンス",
+   "振り",
+   "パワー",
+   "2小節",
+   "スクワット",
+   "しゃがみ",
+   "ワイドスタンス"
+  ],
+  "description": "創作ダンス向けの短い振り",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "c727cba106e0",
+  "name": "Creative Move 31",
+  "duration": 2.767,
+  "frames": 84,
+  "bars": 2,
+  "usage": "manual",
+  "sourceBpm": 173.5,
+  "category": "power",
+  "energy": 5,
+  "travel": 1.4,
+  "turnDegrees": 106,
+  "handSpeed": 1.98,
+  "footSpeed": 0.9,
+  "accents": [
+   0.2,
+   0.4,
+   1.0,
+   1.4,
+   1.6,
+   2.0,
+   2.333
+  ],
+  "thumb": {
+   "Hips": [
+    0.0,
+    0.954
+   ],
+   "Spine1": [
+    -0.007,
+    1.004
+   ],
+   "Spine2": [
+    -0.016,
+    1.074
+   ],
+   "Chest": [
+    -0.021,
+    1.149
+   ],
+   "Neck1": [
+    -0.025,
+    1.412
+   ],
+   "Neck2": [
+    -0.025,
+    1.48
+   ],
+   "Head": [
+    -0.029,
+    1.533
+   ],
+   "LeftShoulder": [
+    -0.004,
+    1.378
+   ],
+   "LeftArm": [
+    0.14,
+    1.376
+   ],
+   "LeftForeArm": [
+    0.188,
+    1.139
+   ],
+   "LeftHand": [
+    0.226,
+    0.871
+   ],
+   "RightShoulder": [
+    -0.034,
+    1.377
+   ],
+   "RightArm": [
+    -0.189,
+    1.368
+   ],
+   "RightForeArm": [
+    -0.289,
+    1.099
+   ],
+   "RightHand": [
+    -0.328,
+    1.16
+   ],
+   "LeftLeg": [
+    0.111,
+    0.886
+   ],
+   "LeftShin": [
+    0.132,
+    0.457
+   ],
+   "LeftFoot": [
+    0.182,
+    0.073
+   ],
+   "LeftToeBase": [
+    0.155,
+    0.026
+   ],
+   "RightLeg": [
+    -0.088,
+    0.859
+   ],
+   "RightShin": [
+    -0.087,
+    0.498
+   ],
+   "RightFoot": [
+    -0.009,
+    0.299
+   ],
+   "RightToeBase": [
+    -0.03,
+    0.17
+   ]
+  },
+  "tags": [
+   "創作ダンス",
+   "振り",
+   "パワー",
+   "2小節"
+  ],
+  "description": "創作ダンス向けの短い振り",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "6168039a3ed6",
+  "name": "Creative Move 32",
+  "duration": 2.633,
+  "frames": 80,
+  "bars": 2,
+  "usage": "manual",
+  "sourceBpm": 182.3,
+  "category": "groove",
+  "energy": 3,
+  "travel": 0.68,
+  "turnDegrees": 174,
+  "handSpeed": 1.24,
+  "footSpeed": 0.35,
+  "accents": [
+   0.333,
+   0.667,
+   1.033,
+   1.4,
+   1.633,
+   1.833
+  ],
+  "thumb": {
+   "Hips": [
+    -0.0,
+    0.962
+   ],
+   "Spine1": [
+    -0.008,
+    1.011
+   ],
+   "Spine2": [
+    -0.017,
+    1.082
+   ],
+   "Chest": [
+    -0.025,
+    1.154
+   ],
+   "Neck1": [
+    -0.015,
+    1.413
+   ],
+   "Neck2": [
+    0.006,
+    1.484
+   ],
+   "Head": [
+    0.023,
+    1.537
+   ],
+   "LeftShoulder": [
+    0.023,
+    1.387
+   ],
+   "LeftArm": [
+    0.127,
+    1.34
+   ],
+   "LeftForeArm": [
+    0.157,
+    1.066
+   ],
+   "LeftHand": [
+    0.209,
+    1.073
+   ],
+   "RightShoulder": [
+    -0.004,
+    1.39
+   ],
+   "RightArm": [
+    -0.157,
+    1.429
+   ],
+   "RightForeArm": [
+    -0.174,
+    1.156
+   ],
+   "RightHand": [
+    -0.132,
+    0.918
+   ],
+   "LeftLeg": [
+    0.112,
+    0.892
+   ],
+   "LeftShin": [
+    0.134,
+    0.502
+   ],
+   "LeftFoot": [
+    0.246,
+    0.096
+   ],
+   "LeftToeBase": [
+    0.201,
+    0.024
+   ],
+   "RightLeg": [
+    -0.087,
+    0.864
+   ],
+   "RightShin": [
+    -0.056,
+    0.446
+   ],
+   "RightFoot": [
+    0.012,
+    0.103
+   ],
+   "RightToeBase": [
+    -0.06,
+    0.052
+   ]
+  },
+  "tags": [
+   "創作ダンス",
+   "振り",
+   "グルーヴ",
+   "2小節",
+   "ワイドスタンス"
+  ],
+  "description": "創作ダンス向けの短い振り",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "ebfd4639d52b",
+  "name": "Creative Move 33",
+  "duration": 2.633,
+  "frames": 80,
+  "bars": 2,
+  "usage": "manual",
+  "sourceBpm": 182.3,
+  "category": "power",
+  "energy": 4,
+  "travel": 0.95,
+  "turnDegrees": 53,
+  "handSpeed": 1.49,
+  "footSpeed": 0.74,
+  "accents": [
+   0.333,
+   0.867,
+   1.4,
+   1.7,
+   2.267
+  ],
+  "thumb": {
+   "Hips": [
+    0.0,
+    0.939
+   ],
+   "Spine1": [
+    0.003,
+    0.989
+   ],
+   "Spine2": [
+    0.011,
+    1.06
+   ],
+   "Chest": [
+    0.015,
+    1.131
+   ],
+   "Neck1": [
+    -0.0,
+    1.385
+   ],
+   "Neck2": [
+    -0.014,
+    1.458
+   ],
+   "Head": [
+    -0.027,
+    1.513
+   ],
+   "LeftShoulder": [
+    0.019,
+    1.37
+   ],
+   "LeftArm": [
+    0.153,
+    1.411
+   ],
+   "LeftForeArm": [
+    0.325,
+    1.634
+   ],
+   "LeftHand": [
+    0.069,
+    1.556
+   ],
+   "RightShoulder": [
+    -0.011,
+    1.368
+   ],
+   "RightArm": [
+    -0.149,
+    1.37
+   ],
+   "RightForeArm": [
+    -0.405,
+    1.498
+   ],
+   "RightHand": [
+    -0.142,
+    1.533
+   ],
+   "LeftLeg": [
+    0.095,
+    0.85
+   ],
+   "LeftShin": [
+    0.045,
+    0.495
+   ],
+   "LeftFoot": [
+    -0.042,
+    0.087
+   ],
+   "LeftToeBase": [
+    -0.018,
+    0.079
+   ],
+   "RightLeg": [
+    -0.105,
+    0.863
+   ],
+   "RightShin": [
+    -0.08,
+    0.43
+   ],
+   "RightFoot": [
+    -0.012,
+    0.113
+   ],
+   "RightToeBase": [
+    -0.006,
+    0.019
+   ]
+  },
+  "tags": [
+   "創作ダンス",
+   "振り",
+   "パワー",
+   "2小節",
+   "ワイドスタンス"
+  ],
+  "description": "創作ダンス向けの短い振り",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "4576ed971446",
+  "name": "Creative Move 34",
+  "duration": 3.133,
+  "frames": 95,
+  "bars": 2,
+  "usage": "manual",
+  "sourceBpm": 153.2,
+  "category": "power",
+  "energy": 5,
+  "travel": 1.17,
+  "turnDegrees": 113,
+  "handSpeed": 1.95,
+  "footSpeed": 0.58,
+  "accents": [
+   0.5,
+   1.133,
+   1.333,
+   2.067,
+   2.6,
+   2.933
+  ],
+  "thumb": {
+   "Hips": [
+    -0.0,
+    0.97
+   ],
+   "Spine1": [
+    0.007,
+    1.019
+   ],
+   "Spine2": [
+    0.022,
+    1.086
+   ],
+   "Chest": [
+    0.033,
+    1.161
+   ],
+   "Neck1": [
+    0.048,
+    1.423
+   ],
+   "Neck2": [
+    0.026,
+    1.499
+   ],
+   "Head": [
+    -0.003,
+    1.557
+   ],
+   "LeftShoulder": [
+    0.061,
+    1.395
+   ],
+   "LeftArm": [
+    0.215,
+    1.368
+   ],
+   "LeftForeArm": [
+    0.31,
+    1.098
+   ],
+   "LeftHand": [
+    0.414,
+    0.847
+   ],
+   "RightShoulder": [
+    0.031,
+    1.396
+   ],
+   "RightArm": [
+    -0.121,
+    1.388
+   ],
+   "RightForeArm": [
+    -0.246,
+    1.131
+   ],
+   "RightHand": [
+    -0.407,
+    0.917
+   ],
+   "LeftLeg": [
+    0.087,
+    0.869
+   ],
+   "LeftShin": [
+    0.115,
+    0.47
+   ],
+   "LeftFoot": [
+    0.136,
+    0.071
+   ],
+   "LeftToeBase": [
+    0.162,
+    0.033
+   ],
+   "RightLeg": [
+    -0.112,
+    0.899
+   ],
+   "RightShin": [
+    -0.147,
+    0.477
+   ],
+   "RightFoot": [
+    -0.135,
+    0.09
+   ],
+   "RightToeBase": [
+    -0.184,
+    0.031
+   ]
+  },
+  "tags": [
+   "創作ダンス",
+   "振り",
+   "パワー",
+   "2小節"
+  ],
+  "description": "創作ダンス向けの短い振り",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "545c7d7b3533",
+  "name": "Creative Move 35",
+  "duration": 2.9,
+  "frames": 88,
+  "bars": 2,
+  "usage": "manual",
+  "sourceBpm": 165.5,
+  "category": "groove",
+  "energy": 3,
+  "travel": 0.9,
+  "turnDegrees": 52,
+  "handSpeed": 1.24,
+  "footSpeed": 0.31,
+  "accents": [
+   0.133,
+   0.5,
+   0.8,
+   1.133,
+   1.933,
+   2.6
+  ],
+  "thumb": {
+   "Hips": [
+    0.0,
+    0.873
+   ],
+   "Spine1": [
+    -0.007,
+    0.922
+   ],
+   "Spine2": [
+    -0.016,
+    0.993
+   ],
+   "Chest": [
+    -0.018,
+    1.067
+   ],
+   "Neck1": [
+    0.02,
+    1.327
+   ],
+   "Neck2": [
+    0.03,
+    1.4
+   ],
+   "Head": [
+    0.037,
+    1.458
+   ],
+   "LeftShoulder": [
+    0.038,
+    1.296
+   ],
+   "LeftArm": [
+    0.173,
+    1.231
+   ],
+   "LeftForeArm": [
+    0.169,
+    0.944
+   ],
+   "LeftHand": [
+    0.315,
+    0.719
+   ],
+   "RightShoulder": [
+    0.008,
+    1.3
+   ],
+   "RightArm": [
+    -0.146,
+    1.338
+   ],
+   "RightForeArm": [
+    -0.24,
+    1.083
+   ],
+   "RightHand": [
+    -0.241,
+    0.887
+   ],
+   "LeftLeg": [
+    0.111,
+    0.803
+   ],
+   "LeftShin": [
+    0.303,
+    0.427
+   ],
+   "LeftFoot": [
+    0.336,
+    0.072
+   ],
+   "LeftToeBase": [
+    0.408,
+    0.039
+   ],
+   "RightLeg": [
+    -0.089,
+    0.777
+   ],
+   "RightShin": [
+    -0.281,
+    0.41
+   ],
+   "RightFoot": [
+    -0.256,
+    0.072
+   ],
+   "RightToeBase": [
+    -0.311,
+    0.043
+   ]
+  },
+  "tags": [
+   "創作ダンス",
+   "振り",
+   "グルーヴ",
+   "2小節",
+   "スクワット",
+   "しゃがみ",
+   "ワイドスタンス"
+  ],
+  "description": "創作ダンス向けの短い振り",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "193e2a839fed",
+  "name": "Creative Move 36",
+  "duration": 2.633,
+  "frames": 80,
+  "bars": 2,
+  "usage": "manual",
+  "sourceBpm": 182.3,
+  "category": "wave",
+  "energy": 2,
+  "travel": 0.73,
+  "turnDegrees": 14,
+  "handSpeed": 0.81,
+  "footSpeed": 0.19,
+  "accents": [
+   0.067,
+   0.5,
+   0.967,
+   1.3,
+   1.533,
+   1.933,
+   2.333
+  ],
+  "thumb": {
+   "Hips": [
+    0.0,
+    0.887
+   ],
+   "Spine1": [
+    0.011,
+    0.936
+   ],
+   "Spine2": [
+    0.029,
+    1.005
+   ],
+   "Chest": [
+    0.039,
+    1.075
+   ],
+   "Neck1": [
+    0.033,
+    1.332
+   ],
+   "Neck2": [
+    0.028,
+    1.406
+   ],
+   "Head": [
+    0.025,
+    1.462
+   ],
+   "LeftShoulder": [
+    0.049,
+    1.314
+   ],
+   "LeftArm": [
+    0.198,
+    1.319
+   ],
+   "LeftForeArm": [
+    0.363,
+    1.088
+   ],
+   "LeftHand": [
+    0.552,
+    1.217
+   ],
+   "RightShoulder": [
+    0.019,
+    1.312
+   ],
+   "RightArm": [
+    -0.114,
+    1.264
+   ],
+   "RightForeArm": [
+    -0.269,
+    1.022
+   ],
+   "RightHand": [
+    -0.451,
+    1.201
+   ],
+   "LeftLeg": [
+    0.08,
+    0.783
+   ],
+   "LeftShin": [
+    0.244,
+    0.391
+   ],
+   "LeftFoot": [
+    0.307,
+    0.07
+   ],
+   "LeftToeBase": [
+    0.374,
+    0.024
+   ],
+   "RightLeg": [
+    -0.116,
+    0.828
+   ],
+   "RightShin": [
+    -0.257,
+    0.431
+   ],
+   "RightFoot": [
+    -0.26,
+    0.081
+   ],
+   "RightToeBase": [
+    -0.293,
+    0.017
+   ]
+  },
+  "tags": [
+   "創作ダンス",
+   "振り",
+   "ウェーブ",
+   "2小節",
+   "スクワット",
+   "しゃがみ",
+   "ワイドスタンス"
+  ],
+  "description": "創作ダンス向けの短い振り",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "5bd571e9e63f",
+  "name": "Creative Move 37",
+  "duration": 3.0,
+  "frames": 91,
+  "bars": 2,
+  "usage": "manual",
+  "sourceBpm": 160.0,
+  "category": "power",
+  "energy": 5,
+  "travel": 1.36,
+  "turnDegrees": 33,
+  "handSpeed": 2.71,
+  "footSpeed": 1.31,
+  "accents": [
+   0.167,
+   0.433,
+   0.7,
+   1.2,
+   1.667,
+   2.033,
+   2.367
+  ],
+  "thumb": {
+   "Hips": [
+    0.0,
+    0.943
+   ],
+   "Spine1": [
+    -0.001,
+    0.992
+   ],
+   "Spine2": [
+    0.007,
+    1.056
+   ],
+   "Chest": [
+    0.017,
+    1.128
+   ],
+   "Neck1": [
+    0.066,
+    1.367
+   ],
+   "Neck2": [
+    0.073,
+    1.433
+   ],
+   "Head": [
+    0.064,
+    1.488
+   ],
+   "LeftShoulder": [
+    0.09,
+    1.314
+   ],
+   "LeftArm": [
+    0.235,
+    1.296
+   ],
+   "LeftForeArm": [
+    0.206,
+    1.011
+   ],
+   "LeftHand": [
+    0.144,
+    0.763
+   ],
+   "RightShoulder": [
+    0.061,
+    1.315
+   ],
+   "RightArm": [
+    -0.088,
+    1.33
+   ],
+   "RightForeArm": [
+    -0.07,
+    1.055
+   ],
+   "RightHand": [
+    -0.067,
+    0.796
+   ],
+   "LeftLeg": [
+    0.101,
+    0.856
+   ],
+   "LeftShin": [
+    0.036,
+    0.484
+   ],
+   "LeftFoot": [
+    0.021,
+    0.068
+   ],
+   "LeftToeBase": [
+    0.012,
+    0.042
+   ],
+   "RightLeg": [
+    -0.1,
+    0.855
+   ],
+   "RightShin": [
+    -0.036,
+    0.446
+   ],
+   "RightFoot": [
+    0.08,
+    0.283
+   ],
+   "RightToeBase": [
+    0.085,
+    0.151
+   ]
+  },
+  "tags": [
+   "創作ダンス",
+   "振り",
+   "パワー",
+   "2小節",
+   "ジャンプ",
+   "スクワット",
+   "しゃがみ",
+   "ワイドスタンス"
+  ],
+  "description": "創作ダンス向けの短い振り",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "4b1b0178a79e",
+  "name": "Creative Move 38",
+  "duration": 2.7,
+  "frames": 82,
+  "bars": 2,
+  "usage": "manual",
+  "sourceBpm": 177.8,
+  "category": "power",
+  "energy": 5,
+  "travel": 1.95,
+  "turnDegrees": 77,
+  "handSpeed": 2.14,
+  "footSpeed": 0.71,
+  "accents": [
+   0.2,
+   0.567,
+   0.867,
+   1.833,
+   2.067,
+   2.333
+  ],
+  "thumb": {
+   "Hips": [
+    0.0,
+    0.954
+   ],
+   "Spine1": [
+    -0.002,
+    1.003
+   ],
+   "Spine2": [
+    -0.003,
+    1.073
+   ],
+   "Chest": [
+    0.005,
+    1.148
+   ],
+   "Neck1": [
+    0.064,
+    1.404
+   ],
+   "Neck2": [
+    0.088,
+    1.473
+   ],
+   "Head": [
+    0.114,
+    1.524
+   ],
+   "LeftShoulder": [
+    0.078,
+    1.372
+   ],
+   "LeftArm": [
+    0.236,
+    1.36
+   ],
+   "LeftForeArm": [
+    0.267,
+    1.373
+   ],
+   "LeftHand": [
+    0.187,
+    1.458
+   ],
+   "RightShoulder": [
+    0.048,
+    1.378
+   ],
+   "RightArm": [
+    -0.089,
+    1.46
+   ],
+   "RightForeArm": [
+    -0.004,
+    1.414
+   ],
+   "RightHand": [
+    0.182,
+    1.347
+   ],
+   "LeftLeg": [
+    0.103,
+    0.87
+   ],
+   "LeftShin": [
+    0.256,
+    0.466
+   ],
+   "LeftFoot": [
+    0.366,
+    0.106
+   ],
+   "LeftToeBase": [
+    0.464,
+    0.057
+   ],
+   "RightLeg": [
+    -0.098,
+    0.865
+   ],
+   "RightShin": [
+    -0.2,
+    0.458
+   ],
+   "RightFoot": [
+    -0.34,
+    0.068
+   ],
+   "RightToeBase": [
+    -0.335,
+    0.028
+   ]
+  },
+  "tags": [
+   "創作ダンス",
+   "振り",
+   "パワー",
+   "2小節",
+   "スクワット",
+   "しゃがみ",
+   "ワイドスタンス"
+  ],
+  "description": "創作ダンス向けの短い振り",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "14f0d4a17ddd",
+  "name": "Creative Move 39",
+  "duration": 4.1,
+  "frames": 124,
+  "bars": 2,
+  "usage": "auto",
+  "sourceBpm": 117.1,
+  "category": "groove",
+  "energy": 3,
+  "travel": 1.64,
+  "turnDegrees": 85,
+  "handSpeed": 1.12,
+  "footSpeed": 0.6,
+  "accents": [
+   0.233,
+   0.833,
+   1.2,
+   1.533,
+   2.033,
+   2.333,
+   2.833,
+   3.133,
+   3.6,
+   3.867
+  ],
+  "thumb": {
+   "Hips": [
+    0.0,
+    0.94
+   ],
+   "Spine1": [
+    -0.005,
+    0.99
+   ],
+   "Spine2": [
+    -0.009,
+    1.06
+   ],
+   "Chest": [
+    -0.006,
+    1.135
+   ],
+   "Neck1": [
+    0.033,
+    1.395
+   ],
+   "Neck2": [
+    0.043,
+    1.459
+   ],
+   "Head": [
+    0.043,
+    1.51
+   ],
+   "LeftShoulder": [
+    0.054,
+    1.359
+   ],
+   "LeftArm": [
+    0.198,
+    1.333
+   ],
+   "LeftForeArm": [
+    0.195,
+    1.087
+   ],
+   "LeftHand": [
+    0.175,
+    1.327
+   ],
+   "RightShoulder": [
+    0.024,
+    1.363
+   ],
+   "RightArm": [
+    -0.13,
+    1.406
+   ],
+   "RightForeArm": [
+    -0.144,
+    1.162
+   ],
+   "RightHand": [
+    -0.042,
+    1.324
+   ],
+   "LeftLeg": [
+    0.108,
+    0.864
+   ],
+   "LeftShin": [
+    0.249,
+    0.469
+   ],
+   "LeftFoot": [
+    0.329,
+    0.097
+   ],
+   "LeftToeBase": [
+    0.37,
+    0.039
+   ],
+   "RightLeg": [
+    -0.092,
+    0.846
+   ],
+   "RightShin": [
+    -0.18,
+    0.429
+   ],
+   "RightFoot": [
+    -0.159,
+    0.068
+   ],
+   "RightToeBase": [
+    -0.209,
+    0.025
+   ]
+  },
+  "tags": [
+   "創作ダンス",
+   "振り",
+   "グルーヴ",
+   "2小節",
+   "スクワット",
+   "しゃがみ",
+   "ワイドスタンス"
+  ],
+  "description": "創作ダンス向けの短い振り",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "92ff4b027ac6",
+  "name": "Creative Move 40",
+  "duration": 1.7,
+  "frames": 52,
+  "bars": 1,
+  "usage": "manual",
+  "sourceBpm": 141.2,
+  "category": "groove",
+  "energy": 2,
+  "travel": 0.45,
+  "turnDegrees": 40,
+  "handSpeed": 0.65,
+  "footSpeed": 0.39,
+  "accents": [
+   0.533,
+   1.3
+  ],
+  "thumb": {
+   "Hips": [
+    0.0,
+    1.0
+   ],
+   "Spine1": [
+    0.003,
+    1.05
+   ],
+   "Spine2": [
+    0.01,
+    1.12
+   ],
+   "Chest": [
+    0.015,
+    1.194
+   ],
+   "Neck1": [
+    0.022,
+    1.456
+   ],
+   "Neck2": [
+    0.028,
+    1.527
+   ],
+   "Head": [
+    0.032,
+    1.581
+   ],
+   "LeftShoulder": [
+    0.048,
+    1.429
+   ],
+   "LeftArm": [
+    0.201,
+    1.432
+   ],
+   "LeftForeArm": [
+    0.199,
+    1.202
+   ],
+   "LeftHand": [
+    -0.065,
+    1.235
+   ],
+   "RightShoulder": [
+    0.018,
+    1.43
+   ],
+   "RightArm": [
+    -0.141,
+    1.451
+   ],
+   "RightForeArm": [
+    -0.121,
+    1.227
+   ],
+   "RightHand": [
+    0.145,
+    1.176
+   ],
+   "LeftLeg": [
+    0.095,
+    0.909
+   ],
+   "LeftShin": [
+    0.047,
+    0.502
+   ],
+   "LeftFoot": [
+    0.071,
+    0.135
+   ],
+   "LeftToeBase": [
+    0.077,
+    0.055
+   ],
+   "RightLeg": [
+    -0.106,
+    0.923
+   ],
+   "RightShin": [
+    -0.072,
+    0.491
+   ],
+   "RightFoot": [
+    -0.039,
+    0.08
+   ],
+   "RightToeBase": [
+    -0.028,
+    0.027
+   ]
+  },
+  "tags": [
+   "創作ダンス",
+   "振り",
+   "グルーヴ",
+   "1小節"
+  ],
+  "description": "創作ダンス向けの短い振り",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "c310fc9de159",
+  "name": "Creative Move 41",
+  "duration": 2.667,
+  "frames": 81,
+  "bars": 2,
+  "usage": "manual",
+  "sourceBpm": 180.0,
+  "category": "wave",
+  "energy": 3,
+  "travel": 0.66,
+  "turnDegrees": 37,
+  "handSpeed": 1.08,
+  "footSpeed": 0.35,
+  "accents": [
+   0.167,
+   0.6,
+   1.2,
+   1.467,
+   1.7
+  ],
+  "thumb": {
+   "Hips": [
+    0.0,
+    0.948
+   ],
+   "Spine1": [
+    -0.004,
+    0.998
+   ],
+   "Spine2": [
+    -0.015,
+    1.066
+   ],
+   "Chest": [
+    -0.022,
+    1.141
+   ],
+   "Neck1": [
+    -0.026,
+    1.403
+   ],
+   "Neck2": [
+    -0.012,
+    1.477
+   ],
+   "Head": [
+    0.007,
+    1.533
+   ],
+   "LeftShoulder": [
+    -0.001,
+    1.377
+   ],
+   "LeftArm": [
+    0.137,
+    1.36
+   ],
+   "LeftForeArm": [
+    0.378,
+    1.207
+   ],
+   "LeftHand": [
+    0.34,
+    1.436
+   ],
+   "RightShoulder": [
+    -0.03,
+    1.377
+   ],
+   "RightArm": [
+    -0.182,
+    1.405
+   ],
+   "RightForeArm": [
+    -0.446,
+    1.435
+   ],
+   "RightHand": [
+    -0.658,
+    1.527
+   ],
+   "LeftLeg": [
+    0.107,
+    0.87
+   ],
+   "LeftShin": [
+    0.141,
+    0.439
+   ],
+   "LeftFoot": [
+    0.063,
+    0.081
+   ],
+   "LeftToeBase": [
+    0.12,
+    0.025
+   ],
+   "RightLeg": [
+    -0.093,
+    0.855
+   ],
+   "RightShin": [
+    -0.228,
+    0.531
+   ],
+   "RightFoot": [
+    -0.291,
+    0.12
+   ],
+   "RightToeBase": [
+    -0.313,
+    0.054
+   ]
+  },
+  "tags": [
+   "創作ダンス",
+   "振り",
+   "ウェーブ",
+   "2小節",
+   "ワイドスタンス"
+  ],
+  "description": "創作ダンス向けの短い振り",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "29df13845104",
+  "name": "Creative Move 42",
+  "duration": 2.767,
+  "frames": 84,
+  "bars": 2,
+  "usage": "manual",
+  "sourceBpm": 173.5,
+  "category": "power",
+  "energy": 5,
+  "travel": 0.85,
+  "turnDegrees": 80,
+  "handSpeed": 2.14,
+  "footSpeed": 1.18,
+  "accents": [
+   0.5,
+   1.033,
+   1.3,
+   1.667,
+   2.033,
+   2.4
+  ],
+  "thumb": {
+   "Hips": [
+    0.0,
+    1.04
+   ],
+   "Spine1": [
+    0.002,
+    1.089
+   ],
+   "Spine2": [
+    0.008,
+    1.158
+   ],
+   "Chest": [
+    0.014,
+    1.233
+   ],
+   "Neck1": [
+    0.025,
+    1.496
+   ],
+   "Neck2": [
+    0.018,
+    1.571
+   ],
+   "Head": [
+    -0.001,
+    1.628
+   ],
+   "LeftShoulder": [
+    0.05,
+    1.465
+   ],
+   "LeftArm": [
+    0.19,
+    1.456
+   ],
+   "LeftForeArm": [
+    0.298,
+    1.19
+   ],
+   "LeftHand": [
+    0.227,
+    1.308
+   ],
+   "RightShoulder": [
+    0.02,
+    1.466
+   ],
+   "RightArm": [
+    -0.138,
+    1.472
+   ],
+   "RightForeArm": [
+    -0.346,
+    1.276
+   ],
+   "RightHand": [
+    -0.559,
+    1.109
+   ],
+   "LeftLeg": [
+    0.096,
+    0.948
+   ],
+   "LeftShin": [
+    0.028,
+    0.527
+   ],
+   "LeftFoot": [
+    0.042,
+    0.123
+   ],
+   "LeftToeBase": [
+    -0.002,
+    0.067
+   ],
+   "RightLeg": [
+    -0.104,
+    0.959
+   ],
+   "RightShin": [
+    -0.103,
+    0.529
+   ],
+   "RightFoot": [
+    -0.0,
+    0.31
+   ],
+   "RightToeBase": [
+    -0.002,
+    0.174
+   ]
+  },
+  "tags": [
+   "創作ダンス",
+   "振り",
+   "パワー",
+   "2小節",
+   "足上げ"
+  ],
+  "description": "創作ダンス向けの短い振り",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "dfeb1fd94a8f",
+  "name": "Creative Move 43",
+  "duration": 4.267,
+  "frames": 129,
+  "bars": 2,
+  "usage": "auto",
+  "sourceBpm": 112.5,
+  "category": "groove",
+  "energy": 2,
+  "travel": 1.11,
+  "turnDegrees": 62,
+  "handSpeed": 0.48,
+  "footSpeed": 0.21,
+  "accents": [
+   0.167,
+   0.567,
+   0.767,
+   1.267,
+   1.7,
+   2.1,
+   2.467,
+   2.7
+  ],
+  "thumb": {
+   "Hips": [
+    0.0,
+    0.89
+   ],
+   "Spine1": [
+    0.015,
+    0.938
+   ],
+   "Spine2": [
+    0.04,
+    1.002
+   ],
+   "Chest": [
+    0.061,
+    1.075
+   ],
+   "Neck1": [
+    0.081,
+    1.335
+   ],
+   "Neck2": [
+    0.064,
+    1.413
+   ],
+   "Head": [
+    0.039,
+    1.472
+   ],
+   "LeftShoulder": [
+    0.082,
+    1.31
+   ],
+   "LeftArm": [
+    0.239,
+    1.315
+   ],
+   "LeftForeArm": [
+    0.392,
+    1.082
+   ],
+   "LeftHand": [
+    0.552,
+    1.217
+   ],
+   "RightShoulder": [
+    0.053,
+    1.311
+   ],
+   "RightArm": [
+    -0.066,
+    1.265
+   ],
+   "RightForeArm": [
+    -0.192,
+    1.007
+   ],
+   "RightHand": [
+    -0.439,
+    1.118
+   ],
+   "LeftLeg": [
+    0.07,
+    0.778
+   ],
+   "LeftShin": [
+    0.228,
+    0.513
+   ],
+   "LeftFoot": [
+    0.171,
+    0.107
+   ],
+   "LeftToeBase": [
+    0.267,
+    0.048
+   ],
+   "RightLeg": [
+    -0.121,
+    0.839
+   ],
+   "RightShin": [
+    -0.237,
+    0.463
+   ],
+   "RightFoot": [
+    -0.159,
+    0.077
+   ],
+   "RightToeBase": [
+    -0.203,
+    0.018
+   ]
+  },
+  "tags": [
+   "創作ダンス",
+   "振り",
+   "グルーヴ",
+   "2小節",
+   "バウンス",
+   "ワイドスタンス"
+  ],
+  "description": "創作ダンス向けの短い振り",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "e184b8ea380f",
+  "name": "Creative Move 44",
+  "duration": 2.2,
+  "frames": 67,
+  "bars": 1,
+  "usage": "manual",
+  "sourceBpm": 109.1,
+  "category": "pose",
+  "energy": 1,
+  "travel": 0.11,
+  "turnDegrees": 3,
+  "handSpeed": 0.34,
+  "footSpeed": 0.1,
+  "accents": [
+   0.067,
+   0.333,
+   0.733,
+   1.167,
+   1.8
+  ],
+  "thumb": {
+   "Hips": [
+    0.0,
+    0.987
+   ],
+   "Spine1": [
+    0.002,
+    1.036
+   ],
+   "Spine2": [
+    0.009,
+    1.106
+   ],
+   "Chest": [
+    0.019,
+    1.181
+   ],
+   "Neck1": [
+    0.06,
+    1.441
+   ],
+   "Neck2": [
+    0.07,
+    1.511
+   ],
+   "Head": [
+    0.078,
+    1.566
+   ],
+   "LeftShoulder": [
+    0.076,
+    1.407
+   ],
+   "LeftArm": [
+    0.222,
+    1.377
+   ],
+   "LeftForeArm": [
+    0.245,
+    1.099
+   ],
+   "LeftHand": [
+    0.182,
+    0.908
+   ],
+   "RightShoulder": [
+    0.046,
+    1.411
+   ],
+   "RightArm": [
+    -0.11,
+    1.429
+   ],
+   "RightForeArm": [
+    -0.189,
+    1.242
+   ],
+   "RightHand": [
+    -0.077,
+    1.484
+   ],
+   "LeftLeg": [
+    0.096,
+    0.894
+   ],
+   "LeftShin": [
+    0.066,
+    0.472
+   ],
+   "LeftFoot": [
+    0.042,
+    0.069
+   ],
+   "LeftToeBase": [
+    0.052,
+    0.058
+   ],
+   "RightLeg": [
+    -0.105,
+    0.906
+   ],
+   "RightShin": [
+    -0.095,
+    0.484
+   ],
+   "RightFoot": [
+    -0.089,
+    0.083
+   ],
+   "RightToeBase": [
+    -0.103,
+    0.062
+   ]
+  },
+  "tags": [
+   "創作ダンス",
+   "振り",
+   "ポーズ",
+   "1小節"
+  ],
+  "description": "創作ダンス向けの短い振り",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "6a57995be48c",
+  "name": "Creative Move 45",
+  "duration": 1.467,
+  "frames": 45,
+  "bars": 1,
+  "usage": "manual",
+  "sourceBpm": 163.6,
+  "category": "groove",
+  "energy": 3,
+  "travel": 0.47,
+  "turnDegrees": 4,
+  "handSpeed": 0.76,
+  "footSpeed": 0.67,
+  "accents": [
+   0.167,
+   1.0,
+   1.333
+  ],
+  "thumb": {
+   "Hips": [
+    0.0,
+    1.5
+   ],
+   "Spine1": [
+    0.0,
+    1.548
+   ],
+   "Spine2": [
+    0.0,
+    1.615
+   ],
+   "Chest": [
+    0.0,
+    1.69
+   ],
+   "Neck1": [
+    -0.01,
+    1.95
+   ],
+   "Neck2": [
+    -0.004,
+    2.008
+   ],
+   "Head": [
+    0.001,
+    2.054
+   ],
+   "LeftShoulder": [
+    0.009,
+    1.91
+   ],
+   "LeftArm": [
+    0.16,
+    1.929
+   ],
+   "LeftForeArm": [
+    0.366,
+    1.763
+   ],
+   "LeftHand": [
+    0.242,
+    1.951
+   ],
+   "RightShoulder": [
+    -0.021,
+    1.908
+   ],
+   "RightArm": [
+    -0.17,
+    1.915
+   ],
+   "RightForeArm": [
+    -0.271,
+    1.67
+   ],
+   "RightHand": [
+    -0.258,
+    1.477
+   ],
+   "LeftLeg": [
+    0.1,
+    1.412
+   ],
+   "LeftShin": [
+    0.082,
+    0.999
+   ],
+   "LeftFoot": [
+    0.061,
+    0.619
+   ],
+   "LeftToeBase": [
+    0.085,
+    0.54
+   ],
+   "RightLeg": [
+    -0.101,
+    1.414
+   ],
+   "RightShin": [
+    -0.069,
+    0.999
+   ],
+   "RightFoot": [
+    -0.045,
+    0.615
+   ],
+   "RightToeBase": [
+    -0.062,
+    0.536
+   ]
+  },
+  "tags": [
+   "創作ダンス",
+   "振り",
+   "グルーヴ",
+   "1小節",
+   "ジャンプ"
+  ],
+  "description": "創作ダンス向けの短い振り",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "c9a513a19e7a",
+  "name": "Creative Move 46",
+  "duration": 1.9,
+  "frames": 58,
+  "bars": 1,
+  "usage": "manual",
+  "sourceBpm": 126.3,
+  "category": "foot",
+  "energy": 3,
+  "travel": 1.66,
+  "turnDegrees": 8,
+  "handSpeed": 0.98,
+  "footSpeed": 0.85,
+  "accents": [
+   0.3,
+   1.0,
+   1.767
+  ],
+  "thumb": {
+   "Hips": [
+    0.0,
+    0.959
+   ],
+   "Spine1": [
+    0.002,
+    1.009
+   ],
+   "Spine2": [
+    -0.001,
+    1.078
+   ],
+   "Chest": [
+    0.0,
+    1.153
+   ],
+   "Neck1": [
+    0.009,
+    1.41
+   ],
+   "Neck2": [
+    0.014,
+    1.485
+   ],
+   "Head": [
+    0.02,
+    1.548
+   ],
+   "LeftShoulder": [
+    0.022,
+    1.366
+   ],
+   "LeftArm": [
+    0.17,
+    1.341
+   ],
+   "LeftForeArm": [
+    0.191,
+    1.058
+   ],
+   "LeftHand": [
+    0.23,
+    0.79
+   ],
+   "RightShoulder": [
+    -0.008,
+    1.367
+   ],
+   "RightArm": [
+    -0.154,
+    1.358
+   ],
+   "RightForeArm": [
+    -0.168,
+    1.073
+   ],
+   "RightHand": [
+    -0.203,
+    0.813
+   ],
+   "LeftLeg": [
+    0.097,
+    0.87
+   ],
+   "LeftShin": [
+    0.013,
+    0.457
+   ],
+   "LeftFoot": [
+    -0.04,
+    0.122
+   ],
+   "LeftToeBase": [
+    -0.045,
+    0.027
+   ],
+   "RightLeg": [
+    -0.103,
+    0.879
+   ],
+   "RightShin": [
+    -0.082,
+    0.472
+   ],
+   "RightFoot": [
+    -0.052,
+    0.129
+   ],
+   "RightToeBase": [
+    -0.031,
+    0.05
+   ]
+  },
+  "tags": [
+   "創作ダンス",
+   "振り",
+   "足技",
+   "1小節",
+   "バウンス"
+  ],
+  "description": "創作ダンス向けの短い振り",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "1b6be291b8b2",
+  "name": "Finish Pose 01",
+  "duration": 1.1,
+  "frames": 34,
+  "bars": 1,
+  "usage": "manual",
+  "sourceBpm": 218.2,
+  "category": "pose",
+  "energy": 3,
+  "travel": 0.24,
+  "turnDegrees": 14,
+  "handSpeed": 1.31,
+  "footSpeed": 0.31,
+  "accents": [
+   0.1,
+   0.767
+  ],
+  "thumb": {
+   "Hips": [
+    0.0,
+    0.448
+   ],
+   "Spine1": [
+    0.001,
+    0.498
+   ],
+   "Spine2": [
+    -0.003,
+    0.567
+   ],
+   "Chest": [
+    -0.004,
+    0.643
+   ],
+   "Neck1": [
+    0.002,
+    0.906
+   ],
+   "Neck2": [
+    0.015,
+    0.982
+   ],
+   "Head": [
+    0.046,
+    1.038
+   ],
+   "LeftShoulder": [
+    0.02,
+    0.872
+   ],
+   "LeftArm": [
+    0.178,
+    0.88
+   ],
+   "LeftForeArm": [
+    0.193,
+    0.639
+   ],
+   "LeftHand": [
+    -0.015,
+    0.504
+   ],
+   "RightShoulder": [
+    -0.01,
+    0.872
+   ],
+   "RightArm": [
+    -0.156,
+    0.92
+   ],
+   "RightForeArm": [
+    -0.263,
+    1.098
+   ],
+   "RightHand": [
+    -0.097,
+    1.084
+   ],
+   "LeftLeg": [
+    0.098,
+    0.362
+   ],
+   "LeftShin": [
+    0.103,
+    0.06
+   ],
+   "LeftFoot": [
+    0.027,
+    0.182
+   ],
+   "LeftToeBase": [
+    -0.035,
+    0.066
+   ],
+   "RightLeg": [
+    -0.102,
+    0.368
+   ],
+   "RightShin": [
+    -0.003,
+    0.323
+   ],
+   "RightFoot": [
+    -0.067,
+    0.177
+   ],
+   "RightToeBase": [
+    -0.032,
+    0.044
+   ]
+  },
+  "tags": [
+   "決めポーズ",
+   "キメ",
+   "ポーズ",
+   "1小節",
+   "スクワット",
+   "しゃがみ"
+  ],
+  "description": "曲の終わりや区切りに使う決めポーズ",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "dd7698ab408a",
+  "name": "Finish Pose 02",
+  "duration": 1.233,
+  "frames": 38,
+  "bars": 1,
+  "usage": "manual",
+  "sourceBpm": 194.6,
+  "category": "pose",
+  "energy": 2,
+  "travel": 0.21,
+  "turnDegrees": 63,
+  "handSpeed": 0.91,
+  "footSpeed": 0.09,
+  "accents": [
+   0.433,
+   0.667
+  ],
+  "thumb": {
+   "Hips": [
+    0.0,
+    0.982
+   ],
+   "Spine1": [
+    -0.004,
+    1.032
+   ],
+   "Spine2": [
+    -0.011,
+    1.102
+   ],
+   "Chest": [
+    -0.02,
+    1.17
+   ],
+   "Neck1": [
+    -0.04,
+    1.421
+   ],
+   "Neck2": [
+    -0.031,
+    1.501
+   ],
+   "Head": [
+    -0.0,
+    1.556
+   ],
+   "LeftShoulder": [
+    0.002,
+    1.406
+   ],
+   "LeftArm": [
+    0.152,
+    1.399
+   ],
+   "LeftForeArm": [
+    0.172,
+    1.112
+   ],
+   "LeftHand": [
+    -0.023,
+    0.925
+   ],
+   "RightShoulder": [
+    -0.025,
+    1.407
+   ],
+   "RightArm": [
+    -0.185,
+    1.418
+   ],
+   "RightForeArm": [
+    -0.178,
+    1.194
+   ],
+   "RightHand": [
+    0.072,
+    1.112
+   ],
+   "LeftLeg": [
+    0.106,
+    0.907
+   ],
+   "LeftShin": [
+    0.127,
+    0.492
+   ],
+   "LeftFoot": [
+    0.215,
+    0.079
+   ],
+   "LeftToeBase": [
+    0.156,
+    0.017
+   ],
+   "RightLeg": [
+    -0.095,
+    0.895
+   ],
+   "RightShin": [
+    -0.088,
+    0.463
+   ],
+   "RightFoot": [
+    -0.067,
+    0.08
+   ],
+   "RightToeBase": [
+    -0.112,
+    0.018
+   ]
+  },
+  "tags": [
+   "決めポーズ",
+   "キメ",
+   "ポーズ",
+   "1小節"
+  ],
+  "description": "曲の終わりや区切りに使う決めポーズ",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "519591b66691",
+  "name": "Finish Pose 03",
+  "duration": 1.433,
+  "frames": 44,
+  "bars": 1,
+  "usage": "manual",
+  "sourceBpm": 167.4,
+  "category": "pose",
+  "energy": 4,
+  "travel": 0.37,
+  "turnDegrees": 128,
+  "handSpeed": 1.29,
+  "footSpeed": 0.54,
+  "accents": [
+   0.267,
+   0.6
+  ],
+  "thumb": {
+   "Hips": [
+    0.0,
+    1.005
+   ],
+   "Spine1": [
+    -0.0,
+    1.054
+   ],
+   "Spine2": [
+    -0.0,
+    1.124
+   ],
+   "Chest": [
+    0.005,
+    1.2
+   ],
+   "Neck1": [
+    0.021,
+    1.462
+   ],
+   "Neck2": [
+    0.027,
+    1.536
+   ],
+   "Head": [
+    0.036,
+    1.594
+   ],
+   "LeftShoulder": [
+    0.031,
+    1.428
+   ],
+   "LeftArm": [
+    0.189,
+    1.417
+   ],
+   "LeftForeArm": [
+    0.125,
+    1.23
+   ],
+   "LeftHand": [
+    0.064,
+    1.094
+   ],
+   "RightShoulder": [
+    0.001,
+    1.43
+   ],
+   "RightArm": [
+    -0.146,
+    1.432
+   ],
+   "RightForeArm": [
+    -0.202,
+    1.153
+   ],
+   "RightHand": [
+    -0.245,
+    0.895
+   ],
+   "LeftLeg": [
+    0.1,
+    0.918
+   ],
+   "LeftShin": [
+    0.088,
+    0.487
+   ],
+   "LeftFoot": [
+    0.084,
+    0.07
+   ],
+   "LeftToeBase": [
+    0.083,
+    0.022
+   ],
+   "RightLeg": [
+    -0.1,
+    0.919
+   ],
+   "RightShin": [
+    -0.079,
+    0.488
+   ],
+   "RightFoot": [
+    -0.089,
+    0.073
+   ],
+   "RightToeBase": [
+    -0.067,
+    0.017
+   ]
+  },
+  "tags": [
+   "決めポーズ",
+   "キメ",
+   "ポーズ",
+   "1小節",
+   "足上げ"
+  ],
+  "description": "曲の終わりや区切りに使う決めポーズ",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "aaece433e7fb",
+  "name": "Finish Pose 04",
+  "duration": 1.4,
+  "frames": 43,
+  "bars": 1,
+  "usage": "manual",
+  "sourceBpm": 171.4,
+  "category": "pose",
+  "energy": 3,
+  "travel": 0.15,
+  "turnDegrees": 8,
+  "handSpeed": 1.03,
+  "footSpeed": 0.14,
+  "accents": [
+   0.233,
+   0.533,
+   0.8
+  ],
+  "thumb": {
+   "Hips": [
+    0.0,
+    0.337
+   ],
+   "Spine1": [
+    -0.001,
+    0.386
+   ],
+   "Spine2": [
+    -0.004,
+    0.456
+   ],
+   "Chest": [
+    -0.005,
+    0.527
+   ],
+   "Neck1": [
+    -0.0,
+    0.752
+   ],
+   "Neck2": [
+    0.016,
+    0.819
+   ],
+   "Head": [
+    0.038,
+    0.874
+   ],
+   "LeftShoulder": [
+    0.021,
+    0.696
+   ],
+   "LeftArm": [
+    0.18,
+    0.708
+   ],
+   "LeftForeArm": [
+    0.14,
+    0.489
+   ],
+   "LeftHand": [
+    -0.119,
+    0.513
+   ],
+   "RightShoulder": [
+    -0.009,
+    0.695
+   ],
+   "RightArm": [
+    -0.167,
+    0.708
+   ],
+   "RightForeArm": [
+    -0.103,
+    0.47
+   ],
+   "RightHand": [
+    -0.329,
+    0.332
+   ],
+   "LeftLeg": [
+    0.102,
+    0.256
+   ],
+   "LeftShin": [
+    0.101,
+    0.37
+   ],
+   "LeftFoot": [
+    0.078,
+    0.095
+   ],
+   "LeftToeBase": [
+    0.103,
+    0.025
+   ],
+   "RightLeg": [
+    -0.099,
+    0.253
+   ],
+   "RightShin": [
+    -0.118,
+    0.386
+   ],
+   "RightFoot": [
+    -0.097,
+    0.105
+   ],
+   "RightToeBase": [
+    -0.089,
+    0.025
+   ]
+  },
+  "tags": [
+   "決めポーズ",
+   "キメ",
+   "ポーズ",
+   "1小節",
+   "スクワット",
+   "しゃがみ"
+  ],
+  "description": "曲の終わりや区切りに使う決めポーズ",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "30b489b54baa",
+  "name": "Finish Pose 05",
+  "duration": 1.167,
+  "frames": 36,
+  "bars": 1,
+  "usage": "manual",
+  "sourceBpm": 205.7,
+  "category": "pose",
+  "energy": 2,
+  "travel": 0.18,
+  "turnDegrees": 4,
+  "handSpeed": 0.53,
+  "footSpeed": 0.31,
+  "accents": [
+   0.133,
+   0.367,
+   0.8
+  ],
+  "thumb": {
+   "Hips": [
+    0.0,
+    1.001
+   ],
+   "Spine1": [
+    -0.003,
+    1.051
+   ],
+   "Spine2": [
+    0.001,
+    1.122
+   ],
+   "Chest": [
+    0.01,
+    1.195
+   ],
+   "Neck1": [
+    0.074,
+    1.445
+   ],
+   "Neck2": [
+    0.089,
+    1.52
+   ],
+   "Head": [
+    0.103,
+    1.579
+   ],
+   "LeftShoulder": [
+    0.099,
+    1.416
+   ],
+   "LeftArm": [
+    0.212,
+    1.342
+   ],
+   "LeftForeArm": [
+    0.159,
+    1.06
+   ],
+   "LeftHand": [
+    0.135,
+    0.79
+   ],
+   "RightShoulder": [
+    0.071,
+    1.425
+   ],
+   "RightArm": [
+    -0.075,
+    1.491
+   ],
+   "RightForeArm": [
+    0.023,
+    1.559
+   ],
+   "RightHand": [
+    0.181,
+    1.68
+   ],
+   "LeftLeg": [
+    0.106,
+    0.925
+   ],
+   "LeftShin": [
+    0.037,
+    0.639
+   ],
+   "LeftFoot": [
+    0.081,
+    0.626
+   ],
+   "LeftToeBase": [
+    0.065,
+    0.496
+   ],
+   "RightLeg": [
+    -0.095,
+    0.913
+   ],
+   "RightShin": [
+    0.014,
+    0.494
+   ],
+   "RightFoot": [
+    0.133,
+    0.094
+   ],
+   "RightToeBase": [
+    0.108,
+    0.017
+   ]
+  },
+  "tags": [
+   "決めポーズ",
+   "キメ",
+   "ポーズ",
+   "1小節",
+   "足上げ"
+  ],
+  "description": "曲の終わりや区切りに使う決めポーズ",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "4789032a504b",
+  "name": "Finish Pose 06",
+  "duration": 1.4,
+  "frames": 43,
+  "bars": 1,
+  "usage": "manual",
+  "sourceBpm": 171.4,
+  "category": "pose",
+  "energy": 1,
+  "travel": 0.19,
+  "turnDegrees": 10,
+  "handSpeed": 0.45,
+  "footSpeed": 0.09,
+  "accents": [
+   0.133,
+   0.4,
+   1.033
+  ],
+  "thumb": {
+   "Hips": [
+    0.0,
+    0.966
+   ],
+   "Spine1": [
+    -0.006,
+    1.015
+   ],
+   "Spine2": [
+    -0.021,
+    1.083
+   ],
+   "Chest": [
+    -0.03,
+    1.159
+   ],
+   "Neck1": [
+    -0.024,
+    1.421
+   ],
+   "Neck2": [
+    -0.018,
+    1.484
+   ],
+   "Head": [
+    -0.014,
+    1.531
+   ],
+   "LeftShoulder": [
+    -0.007,
+    1.384
+   ],
+   "LeftArm": [
+    0.149,
+    1.376
+   ],
+   "LeftForeArm": [
+    0.103,
+    1.141
+   ],
+   "LeftHand": [
+    0.151,
+    1.375
+   ],
+   "RightShoulder": [
+    -0.037,
+    1.385
+   ],
+   "RightArm": [
+    -0.192,
+    1.426
+   ],
+   "RightForeArm": [
+    -0.165,
+    1.359
+   ],
+   "RightHand": [
+    -0.069,
+    1.315
+   ],
+   "LeftLeg": [
+    0.111,
+    0.893
+   ],
+   "LeftShin": [
+    0.159,
+    0.464
+   ],
+   "LeftFoot": [
+    0.19,
+    0.085
+   ],
+   "LeftToeBase": [
+    0.169,
+    0.017
+   ],
+   "RightLeg": [
+    -0.089,
+    0.869
+   ],
+   "RightShin": [
+    -0.195,
+    0.449
+   ],
+   "RightFoot": [
+    -0.371,
+    0.088
+   ],
+   "RightToeBase": [
+    -0.324,
+    0.027
+   ]
+  },
+  "tags": [
+   "決めポーズ",
+   "キメ",
+   "ポーズ",
+   "1小節",
+   "ワイドスタンス"
+  ],
+  "description": "曲の終わりや区切りに使う決めポーズ",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "7147c415d5bd",
+  "name": "Finish Pose 07",
+  "duration": 1.1,
+  "frames": 34,
+  "bars": 1,
+  "usage": "manual",
+  "sourceBpm": 218.2,
+  "category": "pose",
+  "energy": 2,
+  "travel": 0.2,
+  "turnDegrees": 5,
+  "handSpeed": 0.8,
+  "footSpeed": 0.13,
+  "accents": [
+   0.367
+  ],
+  "thumb": {
+   "Hips": [
+    0.0,
+    0.975
+   ],
+   "Spine1": [
+    0.004,
+    1.025
+   ],
+   "Spine2": [
+    0.012,
+    1.095
+   ],
+   "Chest": [
+    0.023,
+    1.17
+   ],
+   "Neck1": [
+    0.051,
+    1.431
+   ],
+   "Neck2": [
+    0.047,
+    1.503
+   ],
+   "Head": [
+    0.04,
+    1.562
+   ],
+   "LeftShoulder": [
+    0.068,
+    1.397
+   ],
+   "LeftArm": [
+    0.227,
+    1.382
+   ],
+   "LeftForeArm": [
+    0.188,
+    1.127
+   ],
+   "LeftHand": [
+    -0.073,
+    1.077
+   ],
+   "RightShoulder": [
+    0.039,
+    1.4
+   ],
+   "RightArm": [
+    -0.119,
+    1.425
+   ],
+   "RightForeArm": [
+    -0.108,
+    1.173
+   ],
+   "RightHand": [
+    0.16,
+    1.132
+   ],
+   "LeftLeg": [
+    0.094,
+    0.883
+   ],
+   "LeftShin": [
+    0.152,
+    0.464
+   ],
+   "LeftFoot": [
+    0.241,
+    0.067
+   ],
+   "LeftToeBase": [
+    0.282,
+    0.038
+   ],
+   "RightLeg": [
+    -0.107,
+    0.9
+   ],
+   "RightShin": [
+    -0.207,
+    0.494
+   ],
+   "RightFoot": [
+    -0.319,
+    0.088
+   ],
+   "RightToeBase": [
+    -0.317,
+    0.045
+   ]
+  },
+  "tags": [
+   "決めポーズ",
+   "キメ",
+   "ポーズ",
+   "1小節",
+   "ワイドスタンス"
+  ],
+  "description": "曲の終わりや区切りに使う決めポーズ",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "04b7310d13c5",
+  "name": "Finish Pose 08",
+  "duration": 1.0,
+  "frames": 31,
+  "bars": 1,
+  "usage": "manual",
+  "sourceBpm": 240.0,
+  "category": "pose",
+  "energy": 2,
+  "travel": 0.15,
+  "turnDegrees": 7,
+  "handSpeed": 0.48,
+  "footSpeed": 0.18,
+  "accents": [
+   0.4,
+   0.7
+  ],
+  "thumb": {
+   "Hips": [
+    0.0,
+    0.981
+   ],
+   "Spine1": [
+    0.004,
+    1.03
+   ],
+   "Spine2": [
+    0.015,
+    1.101
+   ],
+   "Chest": [
+    0.024,
+    1.173
+   ],
+   "Neck1": [
+    0.032,
+    1.436
+   ],
+   "Neck2": [
+    0.004,
+    1.498
+   ],
+   "Head": [
+    -0.019,
+    1.544
+   ],
+   "LeftShoulder": [
+    0.043,
+    1.406
+   ],
+   "LeftArm": [
+    0.201,
+    1.401
+   ],
+   "LeftForeArm": [
+    0.22,
+    1.115
+   ],
+   "LeftHand": [
+    0.202,
+    0.879
+   ],
+   "RightShoulder": [
+    0.013,
+    1.407
+   ],
+   "RightArm": [
+    -0.118,
+    1.402
+   ],
+   "RightForeArm": [
+    -0.21,
+    1.203
+   ],
+   "RightHand": [
+    -0.283,
+    0.998
+   ],
+   "LeftLeg": [
+    0.092,
+    0.888
+   ],
+   "LeftShin": [
+    0.204,
+    0.486
+   ],
+   "LeftFoot": [
+    0.253,
+    0.068
+   ],
+   "LeftToeBase": [
+    0.334,
+    0.034
+   ],
+   "RightLeg": [
+    -0.108,
+    0.907
+   ],
+   "RightShin": [
+    -0.119,
+    0.474
+   ],
+   "RightFoot": [
+    -0.087,
+    0.088
+   ],
+   "RightToeBase": [
+    -0.118,
+    0.019
+   ]
+  },
+  "tags": [
+   "決めポーズ",
+   "キメ",
+   "ポーズ",
+   "1小節"
+  ],
+  "description": "曲の終わりや区切りに使う決めポーズ",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "1db15ccaa8c3",
+  "name": "Finish Pose 09",
+  "duration": 1.4,
+  "frames": 43,
+  "bars": 1,
+  "usage": "manual",
+  "sourceBpm": 171.4,
+  "category": "pose",
+  "energy": 1,
+  "travel": 0.08,
+  "turnDegrees": 1,
+  "handSpeed": 0.25,
+  "footSpeed": 0.03,
+  "accents": [
+   0.267,
+   1.167
+  ],
+  "thumb": {
+   "Hips": [
+    0.0,
+    0.403
+   ],
+   "Spine1": [
+    -0.005,
+    0.451
+   ],
+   "Spine2": [
+    -0.011,
+    0.521
+   ],
+   "Chest": [
+    -0.015,
+    0.596
+   ],
+   "Neck1": [
+    -0.054,
+    0.856
+   ],
+   "Neck2": [
+    -0.08,
+    0.917
+   ],
+   "Head": [
+    -0.097,
+    0.964
+   ],
+   "LeftShoulder": [
+    -0.043,
+    0.824
+   ],
+   "LeftArm": [
+    0.102,
+    0.884
+   ],
+   "LeftForeArm": [
+    0.072,
+    0.641
+   ],
+   "LeftHand": [
+    -0.145,
+    0.481
+   ],
+   "RightShoulder": [
+    -0.072,
+    0.819
+   ],
+   "RightArm": [
+    -0.216,
+    0.816
+   ],
+   "RightForeArm": [
+    -0.324,
+    0.87
+   ],
+   "RightHand": [
+    -0.256,
+    1.128
+   ],
+   "LeftLeg": [
+    0.107,
+    0.341
+   ],
+   "LeftShin": [
+    0.263,
+    0.423
+   ],
+   "LeftFoot": [
+    0.143,
+    0.095
+   ],
+   "LeftToeBase": [
+    0.19,
+    0.02
+   ],
+   "RightLeg": [
+    -0.093,
+    0.322
+   ],
+   "RightShin": [
+    -0.24,
+    0.04
+   ],
+   "RightFoot": [
+    -0.069,
+    0.15
+   ],
+   "RightToeBase": [
+    -0.045,
+    0.019
+   ]
+  },
+  "tags": [
+   "決めポーズ",
+   "キメ",
+   "ポーズ",
+   "1小節",
+   "スクワット",
+   "しゃがみ"
+  ],
+  "description": "曲の終わりや区切りに使う決めポーズ",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "27fd3436c60d",
+  "name": "Jazz A 02",
+  "duration": 4.467,
+  "frames": 135,
+  "bars": 2,
+  "usage": "auto",
+  "sourceBpm": 107.5,
+  "category": "power",
+  "energy": 4,
+  "travel": 1.31,
+  "turnDegrees": 40,
+  "handSpeed": 1.37,
+  "footSpeed": 0.34,
+  "accents": [
+   1.5,
+   2.067,
+   3.167,
+   3.633,
+   3.9,
+   4.233
+  ],
+  "thumb": {
+   "Hips": [
+    0.0,
+    0.988
+   ],
+   "Spine1": [
+    0.004,
+    1.038
+   ],
+   "Spine2": [
+    0.013,
+    1.107
+   ],
+   "Chest": [
+    0.021,
+    1.182
+   ],
+   "Neck1": [
+    0.034,
+    1.444
+   ],
+   "Neck2": [
+    0.038,
+    1.521
+   ],
+   "Head": [
+    0.038,
+    1.582
+   ],
+   "LeftShoulder": [
+    0.048,
+    1.416
+   ],
+   "LeftArm": [
+    0.206,
+    1.434
+   ],
+   "LeftForeArm": [
+    0.099,
+    1.366
+   ],
+   "LeftHand": [
+    -0.122,
+    1.421
+   ],
+   "RightShoulder": [
+    0.018,
+    1.417
+   ],
+   "RightArm": [
+    -0.141,
+    1.428
+   ],
+   "RightForeArm": [
+    -0.147,
+    1.311
+   ],
+   "RightHand": [
+    -0.014,
+    1.294
+   ],
+   "LeftLeg": [
+    0.092,
+    0.893
+   ],
+   "LeftShin": [
+    0.096,
+    0.487
+   ],
+   "LeftFoot": [
+    -0.031,
+    0.122
+   ],
+   "LeftToeBase": [
+    0.037,
+    0.048
+   ],
+   "RightLeg": [
+    -0.108,
+    0.913
+   ],
+   "RightShin": [
+    -0.116,
+    0.481
+   ],
+   "RightFoot": [
+    -0.058,
+    0.068
+   ],
+   "RightToeBase": [
+    -0.09,
+    0.02
+   ]
+  },
+  "tags": [
+   "ジャズ",
+   "ジャズダンス",
+   "パワー",
+   "2小節",
+   "スクワット",
+   "しゃがみ",
+   "ワイドスタンス"
+  ],
+  "description": "ジャズダンスの振り",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "9dc2b21d42d6",
+  "name": "Jazz A 17",
+  "duration": 5.2,
+  "frames": 157,
+  "bars": 2,
+  "usage": "auto",
+  "sourceBpm": 92.3,
+  "category": "power",
+  "energy": 5,
+  "travel": 2.51,
+  "turnDegrees": 405,
+  "handSpeed": 1.99,
+  "footSpeed": 0.62,
+  "accents": [
+   0.433,
+   0.767,
+   1.5,
+   1.967,
+   2.533,
+   2.833,
+   3.1,
+   3.5,
+   3.7,
+   4.033
+  ],
+  "thumb": {
+   "Hips": [
+    -0.0,
+    0.993
+   ],
+   "Spine1": [
+    0.004,
+    1.043
+   ],
+   "Spine2": [
+    0.007,
+    1.112
+   ],
+   "Chest": [
+    0.007,
+    1.188
+   ],
+   "Neck1": [
+    -0.002,
+    1.449
+   ],
+   "Neck2": [
+    0.004,
+    1.527
+   ],
+   "Head": [
+    0.006,
+    1.589
+   ],
+   "LeftShoulder": [
+    0.029,
+    1.423
+   ],
+   "LeftArm": [
+    0.164,
+    1.423
+   ],
+   "LeftForeArm": [
+    0.366,
+    1.221
+   ],
+   "LeftHand": [
+    0.475,
+    1.201
+   ],
+   "RightShoulder": [
+    0.0,
+    1.423
+   ],
+   "RightArm": [
+    -0.16,
+    1.427
+   ],
+   "RightForeArm": [
+    -0.228,
+    1.319
+   ],
+   "RightHand": [
+    -0.143,
+    1.307
+   ],
+   "LeftLeg": [
+    0.093,
+    0.899
+   ],
+   "LeftShin": [
+    0.023,
+    0.476
+   ],
+   "LeftFoot": [
+    -0.042,
+    0.078
+   ],
+   "LeftToeBase": [
+    -0.028,
+    0.017
+   ],
+   "RightLeg": [
+    -0.107,
+    0.916
+   ],
+   "RightShin": [
+    -0.209,
+    0.502
+   ],
+   "RightFoot": [
+    -0.217,
+    0.233
+   ],
+   "RightToeBase": [
+    -0.256,
+    0.104
+   ]
+  },
+  "tags": [
+   "ジャズ",
+   "ジャズダンス",
+   "パワー",
+   "2小節",
+   "足上げ",
+   "ターン",
+   "回転",
+   "ワイドスタンス"
+  ],
+  "description": "ジャズダンスの振り",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "fbd23950bcfa",
+  "name": "Jazz A 15",
+  "duration": 4.467,
+  "frames": 135,
+  "bars": 2,
+  "usage": "auto",
+  "sourceBpm": 107.5,
+  "category": "power",
+  "energy": 4,
+  "travel": 1.54,
+  "turnDegrees": 22,
+  "handSpeed": 1.38,
+  "footSpeed": 0.34,
+  "accents": [
+   0.333,
+   1.467,
+   1.9,
+   2.8,
+   3.8
+  ],
+  "thumb": {
+   "Hips": [
+    0.0,
+    1.015
+   ],
+   "Spine1": [
+    -0.001,
+    1.064
+   ],
+   "Spine2": [
+    -0.0,
+    1.13
+   ],
+   "Chest": [
+    0.003,
+    1.206
+   ],
+   "Neck1": [
+    0.017,
+    1.468
+   ],
+   "Neck2": [
+    0.024,
+    1.547
+   ],
+   "Head": [
+    0.029,
+    1.611
+   ],
+   "LeftShoulder": [
+    0.03,
+    1.439
+   ],
+   "LeftArm": [
+    0.177,
+    1.478
+   ],
+   "LeftForeArm": [
+    0.404,
+    1.621
+   ],
+   "LeftHand": [
+    0.508,
+    1.834
+   ],
+   "RightShoulder": [
+    -0.0,
+    1.44
+   ],
+   "RightArm": [
+    -0.137,
+    1.491
+   ],
+   "RightForeArm": [
+    -0.374,
+    1.65
+   ],
+   "RightHand": [
+    -0.531,
+    1.858
+   ],
+   "LeftLeg": [
+    0.102,
+    0.929
+   ],
+   "LeftShin": [
+    0.146,
+    0.504
+   ],
+   "LeftFoot": [
+    0.131,
+    0.231
+   ],
+   "LeftToeBase": [
+    0.17,
+    0.106
+   ],
+   "RightLeg": [
+    -0.099,
+    0.927
+   ],
+   "RightShin": [
+    -0.046,
+    0.496
+   ],
+   "RightFoot": [
+    0.006,
+    0.082
+   ],
+   "RightToeBase": [
+    -0.001,
+    0.017
+   ]
+  },
+  "tags": [
+   "ジャズ",
+   "ジャズダンス",
+   "パワー",
+   "2小節"
+  ],
+  "description": "ジャズダンスの振り",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "7eccda74748f",
+  "name": "Jazz A 05",
+  "duration": 5.1,
+  "frames": 154,
+  "bars": 2,
+  "usage": "auto",
+  "sourceBpm": 94.1,
+  "category": "power",
+  "energy": 4,
+  "travel": 2.33,
+  "turnDegrees": 364,
+  "handSpeed": 1.47,
+  "footSpeed": 0.51,
+  "accents": [
+   0.4,
+   0.733,
+   1.4,
+   1.833,
+   2.233,
+   3.333,
+   3.667,
+   4.167,
+   4.6
+  ],
+  "thumb": {
+   "Hips": [
+    0.0,
+    0.981
+   ],
+   "Spine1": [
+    -0.001,
+    1.031
+   ],
+   "Spine2": [
+    0.001,
+    1.103
+   ],
+   "Chest": [
+    0.002,
+    1.175
+   ],
+   "Neck1": [
+    -0.008,
+    1.431
+   ],
+   "Neck2": [
+    -0.014,
+    1.51
+   ],
+   "Head": [
+    -0.016,
+    1.574
+   ],
+   "LeftShoulder": [
+    0.01,
+    1.413
+   ],
+   "LeftArm": [
+    0.163,
+    1.411
+   ],
+   "LeftForeArm": [
+    0.251,
+    1.139
+   ],
+   "LeftHand": [
+    0.341,
+    0.903
+   ],
+   "RightShoulder": [
+    -0.02,
+    1.412
+   ],
+   "RightArm": [
+    -0.163,
+    1.389
+   ],
+   "RightForeArm": [
+    -0.232,
+    1.135
+   ],
+   "RightHand": [
+    -0.197,
+    0.878
+   ],
+   "LeftLeg": [
+    0.102,
+    0.899
+   ],
+   "LeftShin": [
+    0.188,
+    0.484
+   ],
+   "LeftFoot": [
+    0.181,
+    0.082
+   ],
+   "LeftToeBase": [
+    0.276,
+    0.021
+   ],
+   "RightLeg": [
+    -0.098,
+    0.895
+   ],
+   "RightShin": [
+    -0.026,
+    0.468
+   ],
+   "RightFoot": [
+    0.043,
+    0.072
+   ],
+   "RightToeBase": [
+    -0.001,
+    0.023
+   ]
+  },
+  "tags": [
+   "ジャズ",
+   "ジャズダンス",
+   "パワー",
+   "2小節",
+   "ターン",
+   "回転",
+   "スクワット",
+   "しゃがみ",
+   "ワイドスタンス"
+  ],
+  "description": "ジャズダンスの振り",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "8828a98468b6",
+  "name": "Jazz A 14",
+  "duration": 5.033,
+  "frames": 152,
+  "bars": 2,
+  "usage": "auto",
+  "sourceBpm": 95.4,
+  "category": "power",
+  "energy": 5,
+  "travel": 2.49,
+  "turnDegrees": 355,
+  "handSpeed": 2.37,
+  "footSpeed": 0.66,
+  "accents": [
+   0.933,
+   1.267,
+   2.533,
+   2.767,
+   3.3,
+   3.567,
+   3.767,
+   4.233,
+   4.633,
+   4.867
+  ],
+  "thumb": {
+   "Hips": [
+    0.0,
+    0.861
+   ],
+   "Spine1": [
+    0.003,
+    0.911
+   ],
+   "Spine2": [
+    0.009,
+    0.981
+   ],
+   "Chest": [
+    0.024,
+    1.053
+   ],
+   "Neck1": [
+    0.075,
+    1.306
+   ],
+   "Neck2": [
+    0.09,
+    1.384
+   ],
+   "Head": [
+    0.116,
+    1.441
+   ],
+   "LeftShoulder": [
+    0.079,
+    1.285
+   ],
+   "LeftArm": [
+    0.233,
+    1.247
+   ],
+   "LeftForeArm": [
+    0.263,
+    1.044
+   ],
+   "LeftHand": [
+    0.359,
+    0.965
+   ],
+   "RightShoulder": [
+    0.049,
+    1.289
+   ],
+   "RightArm": [
+    -0.068,
+    1.287
+   ],
+   "RightForeArm": [
+    -0.147,
+    1.062
+   ],
+   "RightHand": [
+    -0.283,
+    0.872
+   ],
+   "LeftLeg": [
+    0.096,
+    0.771
+   ],
+   "LeftShin": [
+    0.324,
+    0.411
+   ],
+   "LeftFoot": [
+    0.376,
+    0.075
+   ],
+   "LeftToeBase": [
+    0.501,
+    0.056
+   ],
+   "RightLeg": [
+    -0.105,
+    0.783
+   ],
+   "RightShin": [
+    -0.251,
+    0.426
+   ],
+   "RightFoot": [
+    -0.334,
+    0.072
+   ],
+   "RightToeBase": [
+    -0.346,
+    0.033
+   ]
+  },
+  "tags": [
+   "ジャズ",
+   "ジャズダンス",
+   "パワー",
+   "2小節",
+   "足上げ",
+   "ターン",
+   "回転",
+   "スクワット",
+   "しゃがみ",
+   "ワイドスタンス",
+   "移動"
+  ],
+  "description": "ジャズダンスの振り",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "50352d76f883",
+  "name": "Jazz A 10",
+  "duration": 3.967,
+  "frames": 120,
+  "bars": 2,
+  "usage": "auto",
+  "sourceBpm": 121.0,
+  "category": "groove",
+  "energy": 3,
+  "travel": 1.49,
+  "turnDegrees": 45,
+  "handSpeed": 1.14,
+  "footSpeed": 0.41,
+  "accents": [
+   0.3,
+   0.633,
+   1.1,
+   1.433,
+   2.533,
+   2.933,
+   3.467
+  ],
+  "thumb": {
+   "Hips": [
+    0.0,
+    1.001
+   ],
+   "Spine1": [
+    0.001,
+    1.05
+   ],
+   "Spine2": [
+    0.006,
+    1.121
+   ],
+   "Chest": [
+    0.013,
+    1.195
+   ],
+   "Neck1": [
+    0.037,
+    1.455
+   ],
+   "Neck2": [
+    0.04,
+    1.532
+   ],
+   "Head": [
+    0.041,
+    1.594
+   ],
+   "LeftShoulder": [
+    0.05,
+    1.428
+   ],
+   "LeftArm": [
+    0.202,
+    1.398
+   ],
+   "LeftForeArm": [
+    0.202,
+    1.111
+   ],
+   "LeftHand": [
+    0.218,
+    0.882
+   ],
+   "RightShoulder": [
+    0.02,
+    1.431
+   ],
+   "RightArm": [
+    -0.126,
+    1.431
+   ],
+   "RightForeArm": [
+    -0.148,
+    1.152
+   ],
+   "RightHand": [
+    -0.213,
+    0.894
+   ],
+   "LeftLeg": [
+    0.099,
+    0.912
+   ],
+   "LeftShin": [
+    0.149,
+    0.483
+   ],
+   "LeftFoot": [
+    0.183,
+    0.068
+   ],
+   "LeftToeBase": [
+    0.279,
+    0.035
+   ],
+   "RightLeg": [
+    -0.102,
+    0.916
+   ],
+   "RightShin": [
+    -0.091,
+    0.483
+   ],
+   "RightFoot": [
+    -0.029,
+    0.073
+   ],
+   "RightToeBase": [
+    -0.057,
+    0.025
+   ]
+  },
+  "tags": [
+   "ジャズ",
+   "ジャズダンス",
+   "グルーヴ",
+   "2小節",
+   "スクワット",
+   "しゃがみ",
+   "ワイドスタンス"
+  ],
+  "description": "ジャズダンスの振り",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "4a1ca7b3ae07",
+  "name": "Jazz A 01",
+  "duration": 3.967,
+  "frames": 120,
+  "bars": 2,
+  "usage": "auto",
+  "sourceBpm": 121.0,
+  "category": "power",
+  "energy": 5,
+  "travel": 2.16,
+  "turnDegrees": 388,
+  "handSpeed": 1.98,
+  "footSpeed": 0.59,
+  "accents": [
+   0.367,
+   0.667,
+   0.933,
+   1.5,
+   1.767,
+   2.433,
+   3.467
+  ],
+  "thumb": {
+   "Hips": [
+    0.0,
+    0.95
+   ],
+   "Spine1": [
+    0.002,
+    1.0
+   ],
+   "Spine2": [
+    0.011,
+    1.071
+   ],
+   "Chest": [
+    0.016,
+    1.143
+   ],
+   "Neck1": [
+    -0.006,
+    1.396
+   ],
+   "Neck2": [
+    -0.021,
+    1.475
+   ],
+   "Head": [
+    -0.034,
+    1.537
+   ],
+   "LeftShoulder": [
+    0.007,
+    1.381
+   ],
+   "LeftArm": [
+    0.163,
+    1.391
+   ],
+   "LeftForeArm": [
+    0.336,
+    1.169
+   ],
+   "LeftHand": [
+    0.483,
+    1.133
+   ],
+   "RightShoulder": [
+    -0.023,
+    1.377
+   ],
+   "RightArm": [
+    -0.151,
+    1.319
+   ],
+   "RightForeArm": [
+    -0.205,
+    1.04
+   ],
+   "RightHand": [
+    -0.431,
+    1.011
+   ],
+   "LeftLeg": [
+    0.096,
+    0.861
+   ],
+   "LeftShin": [
+    0.326,
+    0.662
+   ],
+   "LeftFoot": [
+    0.348,
+    0.274
+   ],
+   "LeftToeBase": [
+    0.377,
+    0.15
+   ],
+   "RightLeg": [
+    -0.104,
+    0.872
+   ],
+   "RightShin": [
+    -0.106,
+    0.444
+   ],
+   "RightFoot": [
+    -0.027,
+    0.071
+   ],
+   "RightToeBase": [
+    -0.059,
+    0.019
+   ]
+  },
+  "tags": [
+   "ジャズ",
+   "ジャズダンス",
+   "パワー",
+   "2小節",
+   "足上げ",
+   "ターン",
+   "回転",
+   "スクワット",
+   "しゃがみ",
+   "ワイドスタンス"
+  ],
+  "description": "ジャズダンスの振り",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "c4385dd624d1",
+  "name": "Jazz A 06",
+  "duration": 5.033,
+  "frames": 152,
+  "bars": 2,
+  "usage": "auto",
+  "sourceBpm": 95.4,
+  "category": "power",
+  "energy": 5,
+  "travel": 3.58,
+  "turnDegrees": 142,
+  "handSpeed": 2.17,
+  "footSpeed": 1.03,
+  "accents": [
+   0.533,
+   1.7,
+   2.133,
+   2.4,
+   3.333,
+   3.8,
+   4.3,
+   4.833
+  ],
+  "thumb": {
+   "Hips": [
+    0.0,
+    0.94
+   ],
+   "Spine1": [
+    0.012,
+    0.987
+   ],
+   "Spine2": [
+    0.023,
+    1.051
+   ],
+   "Chest": [
+    0.037,
+    1.126
+   ],
+   "Neck1": [
+    0.064,
+    1.387
+   ],
+   "Neck2": [
+    0.06,
+    1.467
+   ],
+   "Head": [
+    0.049,
+    1.53
+   ],
+   "LeftShoulder": [
+    0.072,
+    1.353
+   ],
+   "LeftArm": [
+    0.223,
+    1.336
+   ],
+   "LeftForeArm": [
+    0.402,
+    1.116
+   ],
+   "LeftHand": [
+    0.612,
+    0.946
+   ],
+   "RightShoulder": [
+    0.042,
+    1.356
+   ],
+   "RightArm": [
+    -0.104,
+    1.352
+   ],
+   "RightForeArm": [
+    -0.321,
+    1.164
+   ],
+   "RightHand": [
+    -0.574,
+    1.093
+   ],
+   "LeftLeg": [
+    0.075,
+    0.83
+   ],
+   "LeftShin": [
+    -0.082,
+    0.45
+   ],
+   "LeftFoot": [
+    -0.192,
+    0.14
+   ],
+   "LeftToeBase": [
+    -0.231,
+    0.039
+   ],
+   "RightLeg": [
+    -0.119,
+    0.882
+   ],
+   "RightShin": [
+    -0.158,
+    0.523
+   ],
+   "RightFoot": [
+    -0.125,
+    0.113
+   ],
+   "RightToeBase": [
+    -0.117,
+    0.069
+   ]
+  },
+  "tags": [
+   "ジャズ",
+   "ジャズダンス",
+   "パワー",
+   "2小節",
+   "ワイドスタンス",
+   "移動"
+  ],
+  "description": "ジャズダンスの振り",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "0f92bea69b28",
+  "name": "Jazz A 12",
+  "duration": 3.967,
+  "frames": 120,
+  "bars": 2,
+  "usage": "auto",
+  "sourceBpm": 121.0,
+  "category": "power",
+  "energy": 5,
+  "travel": 1.94,
+  "turnDegrees": 419,
+  "handSpeed": 2.13,
+  "footSpeed": 0.83,
+  "accents": [
+   0.767,
+   1.267,
+   1.667,
+   2.167,
+   2.767,
+   3.233
+  ],
+  "thumb": {
+   "Hips": [
+    0.0,
+    0.984
+   ],
+   "Spine1": [
+    -0.002,
+    1.034
+   ],
+   "Spine2": [
+    -0.002,
+    1.104
+   ],
+   "Chest": [
+    -0.0,
+    1.178
+   ],
+   "Neck1": [
+    0.008,
+    1.439
+   ],
+   "Neck2": [
+    0.014,
+    1.516
+   ],
+   "Head": [
+    0.021,
+    1.58
+   ],
+   "LeftShoulder": [
+    0.026,
+    1.414
+   ],
+   "LeftArm": [
+    0.175,
+    1.396
+   ],
+   "LeftForeArm": [
+    0.276,
+    1.127
+   ],
+   "LeftHand": [
+    0.427,
+    1.089
+   ],
+   "RightShoulder": [
+    -0.004,
+    1.415
+   ],
+   "RightArm": [
+    -0.152,
+    1.408
+   ],
+   "RightForeArm": [
+    -0.226,
+    1.131
+   ],
+   "RightHand": [
+    -0.372,
+    1.136
+   ],
+   "LeftLeg": [
+    0.104,
+    0.903
+   ],
+   "LeftShin": [
+    0.314,
+    0.556
+   ],
+   "LeftFoot": [
+    0.464,
+    0.239
+   ],
+   "LeftToeBase": [
+    0.534,
+    0.148
+   ],
+   "RightLeg": [
+    -0.096,
+    0.895
+   ],
+   "RightShin": [
+    -0.122,
+    0.467
+   ],
+   "RightFoot": [
+    -0.16,
+    0.073
+   ],
+   "RightToeBase": [
+    -0.177,
+    0.035
+   ]
+  },
+  "tags": [
+   "ジャズ",
+   "ジャズダンス",
+   "パワー",
+   "2小節",
+   "ターン",
+   "回転",
+   "ワイドスタンス"
+  ],
+  "description": "ジャズダンスの振り",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "41579ead6b5f",
+  "name": "Jazz A 11",
+  "duration": 4.2,
+  "frames": 127,
+  "bars": 2,
+  "usage": "auto",
+  "sourceBpm": 114.3,
+  "category": "groove",
+  "energy": 3,
+  "travel": 1.97,
+  "turnDegrees": 50,
+  "handSpeed": 1.24,
+  "footSpeed": 0.31,
+  "accents": [
+   0.367,
+   1.3,
+   2.533,
+   3.267,
+   3.967
+  ],
+  "thumb": {
+   "Hips": [
+    0.0,
+    0.986
+   ],
+   "Spine1": [
+    0.001,
+    1.035
+   ],
+   "Spine2": [
+    -0.004,
+    1.103
+   ],
+   "Chest": [
+    -0.016,
+    1.178
+   ],
+   "Neck1": [
+    -0.082,
+    1.428
+   ],
+   "Neck2": [
+    -0.108,
+    1.504
+   ],
+   "Head": [
+    -0.13,
+    1.564
+   ],
+   "LeftShoulder": [
+    -0.056,
+    1.412
+   ],
+   "LeftArm": [
+    0.06,
+    1.503
+   ],
+   "LeftForeArm": [
+    -0.013,
+    1.758
+   ],
+   "LeftHand": [
+    -0.197,
+    1.956
+   ],
+   "RightShoulder": [
+    -0.085,
+    1.405
+   ],
+   "RightArm": [
+    -0.242,
+    1.43
+   ],
+   "RightForeArm": [
+    -0.296,
+    1.671
+   ],
+   "RightHand": [
+    -0.246,
+    1.936
+   ],
+   "LeftLeg": [
+    0.098,
+    0.896
+   ],
+   "LeftShin": [
+    0.145,
+    0.471
+   ],
+   "LeftFoot": [
+    0.183,
+    0.075
+   ],
+   "LeftToeBase": [
+    0.217,
+    0.037
+   ],
+   "RightLeg": [
+    -0.103,
+    0.902
+   ],
+   "RightShin": [
+    -0.282,
+    0.51
+   ],
+   "RightFoot": [
+    -0.462,
+    0.151
+   ],
+   "RightToeBase": [
+    -0.518,
+    0.063
+   ]
+  },
+  "tags": [
+   "ジャズ",
+   "ジャズダンス",
+   "グルーヴ",
+   "2小節",
+   "ワイドスタンス"
+  ],
+  "description": "ジャズダンスの振り",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "5300500949a5",
+  "name": "Jazz A 13",
+  "duration": 5.267,
+  "frames": 159,
+  "bars": 2,
+  "usage": "auto",
+  "sourceBpm": 91.1,
+  "category": "power",
+  "energy": 5,
+  "travel": 3.7,
+  "turnDegrees": 149,
+  "handSpeed": 2.41,
+  "footSpeed": 1.06,
+  "accents": [
+   0.133,
+   0.833,
+   1.233,
+   1.433,
+   1.9,
+   2.3,
+   2.7,
+   2.967,
+   3.633,
+   4.033,
+   4.3,
+   4.767
+  ],
+  "thumb": {
+   "Hips": [
+    0.0,
+    0.955
+   ],
+   "Spine1": [
+    0.006,
+    1.004
+   ],
+   "Spine2": [
+    0.021,
+    1.073
+   ],
+   "Chest": [
+    0.041,
+    1.144
+   ],
+   "Neck1": [
+    0.107,
+    1.392
+   ],
+   "Neck2": [
+    0.133,
+    1.467
+   ],
+   "Head": [
+    0.158,
+    1.526
+   ],
+   "LeftShoulder": [
+    0.116,
+    1.37
+   ],
+   "LeftArm": [
+    0.263,
+    1.321
+   ],
+   "LeftForeArm": [
+    0.49,
+    1.155
+   ],
+   "LeftHand": [
+    0.605,
+    1.293
+   ],
+   "RightShoulder": [
+    0.087,
+    1.378
+   ],
+   "RightArm": [
+    -0.045,
+    1.389
+   ],
+   "RightForeArm": [
+    -0.19,
+    1.197
+   ],
+   "RightHand": [
+    -0.376,
+    1.008
+   ],
+   "LeftLeg": [
+    0.089,
+    0.857
+   ],
+   "LeftShin": [
+    0.128,
+    0.426
+   ],
+   "LeftFoot": [
+    0.076,
+    0.258
+   ],
+   "LeftToeBase": [
+    0.095,
+    0.118
+   ],
+   "RightLeg": [
+    -0.11,
+    0.882
+   ],
+   "RightShin": [
+    -0.073,
+    0.452
+   ],
+   "RightFoot": [
+    -0.006,
+    0.076
+   ],
+   "RightToeBase": [
+    -0.023,
+    0.017
+   ]
+  },
+  "tags": [
+   "ジャズ",
+   "ジャズダンス",
+   "パワー",
+   "2小節",
+   "スクワット",
+   "しゃがみ",
+   "ワイドスタンス"
+  ],
+  "description": "ジャズダンスの振り",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "ab2af8ef908d",
+  "name": "Jazz A 08",
+  "duration": 4.867,
+  "frames": 147,
+  "bars": 2,
+  "usage": "auto",
+  "sourceBpm": 98.6,
+  "category": "power",
+  "energy": 5,
+  "travel": 3.16,
+  "turnDegrees": 419,
+  "handSpeed": 2.53,
+  "footSpeed": 1.29,
+  "accents": [
+   0.6,
+   1.2,
+   1.5,
+   1.833,
+   2.5,
+   2.9,
+   3.9,
+   4.5
+  ],
+  "thumb": {
+   "Hips": [
+    0.0,
+    0.887
+   ],
+   "Spine1": [
+    -0.004,
+    0.936
+   ],
+   "Spine2": [
+    -0.005,
+    1.006
+   ],
+   "Chest": [
+    -0.002,
+    1.081
+   ],
+   "Neck1": [
+    0.028,
+    1.337
+   ],
+   "Neck2": [
+    0.056,
+    1.411
+   ],
+   "Head": [
+    0.083,
+    1.469
+   ],
+   "LeftShoulder": [
+    0.042,
+    1.315
+   ],
+   "LeftArm": [
+    0.189,
+    1.299
+   ],
+   "LeftForeArm": [
+    0.474,
+    1.284
+   ],
+   "LeftHand": [
+    0.732,
+    1.363
+   ],
+   "RightShoulder": [
+    0.012,
+    1.318
+   ],
+   "RightArm": [
+    -0.126,
+    1.356
+   ],
+   "RightForeArm": [
+    -0.4,
+    1.426
+   ],
+   "RightHand": [
+    -0.609,
+    1.595
+   ],
+   "LeftLeg": [
+    0.107,
+    0.808
+   ],
+   "LeftShin": [
+    0.104,
+    0.505
+   ],
+   "LeftFoot": [
+    -0.098,
+    0.143
+   ],
+   "LeftToeBase": [
+    -0.033,
+    0.091
+   ],
+   "RightLeg": [
+    -0.094,
+    0.794
+   ],
+   "RightShin": [
+    0.027,
+    0.378
+   ],
+   "RightFoot": [
+    0.239,
+    0.091
+   ],
+   "RightToeBase": [
+    0.222,
+    0.017
+   ]
+  },
+  "tags": [
+   "ジャズ",
+   "ジャズダンス",
+   "パワー",
+   "2小節",
+   "ターン",
+   "回転",
+   "ワイドスタンス"
+  ],
+  "description": "ジャズダンスの振り",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "b35c85771b79",
+  "name": "Jazz A 18",
+  "duration": 5.1,
+  "frames": 154,
+  "bars": 2,
+  "usage": "auto",
+  "sourceBpm": 94.1,
+  "category": "power",
+  "energy": 4,
+  "travel": 1.81,
+  "turnDegrees": 158,
+  "handSpeed": 1.69,
+  "footSpeed": 0.39,
+  "accents": [
+   0.467,
+   0.7,
+   1.433,
+   1.633,
+   2.0,
+   4.0,
+   4.467,
+   4.733
+  ],
+  "thumb": {
+   "Hips": [
+    0.0,
+    0.936
+   ],
+   "Spine1": [
+    0.001,
+    0.986
+   ],
+   "Spine2": [
+    0.004,
+    1.055
+   ],
+   "Chest": [
+    0.008,
+    1.13
+   ],
+   "Neck1": [
+    0.025,
+    1.39
+   ],
+   "Neck2": [
+    0.033,
+    1.468
+   ],
+   "Head": [
+    0.043,
+    1.53
+   ],
+   "LeftShoulder": [
+    0.045,
+    1.364
+   ],
+   "LeftArm": [
+    0.19,
+    1.335
+   ],
+   "LeftForeArm": [
+    0.265,
+    1.058
+   ],
+   "LeftHand": [
+    0.399,
+    0.875
+   ],
+   "RightShoulder": [
+    0.015,
+    1.366
+   ],
+   "RightArm": [
+    -0.136,
+    1.365
+   ],
+   "RightForeArm": [
+    -0.236,
+    1.096
+   ],
+   "RightHand": [
+    -0.309,
+    1.101
+   ],
+   "LeftLeg": [
+    0.098,
+    0.847
+   ],
+   "LeftShin": [
+    0.063,
+    0.435
+   ],
+   "LeftFoot": [
+    0.001,
+    0.07
+   ],
+   "LeftToeBase": [
+    0.056,
+    0.021
+   ],
+   "RightLeg": [
+    -0.103,
+    0.853
+   ],
+   "RightShin": [
+    -0.068,
+    0.436
+   ],
+   "RightFoot": [
+    -0.026,
+    0.07
+   ],
+   "RightToeBase": [
+    -0.037,
+    0.023
+   ]
+  },
+  "tags": [
+   "ジャズ",
+   "ジャズダンス",
+   "パワー",
+   "2小節"
+  ],
+  "description": "ジャズダンスの振り",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "bb1179e243f8",
+  "name": "Jazz A 04",
+  "duration": 4.133,
+  "frames": 125,
+  "bars": 2,
+  "usage": "auto",
+  "sourceBpm": 116.1,
+  "category": "power",
+  "energy": 5,
+  "travel": 1.61,
+  "turnDegrees": 82,
+  "handSpeed": 2.06,
+  "footSpeed": 0.53,
+  "accents": [
+   0.633,
+   1.2,
+   1.667,
+   2.0,
+   2.367,
+   2.767,
+   3.5,
+   3.9
+  ],
+  "thumb": {
+   "Hips": [
+    0.0,
+    0.936
+   ],
+   "Spine1": [
+    -0.002,
+    0.986
+   ],
+   "Spine2": [
+    -0.001,
+    1.054
+   ],
+   "Chest": [
+    -0.0,
+    1.13
+   ],
+   "Neck1": [
+    0.001,
+    1.393
+   ],
+   "Neck2": [
+    0.003,
+    1.469
+   ],
+   "Head": [
+    0.008,
+    1.527
+   ],
+   "LeftShoulder": [
+    0.021,
+    1.358
+   ],
+   "LeftArm": [
+    0.172,
+    1.347
+   ],
+   "LeftForeArm": [
+    0.356,
+    1.127
+   ],
+   "LeftHand": [
+    0.548,
+    0.937
+   ],
+   "RightShoulder": [
+    -0.009,
+    1.358
+   ],
+   "RightArm": [
+    -0.163,
+    1.356
+   ],
+   "RightForeArm": [
+    -0.323,
+    1.119
+   ],
+   "RightHand": [
+    -0.471,
+    0.895
+   ],
+   "LeftLeg": [
+    0.103,
+    0.852
+   ],
+   "LeftShin": [
+    0.21,
+    0.54
+   ],
+   "LeftFoot": [
+    0.144,
+    0.127
+   ],
+   "LeftToeBase": [
+    0.186,
+    0.053
+   ],
+   "RightLeg": [
+    -0.098,
+    0.848
+   ],
+   "RightShin": [
+    -0.126,
+    0.417
+   ],
+   "RightFoot": [
+    -0.068,
+    0.073
+   ],
+   "RightToeBase": [
+    -0.119,
+    0.02
+   ]
+  },
+  "tags": [
+   "ジャズ",
+   "ジャズダンス",
+   "パワー",
+   "2小節",
+   "足上げ",
+   "ワイドスタンス",
+   "移動"
+  ],
+  "description": "ジャズダンスの振り",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "ff4dcc7cb207",
+  "name": "Jazz A 03",
+  "duration": 4.533,
+  "frames": 137,
+  "bars": 2,
+  "usage": "auto",
+  "sourceBpm": 105.9,
+  "category": "power",
+  "energy": 5,
+  "travel": 3.17,
+  "turnDegrees": 778,
+  "handSpeed": 2.84,
+  "footSpeed": 1.25,
+  "accents": [
+   0.367,
+   0.767,
+   1.2,
+   1.533,
+   2.767,
+   3.5,
+   4.033,
+   4.367
+  ],
+  "thumb": {
+   "Hips": [
+    0.0,
+    0.893
+   ],
+   "Spine1": [
+    -0.006,
+    0.943
+   ],
+   "Spine2": [
+    -0.015,
+    1.012
+   ],
+   "Chest": [
+    -0.027,
+    1.087
+   ],
+   "Neck1": [
+    -0.073,
+    1.345
+   ],
+   "Neck2": [
+    -0.075,
+    1.421
+   ],
+   "Head": [
+    -0.061,
+    1.482
+   ],
+   "LeftShoulder": [
+    -0.039,
+    1.322
+   ],
+   "LeftArm": [
+    0.111,
+    1.364
+   ],
+   "LeftForeArm": [
+    0.23,
+    1.342
+   ],
+   "LeftHand": [
+    0.006,
+    1.231
+   ],
+   "RightShoulder": [
+    -0.068,
+    1.316
+   ],
+   "RightArm": [
+    -0.227,
+    1.307
+   ],
+   "RightForeArm": [
+    -0.218,
+    1.181
+   ],
+   "RightHand": [
+    0.01,
+    1.311
+   ],
+   "LeftLeg": [
+    0.11,
+    0.82
+   ],
+   "LeftShin": [
+    0.301,
+    0.471
+   ],
+   "LeftFoot": [
+    0.455,
+    0.098
+   ],
+   "LeftToeBase": [
+    0.523,
+    0.037
+   ],
+   "RightLeg": [
+    -0.09,
+    0.797
+   ],
+   "RightShin": [
+    -0.223,
+    0.386
+   ],
+   "RightFoot": [
+    -0.258,
+    0.147
+   ],
+   "RightToeBase": [
+    -0.323,
+    0.044
+   ]
+  },
+  "tags": [
+   "ジャズ",
+   "ジャズダンス",
+   "パワー",
+   "2小節",
+   "足上げ",
+   "ターン",
+   "回転",
+   "スクワット",
+   "しゃがみ",
+   "ワイドスタンス",
+   "移動"
+  ],
+  "description": "ジャズダンスの振り",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "e6d538cb68dc",
+  "name": "Jazz A 07",
+  "duration": 4.2,
+  "frames": 127,
+  "bars": 2,
+  "usage": "auto",
+  "sourceBpm": 114.3,
+  "category": "power",
+  "energy": 3,
+  "travel": 1.86,
+  "turnDegrees": 39,
+  "handSpeed": 1.19,
+  "footSpeed": 0.29,
+  "accents": [
+   0.333,
+   0.8,
+   1.833,
+   2.133,
+   2.6,
+   3.033,
+   3.433
+  ],
+  "thumb": {
+   "Hips": [
+    0.0,
+    0.778
+   ],
+   "Spine1": [
+    -0.015,
+    0.817
+   ],
+   "Spine2": [
+    -0.035,
+    0.853
+   ],
+   "Chest": [
+    -0.066,
+    0.881
+   ],
+   "Neck1": [
+    -0.187,
+    0.928
+   ],
+   "Neck2": [
+    -0.228,
+    0.922
+   ],
+   "Head": [
+    -0.263,
+    0.909
+   ],
+   "LeftShoulder": [
+    -0.123,
+    0.909
+   ],
+   "LeftArm": [
+    -0.092,
+    1.064
+   ],
+   "LeftForeArm": [
+    -0.083,
+    1.14
+   ],
+   "LeftHand": [
+    0.012,
+    0.952
+   ],
+   "RightShoulder": [
+    -0.138,
+    0.883
+   ],
+   "RightArm": [
+    -0.214,
+    0.743
+   ],
+   "RightForeArm": [
+    0.05,
+    0.666
+   ],
+   "RightHand": [
+    0.286,
+    0.738
+   ],
+   "LeftLeg": [
+    0.123,
+    0.733
+   ],
+   "LeftShin": [
+    0.134,
+    0.463
+   ],
+   "LeftFoot": [
+    0.153,
+    0.073
+   ],
+   "LeftToeBase": [
+    0.145,
+    0.036
+   ],
+   "RightLeg": [
+    -0.066,
+    0.665
+   ],
+   "RightShin": [
+    -0.351,
+    0.339
+   ],
+   "RightFoot": [
+    -0.597,
+    0.072
+   ],
+   "RightToeBase": [
+    -0.692,
+    0.045
+   ]
+  },
+  "tags": [
+   "ジャズ",
+   "ジャズダンス",
+   "パワー",
+   "2小節",
+   "スクワット",
+   "しゃがみ",
+   "ワイドスタンス"
+  ],
+  "description": "ジャズダンスの振り",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "5eeef3f23d48",
+  "name": "Jazz A 09",
+  "duration": 4.2,
+  "frames": 127,
+  "bars": 2,
+  "usage": "auto",
+  "sourceBpm": 114.3,
+  "category": "foot",
+  "energy": 4,
+  "travel": 3.72,
+  "turnDegrees": 37,
+  "handSpeed": 1.43,
+  "footSpeed": 1.06,
+  "accents": [
+   0.133,
+   0.7,
+   0.933,
+   1.133,
+   1.567,
+   2.0,
+   2.3,
+   2.6,
+   2.9,
+   3.333
+  ],
+  "thumb": {
+   "Hips": [
+    0.0,
+    1.231
+   ],
+   "Spine1": [
+    0.002,
+    1.281
+   ],
+   "Spine2": [
+    0.006,
+    1.352
+   ],
+   "Chest": [
+    0.008,
+    1.426
+   ],
+   "Neck1": [
+    0.009,
+    1.686
+   ],
+   "Neck2": [
+    0.009,
+    1.757
+   ],
+   "Head": [
+    0.007,
+    1.813
+   ],
+   "LeftShoulder": [
+    0.028,
+    1.662
+   ],
+   "LeftArm": [
+    0.182,
+    1.678
+   ],
+   "LeftForeArm": [
+    0.134,
+    1.526
+   ],
+   "LeftHand": [
+    0.088,
+    1.791
+   ],
+   "RightShoulder": [
+    -0.002,
+    1.662
+   ],
+   "RightArm": [
+    -0.156,
+    1.677
+   ],
+   "RightForeArm": [
+    -0.143,
+    1.53
+   ],
+   "RightHand": [
+    -0.048,
+    1.784
+   ],
+   "LeftLeg": [
+    0.098,
+    1.145
+   ],
+   "LeftShin": [
+    0.097,
+    0.806
+   ],
+   "LeftFoot": [
+    0.071,
+    0.411
+   ],
+   "LeftToeBase": [
+    0.092,
+    0.356
+   ],
+   "RightLeg": [
+    -0.103,
+    1.153
+   ],
+   "RightShin": [
+    -0.084,
+    0.721
+   ],
+   "RightFoot": [
+    -0.051,
+    0.318
+   ],
+   "RightToeBase": [
+    -0.066,
+    0.291
+   ]
+  },
+  "tags": [
+   "ジャズ",
+   "ジャズダンス",
+   "足技",
+   "2小節",
+   "ジャンプ",
+   "移動"
+  ],
+  "description": "ジャズダンスの振り",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "25d9f6ad34e4",
+  "name": "Jazz A 16",
+  "duration": 1.367,
+  "frames": 42,
+  "bars": 1,
+  "usage": "manual",
+  "sourceBpm": 175.6,
+  "category": "wave",
+  "energy": 3,
+  "travel": 0.32,
+  "turnDegrees": 40,
+  "handSpeed": 0.94,
+  "footSpeed": 0.29,
+  "accents": [
+   0.233,
+   0.5,
+   0.933
+  ],
+  "thumb": {
+   "Hips": [
+    0.0,
+    0.972
+   ],
+   "Spine1": [
+    -0.002,
+    1.021
+   ],
+   "Spine2": [
+    -0.005,
+    1.088
+   ],
+   "Chest": [
+    -0.01,
+    1.164
+   ],
+   "Neck1": [
+    -0.034,
+    1.417
+   ],
+   "Neck2": [
+    -0.021,
+    1.477
+   ],
+   "Head": [
+    -0.001,
+    1.527
+   ],
+   "LeftShoulder": [
+    -0.009,
+    1.374
+   ],
+   "LeftArm": [
+    0.146,
+    1.39
+   ],
+   "LeftForeArm": [
+    0.241,
+    1.152
+   ],
+   "LeftHand": [
+    0.119,
+    1.35
+   ],
+   "RightShoulder": [
+    -0.038,
+    1.37
+   ],
+   "RightArm": [
+    -0.196,
+    1.362
+   ],
+   "RightForeArm": [
+    -0.209,
+    1.077
+   ],
+   "RightHand": [
+    0.002,
+    0.996
+   ],
+   "LeftLeg": [
+    0.103,
+    0.887
+   ],
+   "LeftShin": [
+    0.091,
+    0.458
+   ],
+   "LeftFoot": [
+    0.062,
+    0.069
+   ],
+   "LeftToeBase": [
+    0.091,
+    0.089
+   ],
+   "RightLeg": [
+    -0.098,
+    0.883
+   ],
+   "RightShin": [
+    -0.085,
+    0.449
+   ],
+   "RightFoot": [
+    -0.062,
+    0.067
+   ],
+   "RightToeBase": [
+    -0.069,
+    0.086
+   ]
+  },
+  "tags": [
+   "ジャズ",
+   "ジャズダンス",
+   "ウェーブ",
+   "1小節"
+  ],
+  "description": "ジャズダンスの振り",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "c4018413c3c9",
+  "name": "Jazz B 03",
+  "duration": 3.967,
+  "frames": 120,
+  "bars": 2,
+  "usage": "auto",
+  "sourceBpm": 121.0,
+  "category": "groove",
+  "energy": 3,
+  "travel": 1.93,
+  "turnDegrees": 42,
+  "handSpeed": 1.19,
+  "footSpeed": 0.56,
+  "accents": [
+   0.933,
+   1.7,
+   2.233,
+   2.8,
+   3.067,
+   3.567,
+   3.767
+  ],
+  "thumb": {
+   "Hips": [
+    0.0,
+    0.984
+   ],
+   "Spine1": [
+    -0.004,
+    1.033
+   ],
+   "Spine2": [
+    -0.009,
+    1.101
+   ],
+   "Chest": [
+    -0.015,
+    1.177
+   ],
+   "Neck1": [
+    -0.022,
+    1.44
+   ],
+   "Neck2": [
+    -0.034,
+    1.516
+   ],
+   "Head": [
+    -0.057,
+    1.575
+   ],
+   "LeftShoulder": [
+    -0.002,
+    1.41
+   ],
+   "LeftArm": [
+    0.135,
+    1.405
+   ],
+   "LeftForeArm": [
+    0.232,
+    1.161
+   ],
+   "LeftHand": [
+    0.351,
+    0.933
+   ],
+   "RightShoulder": [
+    -0.032,
+    1.409
+   ],
+   "RightArm": [
+    -0.189,
+    1.437
+   ],
+   "RightForeArm": [
+    -0.424,
+    1.434
+   ],
+   "RightHand": [
+    -0.539,
+    1.476
+   ],
+   "LeftLeg": [
+    0.107,
+    0.904
+   ],
+   "LeftShin": [
+    0.126,
+    0.485
+   ],
+   "LeftFoot": [
+    0.1,
+    0.129
+   ],
+   "LeftToeBase": [
+    0.081,
+    0.018
+   ],
+   "RightLeg": [
+    -0.093,
+    0.889
+   ],
+   "RightShin": [
+    -0.014,
+    0.476
+   ],
+   "RightFoot": [
+    0.081,
+    0.092
+   ],
+   "RightToeBase": [
+    0.045,
+    0.018
+   ]
+  },
+  "tags": [
+   "ジャズ",
+   "ジャズダンス",
+   "グルーヴ",
+   "2小節",
+   "移動"
+  ],
+  "description": "ジャズダンスの振り",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "01b46060e155",
+  "name": "Jazz B 13",
+  "duration": 4.1,
+  "frames": 124,
+  "bars": 2,
+  "usage": "auto",
+  "sourceBpm": 117.1,
+  "category": "power",
+  "energy": 5,
+  "travel": 2.41,
+  "turnDegrees": 433,
+  "handSpeed": 2.48,
+  "footSpeed": 1.05,
+  "accents": [
+   0.667,
+   1.133,
+   1.8,
+   2.067,
+   2.267,
+   2.7,
+   3.1,
+   3.3
+  ],
+  "thumb": {
+   "Hips": [
+    0.0,
+    1.007
+   ],
+   "Spine1": [
+    -0.005,
+    1.055
+   ],
+   "Spine2": [
+    -0.008,
+    1.123
+   ],
+   "Chest": [
+    -0.004,
+    1.198
+   ],
+   "Neck1": [
+    0.015,
+    1.453
+   ],
+   "Neck2": [
+    0.015,
+    1.533
+   ],
+   "Head": [
+    0.012,
+    1.597
+   ],
+   "LeftShoulder": [
+    0.022,
+    1.435
+   ],
+   "LeftArm": [
+    0.169,
+    1.454
+   ],
+   "LeftForeArm": [
+    0.455,
+    1.424
+   ],
+   "LeftHand": [
+    0.406,
+    1.638
+   ],
+   "RightShoulder": [
+    -0.008,
+    1.436
+   ],
+   "RightArm": [
+    -0.122,
+    1.485
+   ],
+   "RightForeArm": [
+    -0.316,
+    1.682
+   ],
+   "RightHand": [
+    -0.102,
+    1.769
+   ],
+   "LeftLeg": [
+    0.108,
+    0.928
+   ],
+   "LeftShin": [
+    0.215,
+    0.521
+   ],
+   "LeftFoot": [
+    0.284,
+    0.177
+   ],
+   "LeftToeBase": [
+    0.353,
+    0.075
+   ],
+   "RightLeg": [
+    -0.092,
+    0.911
+   ],
+   "RightShin": [
+    -0.042,
+    0.483
+   ],
+   "RightFoot": [
+    -0.028,
+    0.116
+   ],
+   "RightToeBase": [
+    -0.045,
+    0.026
+   ]
+  },
+  "tags": [
+   "ジャズ",
+   "ジャズダンス",
+   "パワー",
+   "2小節",
+   "ターン",
+   "回転",
+   "ワイドスタンス",
+   "移動"
+  ],
+  "description": "ジャズダンスの振り",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "5311f09e4475",
+  "name": "Jazz B 06",
+  "duration": 5.267,
+  "frames": 159,
+  "bars": 2,
+  "usage": "auto",
+  "sourceBpm": 91.1,
+  "category": "power",
+  "energy": 5,
+  "travel": 2.34,
+  "turnDegrees": 119,
+  "handSpeed": 2.05,
+  "footSpeed": 0.47,
+  "accents": [
+   2.067,
+   2.267,
+   2.567,
+   2.8,
+   3.233,
+   3.767,
+   4.067,
+   4.267,
+   4.467,
+   4.767,
+   5.1
+  ],
+  "thumb": {
+   "Hips": [
+    -0.0,
+    1.023
+   ],
+   "Spine1": [
+    -0.003,
+    1.071
+   ],
+   "Spine2": [
+    -0.007,
+    1.139
+   ],
+   "Chest": [
+    -0.014,
+    1.214
+   ],
+   "Neck1": [
+    -0.06,
+    1.469
+   ],
+   "Neck2": [
+    -0.078,
+    1.547
+   ],
+   "Head": [
+    -0.103,
+    1.604
+   ],
+   "LeftShoulder": [
+    -0.04,
+    1.45
+   ],
+   "LeftArm": [
+    0.105,
+    1.486
+   ],
+   "LeftForeArm": [
+    0.289,
+    1.268
+   ],
+   "LeftHand": [
+    0.188,
+    1.147
+   ],
+   "RightShoulder": [
+    -0.069,
+    1.445
+   ],
+   "RightArm": [
+    -0.224,
+    1.411
+   ],
+   "RightForeArm": [
+    -0.355,
+    1.216
+   ],
+   "RightHand": [
+    -0.558,
+    1.159
+   ],
+   "LeftLeg": [
+    0.105,
+    0.94
+   ],
+   "LeftShin": [
+    0.151,
+    0.524
+   ],
+   "LeftFoot": [
+    0.254,
+    0.118
+   ],
+   "LeftToeBase": [
+    0.285,
+    0.051
+   ],
+   "RightLeg": [
+    -0.096,
+    0.93
+   ],
+   "RightShin": [
+    -0.089,
+    0.526
+   ],
+   "RightFoot": [
+    -0.017,
+    0.114
+   ],
+   "RightToeBase": [
+    -0.096,
+    0.024
+   ]
+  },
+  "tags": [
+   "ジャズ",
+   "ジャズダンス",
+   "パワー",
+   "2小節",
+   "移動"
+  ],
+  "description": "ジャズダンスの振り",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "6045364f71ad",
+  "name": "Jazz B 14",
+  "duration": 4.2,
+  "frames": 127,
+  "bars": 2,
+  "usage": "auto",
+  "sourceBpm": 114.3,
+  "category": "power",
+  "energy": 5,
+  "travel": 3.35,
+  "turnDegrees": 466,
+  "handSpeed": 2.05,
+  "footSpeed": 0.9,
+  "accents": [
+   0.067,
+   0.933,
+   1.3,
+   1.667,
+   2.233,
+   2.6,
+   2.967,
+   3.433
+  ],
+  "thumb": {
+   "Hips": [
+    0.0,
+    0.995
+   ],
+   "Spine1": [
+    -0.002,
+    1.044
+   ],
+   "Spine2": [
+    -0.006,
+    1.113
+   ],
+   "Chest": [
+    -0.004,
+    1.189
+   ],
+   "Neck1": [
+    0.005,
+    1.451
+   ],
+   "Neck2": [
+    -0.0,
+    1.527
+   ],
+   "Head": [
+    -0.007,
+    1.59
+   ],
+   "LeftShoulder": [
+    0.006,
+    1.423
+   ],
+   "LeftArm": [
+    0.163,
+    1.445
+   ],
+   "LeftForeArm": [
+    0.354,
+    1.431
+   ],
+   "LeftHand": [
+    0.09,
+    1.469
+   ],
+   "RightShoulder": [
+    -0.023,
+    1.423
+   ],
+   "RightArm": [
+    -0.149,
+    1.452
+   ],
+   "RightForeArm": [
+    -0.421,
+    1.451
+   ],
+   "RightHand": [
+    -0.378,
+    1.568
+   ],
+   "LeftLeg": [
+    0.104,
+    0.912
+   ],
+   "LeftShin": [
+    0.21,
+    0.503
+   ],
+   "LeftFoot": [
+    0.296,
+    0.127
+   ],
+   "LeftToeBase": [
+    0.383,
+    0.074
+   ],
+   "RightLeg": [
+    -0.097,
+    0.904
+   ],
+   "RightShin": [
+    -0.232,
+    0.493
+   ],
+   "RightFoot": [
+    -0.356,
+    0.121
+   ],
+   "RightToeBase": [
+    -0.421,
+    0.02
+   ]
+  },
+  "tags": [
+   "ジャズ",
+   "ジャズダンス",
+   "パワー",
+   "2小節",
+   "ターン",
+   "回転",
+   "スクワット",
+   "しゃがみ",
+   "ワイドスタンス",
+   "移動"
+  ],
+  "description": "ジャズダンスの振り",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "cd5785d1a0e0",
+  "name": "Jazz B 12",
+  "duration": 4.833,
+  "frames": 146,
+  "bars": 2,
+  "usage": "auto",
+  "sourceBpm": 99.3,
+  "category": "power",
+  "energy": 5,
+  "travel": 3.63,
+  "turnDegrees": 435,
+  "handSpeed": 1.85,
+  "footSpeed": 1.03,
+  "accents": [
+   1.2,
+   1.4,
+   1.767,
+   2.567,
+   3.067,
+   3.6,
+   3.8,
+   4.1,
+   4.333
+  ],
+  "thumb": {
+   "Hips": [
+    0.0,
+    0.927
+   ],
+   "Spine1": [
+    -0.006,
+    0.976
+   ],
+   "Spine2": [
+    -0.009,
+    1.043
+   ],
+   "Chest": [
+    -0.013,
+    1.119
+   ],
+   "Neck1": [
+    -0.038,
+    1.381
+   ],
+   "Neck2": [
+    -0.05,
+    1.459
+   ],
+   "Head": [
+    -0.074,
+    1.518
+   ],
+   "LeftShoulder": [
+    -0.019,
+    1.353
+   ],
+   "LeftArm": [
+    0.124,
+    1.364
+   ],
+   "LeftForeArm": [
+    0.24,
+    1.126
+   ],
+   "LeftHand": [
+    0.425,
+    0.988
+   ],
+   "RightShoulder": [
+    -0.049,
+    1.35
+   ],
+   "RightArm": [
+    -0.201,
+    1.317
+   ],
+   "RightForeArm": [
+    -0.297,
+    1.087
+   ],
+   "RightHand": [
+    -0.477,
+    0.971
+   ],
+   "LeftLeg": [
+    0.111,
+    0.853
+   ],
+   "LeftShin": [
+    0.313,
+    0.492
+   ],
+   "LeftFoot": [
+    0.44,
+    0.205
+   ],
+   "LeftToeBase": [
+    0.499,
+    0.102
+   ],
+   "RightLeg": [
+    -0.088,
+    0.828
+   ],
+   "RightShin": [
+    0.008,
+    0.406
+   ],
+   "RightFoot": [
+    0.182,
+    0.113
+   ],
+   "RightToeBase": [
+    0.117,
+    0.026
+   ]
+  },
+  "tags": [
+   "ジャズ",
+   "ジャズダンス",
+   "パワー",
+   "2小節",
+   "ターン",
+   "回転",
+   "移動"
+  ],
+  "description": "ジャズダンスの振り",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "6b55ad704c62",
+  "name": "Jazz B 08",
+  "duration": 4.833,
+  "frames": 146,
+  "bars": 2,
+  "usage": "auto",
+  "sourceBpm": 99.3,
+  "category": "power",
+  "energy": 5,
+  "travel": 2.43,
+  "turnDegrees": 60,
+  "handSpeed": 2.17,
+  "footSpeed": 0.75,
+  "accents": [
+   0.2,
+   0.567,
+   0.833,
+   2.233,
+   3.233,
+   3.467,
+   3.9,
+   4.433,
+   4.7
+  ],
+  "thumb": {
+   "Hips": [
+    0.0,
+    0.956
+   ],
+   "Spine1": [
+    -0.015,
+    1.002
+   ],
+   "Spine2": [
+    -0.033,
+    1.065
+   ],
+   "Chest": [
+    -0.046,
+    1.14
+   ],
+   "Neck1": [
+    -0.051,
+    1.401
+   ],
+   "Neck2": [
+    -0.053,
+    1.476
+   ],
+   "Head": [
+    -0.067,
+    1.539
+   ],
+   "LeftShoulder": [
+    -0.035,
+    1.363
+   ],
+   "LeftArm": [
+    0.109,
+    1.373
+   ],
+   "LeftForeArm": [
+    0.367,
+    1.267
+   ],
+   "LeftHand": [
+    0.628,
+    1.195
+   ],
+   "RightShoulder": [
+    -0.065,
+    1.362
+   ],
+   "RightArm": [
+    -0.218,
+    1.383
+   ],
+   "RightForeArm": [
+    -0.466,
+    1.242
+   ],
+   "RightHand": [
+    -0.698,
+    1.143
+   ],
+   "LeftLeg": [
+    0.123,
+    0.903
+   ],
+   "LeftShin": [
+    0.327,
+    0.593
+   ],
+   "LeftFoot": [
+    0.295,
+    0.325
+   ],
+   "LeftToeBase": [
+    0.308,
+    0.19
+   ],
+   "RightLeg": [
+    -0.069,
+    0.843
+   ],
+   "RightShin": [
+    -0.026,
+    0.413
+   ],
+   "RightFoot": [
+    0.013,
+    0.068
+   ],
+   "RightToeBase": [
+    -0.034,
+    0.021
+   ]
+  },
+  "tags": [
+   "ジャズ",
+   "ジャズダンス",
+   "パワー",
+   "2小節",
+   "足上げ",
+   "スクワット",
+   "しゃがみ",
+   "ワイドスタンス"
+  ],
+  "description": "ジャズダンスの振り",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "9c4d7dde2f6a",
+  "name": "Jazz B 05",
+  "duration": 4.767,
+  "frames": 144,
+  "bars": 2,
+  "usage": "auto",
+  "sourceBpm": 100.7,
+  "category": "power",
+  "energy": 5,
+  "travel": 3.29,
+  "turnDegrees": 761,
+  "handSpeed": 2.95,
+  "footSpeed": 0.96,
+  "accents": [
+   0.3,
+   1.267,
+   1.467,
+   1.767,
+   2.133,
+   2.4,
+   2.633,
+   3.3,
+   4.3,
+   4.633
+  ],
+  "thumb": {
+   "Hips": [
+    0.0,
+    1.024
+   ],
+   "Spine1": [
+    -0.001,
+    1.073
+   ],
+   "Spine2": [
+    -0.002,
+    1.142
+   ],
+   "Chest": [
+    0.001,
+    1.218
+   ],
+   "Neck1": [
+    0.016,
+    1.48
+   ],
+   "Neck2": [
+    0.015,
+    1.557
+   ],
+   "Head": [
+    0.008,
+    1.62
+   ],
+   "LeftShoulder": [
+    0.025,
+    1.451
+   ],
+   "LeftArm": [
+    0.182,
+    1.45
+   ],
+   "LeftForeArm": [
+    0.373,
+    1.301
+   ],
+   "LeftHand": [
+    0.273,
+    1.245
+   ],
+   "RightShoulder": [
+    -0.005,
+    1.452
+   ],
+   "RightArm": [
+    -0.158,
+    1.467
+   ],
+   "RightForeArm": [
+    -0.377,
+    1.368
+   ],
+   "RightHand": [
+    -0.368,
+    1.338
+   ],
+   "LeftLeg": [
+    0.101,
+    0.937
+   ],
+   "LeftShin": [
+    0.114,
+    0.512
+   ],
+   "LeftFoot": [
+    0.157,
+    0.112
+   ],
+   "LeftToeBase": [
+    0.173,
+    0.028
+   ],
+   "RightLeg": [
+    -0.1,
+    0.937
+   ],
+   "RightShin": [
+    -0.093,
+    0.504
+   ],
+   "RightFoot": [
+    -0.073,
+    0.104
+   ],
+   "RightToeBase": [
+    -0.106,
+    0.018
+   ]
+  },
+  "tags": [
+   "ジャズ",
+   "ジャズダンス",
+   "パワー",
+   "2小節",
+   "キック",
+   "足上げ",
+   "ターン",
+   "回転",
+   "スクワット",
+   "しゃがみ",
+   "ワイドスタンス",
+   "移動"
+  ],
+  "description": "ジャズダンスの振り",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "a43a972c23f6",
+  "name": "Jazz B 04",
+  "duration": 5.267,
+  "frames": 159,
+  "bars": 2,
+  "usage": "auto",
+  "sourceBpm": 91.1,
+  "category": "power",
+  "energy": 5,
+  "travel": 2.76,
+  "turnDegrees": 23,
+  "handSpeed": 2.09,
+  "footSpeed": 0.67,
+  "accents": [
+   0.667,
+   1.2,
+   2.033,
+   2.967,
+   3.367,
+   3.6,
+   4.6,
+   5.1
+  ],
+  "thumb": {
+   "Hips": [
+    0.0,
+    0.946
+   ],
+   "Spine1": [
+    -0.003,
+    0.994
+   ],
+   "Spine2": [
+    -0.003,
+    1.06
+   ],
+   "Chest": [
+    -0.004,
+    1.136
+   ],
+   "Neck1": [
+    0.003,
+    1.399
+   ],
+   "Neck2": [
+    0.007,
+    1.471
+   ],
+   "Head": [
+    0.007,
+    1.531
+   ],
+   "LeftShoulder": [
+    0.027,
+    1.363
+   ],
+   "LeftArm": [
+    0.165,
+    1.403
+   ],
+   "LeftForeArm": [
+    0.438,
+    1.49
+   ],
+   "LeftHand": [
+    0.371,
+    1.599
+   ],
+   "RightShoulder": [
+    -0.003,
+    1.363
+   ],
+   "RightArm": [
+    -0.154,
+    1.412
+   ],
+   "RightForeArm": [
+    -0.374,
+    1.496
+   ],
+   "RightHand": [
+    -0.208,
+    1.567
+   ],
+   "LeftLeg": [
+    0.105,
+    0.864
+   ],
+   "LeftShin": [
+    0.147,
+    0.495
+   ],
+   "LeftFoot": [
+    0.136,
+    0.086
+   ],
+   "LeftToeBase": [
+    0.136,
+    0.019
+   ],
+   "RightLeg": [
+    -0.095,
+    0.853
+   ],
+   "RightShin": [
+    -0.078,
+    0.423
+   ],
+   "RightFoot": [
+    0.008,
+    0.109
+   ],
+   "RightToeBase": [
+    -0.085,
+    0.047
+   ]
+  },
+  "tags": [
+   "ジャズ",
+   "ジャズダンス",
+   "パワー",
+   "2小節",
+   "スクワット",
+   "しゃがみ",
+   "移動"
+  ],
+  "description": "ジャズダンスの振り",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "d0bfae26c6ad",
+  "name": "Jazz B 11",
+  "duration": 4.167,
+  "frames": 126,
+  "bars": 2,
+  "usage": "auto",
+  "sourceBpm": 115.2,
+  "category": "power",
+  "energy": 5,
+  "travel": 3.29,
+  "turnDegrees": 427,
+  "handSpeed": 2.72,
+  "footSpeed": 1.28,
+  "accents": [
+   1.533,
+   2.367,
+   3.067,
+   3.433,
+   3.833
+  ],
+  "thumb": {
+   "Hips": [
+    0.0,
+    0.957
+   ],
+   "Spine1": [
+    -0.001,
+    1.007
+   ],
+   "Spine2": [
+    -0.0,
+    1.072
+   ],
+   "Chest": [
+    0.001,
+    1.148
+   ],
+   "Neck1": [
+    0.009,
+    1.411
+   ],
+   "Neck2": [
+    0.01,
+    1.486
+   ],
+   "Head": [
+    0.022,
+    1.546
+   ],
+   "LeftShoulder": [
+    0.026,
+    1.377
+   ],
+   "LeftArm": [
+    0.184,
+    1.377
+   ],
+   "LeftForeArm": [
+    0.287,
+    1.266
+   ],
+   "LeftHand": [
+    0.301,
+    1.303
+   ],
+   "RightShoulder": [
+    -0.004,
+    1.378
+   ],
+   "RightArm": [
+    -0.155,
+    1.392
+   ],
+   "RightForeArm": [
+    -0.395,
+    1.257
+   ],
+   "RightHand": [
+    -0.434,
+    1.226
+   ],
+   "LeftLeg": [
+    0.101,
+    0.871
+   ],
+   "LeftShin": [
+    0.146,
+    0.496
+   ],
+   "LeftFoot": [
+    0.169,
+    0.329
+   ],
+   "LeftToeBase": [
+    0.182,
+    0.189
+   ],
+   "RightLeg": [
+    -0.1,
+    0.87
+   ],
+   "RightShin": [
+    -0.042,
+    0.447
+   ],
+   "RightFoot": [
+    -0.042,
+    0.1
+   ],
+   "RightToeBase": [
+    -0.024,
+    0.042
+   ]
+  },
+  "tags": [
+   "ジャズ",
+   "ジャズダンス",
+   "パワー",
+   "2小節",
+   "キック",
+   "足上げ",
+   "バウンス",
+   "ターン",
+   "回転",
+   "ワイドスタンス",
+   "移動"
+  ],
+  "description": "ジャズダンスの振り",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "6f5a712d593c",
+  "name": "Jazz B 02",
+  "duration": 2.4,
+  "frames": 73,
+  "bars": 1,
+  "usage": "manual",
+  "sourceBpm": 100.0,
+  "category": "power",
+  "energy": 5,
+  "travel": 2.99,
+  "turnDegrees": 395,
+  "handSpeed": 3.48,
+  "footSpeed": 1.73,
+  "accents": [
+   0.267,
+   0.7,
+   0.9,
+   1.5,
+   1.8
+  ],
+  "thumb": {
+   "Hips": [
+    0.0,
+    1.011
+   ],
+   "Spine1": [
+    0.012,
+    1.059
+   ],
+   "Spine2": [
+    0.028,
+    1.125
+   ],
+   "Chest": [
+    0.037,
+    1.2
+   ],
+   "Neck1": [
+    0.037,
+    1.462
+   ],
+   "Neck2": [
+    0.033,
+    1.542
+   ],
+   "Head": [
+    0.034,
+    1.606
+   ],
+   "LeftShoulder": [
+    0.071,
+    1.436
+   ],
+   "LeftArm": [
+    0.2,
+    1.471
+   ],
+   "LeftForeArm": [
+    0.439,
+    1.623
+   ],
+   "LeftHand": [
+    0.559,
+    1.855
+   ],
+   "RightShoulder": [
+    0.043,
+    1.436
+   ],
+   "RightArm": [
+    -0.112,
+    1.476
+   ],
+   "RightForeArm": [
+    -0.275,
+    1.594
+   ],
+   "RightHand": [
+    -0.274,
+    1.833
+   ],
+   "LeftLeg": [
+    0.075,
+    0.901
+   ],
+   "LeftShin": [
+    -0.038,
+    0.492
+   ],
+   "LeftFoot": [
+    -0.088,
+    0.086
+   ],
+   "LeftToeBase": [
+    -0.172,
+    0.035
+   ],
+   "RightLeg": [
+    -0.119,
+    0.954
+   ],
+   "RightShin": [
+    -0.301,
+    0.568
+   ],
+   "RightFoot": [
+    -0.332,
+    0.223
+   ],
+   "RightToeBase": [
+    -0.4,
+    0.12
+   ]
+  },
+  "tags": [
+   "ジャズ",
+   "ジャズダンス",
+   "パワー",
+   "1小節",
+   "キック",
+   "足上げ",
+   "ターン",
+   "回転",
+   "ワイドスタンス",
+   "移動"
+  ],
+  "description": "ジャズダンスの振り",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "8dfc811a49f3",
+  "name": "Jazz B 07",
+  "duration": 5.1,
+  "frames": 154,
+  "bars": 2,
+  "usage": "auto",
+  "sourceBpm": 94.1,
+  "category": "power",
+  "energy": 5,
+  "travel": 3.72,
+  "turnDegrees": 72,
+  "handSpeed": 2.36,
+  "footSpeed": 0.9,
+  "accents": [
+   1.567,
+   1.9,
+   2.167,
+   3.267,
+   3.533,
+   3.967,
+   4.4
+  ],
+  "thumb": {
+   "Hips": [
+    0.0,
+    0.895
+   ],
+   "Spine1": [
+    -0.003,
+    0.944
+   ],
+   "Spine2": [
+    -0.005,
+    1.006
+   ],
+   "Chest": [
+    -0.006,
+    1.077
+   ],
+   "Neck1": [
+    -0.013,
+    1.318
+   ],
+   "Neck2": [
+    -0.011,
+    1.379
+   ],
+   "Head": [
+    -0.013,
+    1.432
+   ],
+   "LeftShoulder": [
+    0.006,
+    1.266
+   ],
+   "LeftArm": [
+    0.16,
+    1.282
+   ],
+   "LeftForeArm": [
+    0.219,
+    1.001
+   ],
+   "LeftHand": [
+    0.314,
+    0.826
+   ],
+   "RightShoulder": [
+    -0.024,
+    1.265
+   ],
+   "RightArm": [
+    -0.179,
+    1.265
+   ],
+   "RightForeArm": [
+    -0.244,
+    0.991
+   ],
+   "RightHand": [
+    -0.338,
+    0.781
+   ],
+   "LeftLeg": [
+    0.104,
+    0.812
+   ],
+   "LeftShin": [
+    0.185,
+    0.579
+   ],
+   "LeftFoot": [
+    0.131,
+    0.219
+   ],
+   "LeftToeBase": [
+    0.173,
+    0.136
+   ],
+   "RightLeg": [
+    -0.096,
+    0.804
+   ],
+   "RightShin": [
+    -0.116,
+    0.458
+   ],
+   "RightFoot": [
+    0.077,
+    0.176
+   ],
+   "RightToeBase": [
+    0.004,
+    0.119
+   ]
+  },
+  "tags": [
+   "ジャズ",
+   "ジャズダンス",
+   "パワー",
+   "2小節",
+   "スクワット",
+   "しゃがみ",
+   "ワイドスタンス",
+   "移動"
+  ],
+  "description": "ジャズダンスの振り",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "17335708d75c",
+  "name": "Jazz B 10",
+  "duration": 5.267,
+  "frames": 159,
+  "bars": 2,
+  "usage": "auto",
+  "sourceBpm": 91.1,
+  "category": "foot",
+  "energy": 4,
+  "travel": 3.95,
+  "turnDegrees": 100,
+  "handSpeed": 1.41,
+  "footSpeed": 0.85,
+  "accents": [
+   0.167,
+   1.0,
+   1.433,
+   1.7,
+   2.7,
+   3.1,
+   3.633,
+   4.233,
+   5.1
+  ],
+  "thumb": {
+   "Hips": [
+    0.0,
+    0.935
+   ],
+   "Spine1": [
+    -0.003,
+    0.984
+   ],
+   "Spine2": [
+    -0.004,
+    1.052
+   ],
+   "Chest": [
+    -0.012,
+    1.128
+   ],
+   "Neck1": [
+    -0.04,
+    1.389
+   ],
+   "Neck2": [
+    -0.039,
+    1.462
+   ],
+   "Head": [
+    -0.042,
+    1.52
+   ],
+   "LeftShoulder": [
+    -0.001,
+    1.357
+   ],
+   "LeftArm": [
+    0.105,
+    1.371
+   ],
+   "LeftForeArm": [
+    0.238,
+    1.208
+   ],
+   "LeftHand": [
+    0.421,
+    1.103
+   ],
+   "RightShoulder": [
+    -0.028,
+    1.353
+   ],
+   "RightArm": [
+    -0.185,
+    1.341
+   ],
+   "RightForeArm": [
+    -0.084,
+    1.156
+   ],
+   "RightHand": [
+    -0.01,
+    1.328
+   ],
+   "LeftLeg": [
+    0.105,
+    0.852
+   ],
+   "LeftShin": [
+    0.052,
+    0.488
+   ],
+   "LeftFoot": [
+    -0.003,
+    0.07
+   ],
+   "LeftToeBase": [
+    -0.011,
+    0.039
+   ],
+   "RightLeg": [
+    -0.096,
+    0.843
+   ],
+   "RightShin": [
+    -0.035,
+    0.435
+   ],
+   "RightFoot": [
+    0.069,
+    0.118
+   ],
+   "RightToeBase": [
+    0.034,
+    0.041
+   ]
+  },
+  "tags": [
+   "ジャズ",
+   "ジャズダンス",
+   "足技",
+   "2小節",
+   "ワイドスタンス",
+   "移動"
+  ],
+  "description": "ジャズダンスの振り",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "95f1313e4128",
+  "name": "Jazz B 09",
+  "duration": 5.267,
+  "frames": 159,
+  "bars": 2,
+  "usage": "auto",
+  "sourceBpm": 91.1,
+  "category": "wave",
+  "energy": 3,
+  "travel": 0.92,
+  "turnDegrees": 82,
+  "handSpeed": 0.96,
+  "footSpeed": 0.12,
+  "accents": [
+   1.733,
+   2.733,
+   3.7,
+   4.1,
+   4.333,
+   4.6,
+   4.8
+  ],
+  "thumb": {
+   "Hips": [
+    0.0,
+    0.967
+   ],
+   "Spine1": [
+    0.0,
+    1.014
+   ],
+   "Spine2": [
+    0.01,
+    1.076
+   ],
+   "Chest": [
+    0.025,
+    1.149
+   ],
+   "Neck1": [
+    0.1,
+    1.401
+   ],
+   "Neck2": [
+    0.106,
+    1.48
+   ],
+   "Head": [
+    0.096,
+    1.544
+   ],
+   "LeftShoulder": [
+    0.104,
+    1.362
+   ],
+   "LeftArm": [
+    0.245,
+    1.333
+   ],
+   "LeftForeArm": [
+    0.409,
+    1.114
+   ],
+   "LeftHand": [
+    0.63,
+    0.966
+   ],
+   "RightShoulder": [
+    0.075,
+    1.37
+   ],
+   "RightArm": [
+    -0.056,
+    1.454
+   ],
+   "RightForeArm": [
+    -0.262,
+    1.65
+   ],
+   "RightHand": [
+    -0.037,
+    1.64
+   ],
+   "LeftLeg": [
+    0.099,
+    0.878
+   ],
+   "LeftShin": [
+    0.252,
+    0.478
+   ],
+   "LeftFoot": [
+    0.477,
+    0.12
+   ],
+   "LeftToeBase": [
+    0.509,
+    0.04
+   ],
+   "RightLeg": [
+    -0.102,
+    0.882
+   ],
+   "RightShin": [
+    -0.04,
+    0.452
+   ],
+   "RightFoot": [
+    0.118,
+    0.099
+   ],
+   "RightToeBase": [
+    0.045,
+    0.02
+   ]
+  },
+  "tags": [
+   "ジャズ",
+   "ジャズダンス",
+   "ウェーブ",
+   "2小節"
+  ],
+  "description": "ジャズダンスの振り",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "4efb43a937db",
+  "name": "Jazz B 15",
+  "duration": 5.2,
+  "frames": 157,
+  "bars": 2,
+  "usage": "auto",
+  "sourceBpm": 92.3,
+  "category": "groove",
+  "energy": 3,
+  "travel": 2.09,
+  "turnDegrees": 42,
+  "handSpeed": 1.13,
+  "footSpeed": 0.48,
+  "accents": [
+   0.133,
+   0.867,
+   1.3,
+   1.6,
+   1.833,
+   2.133,
+   2.6,
+   3.633,
+   3.833,
+   4.3,
+   4.567
+  ],
+  "thumb": {
+   "Hips": [
+    0.0,
+    0.978
+   ],
+   "Spine1": [
+    -0.004,
+    1.027
+   ],
+   "Spine2": [
+    -0.018,
+    1.095
+   ],
+   "Chest": [
+    -0.035,
+    1.169
+   ],
+   "Neck1": [
+    -0.086,
+    1.426
+   ],
+   "Neck2": [
+    -0.086,
+    1.504
+   ],
+   "Head": [
+    -0.082,
+    1.567
+   ],
+   "LeftShoulder": [
+    -0.048,
+    1.404
+   ],
+   "LeftArm": [
+    0.072,
+    1.408
+   ],
+   "LeftForeArm": [
+    0.24,
+    1.199
+   ],
+   "LeftHand": [
+    0.502,
+    1.152
+   ],
+   "RightShoulder": [
+    -0.077,
+    1.398
+   ],
+   "RightArm": [
+    -0.235,
+    1.376
+   ],
+   "RightForeArm": [
+    -0.363,
+    1.247
+   ],
+   "RightHand": [
+    -0.473,
+    1.462
+   ],
+   "LeftLeg": [
+    0.107,
+    0.899
+   ],
+   "LeftShin": [
+    0.036,
+    0.472
+   ],
+   "LeftFoot": [
+    -0.043,
+    0.088
+   ],
+   "LeftToeBase": [
+    -0.026,
+    0.016
+   ],
+   "RightLeg": [
+    -0.093,
+    0.884
+   ],
+   "RightShin": [
+    -0.21,
+    0.523
+   ],
+   "RightFoot": [
+    -0.071,
+    0.155
+   ],
+   "RightToeBase": [
+    -0.161,
+    0.057
+   ]
+  },
+  "tags": [
+   "ジャズ",
+   "ジャズダンス",
+   "グルーヴ",
+   "2小節",
+   "ワイドスタンス",
+   "移動"
+  ],
+  "description": "ジャズダンスの振り",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "d4727b5e3ea0",
+  "name": "Jazz B 01",
+  "duration": 4.7,
+  "frames": 142,
+  "bars": 2,
+  "usage": "auto",
+  "sourceBpm": 102.1,
+  "category": "foot",
+  "energy": 5,
+  "travel": 3.49,
+  "turnDegrees": 233,
+  "handSpeed": 1.55,
+  "footSpeed": 1.07,
+  "accents": [
+   1.367,
+   1.633,
+   2.167,
+   2.4,
+   2.633,
+   2.967,
+   3.233,
+   3.633,
+   4.233,
+   4.433
+  ],
+  "thumb": {
+   "Hips": [
+    0.0,
+    0.914
+   ],
+   "Spine1": [
+    -0.008,
+    0.96
+   ],
+   "Spine2": [
+    -0.012,
+    1.023
+   ],
+   "Chest": [
+    -0.015,
+    1.097
+   ],
+   "Neck1": [
+    0.012,
+    1.358
+   ],
+   "Neck2": [
+    0.044,
+    1.43
+   ],
+   "Head": [
+    0.072,
+    1.487
+   ],
+   "LeftShoulder": [
+    0.04,
+    1.318
+   ],
+   "LeftArm": [
+    0.161,
+    1.316
+   ],
+   "LeftForeArm": [
+    0.423,
+    1.242
+   ],
+   "LeftHand": [
+    0.674,
+    1.345
+   ],
+   "RightShoulder": [
+    0.011,
+    1.32
+   ],
+   "RightArm": [
+    -0.138,
+    1.378
+   ],
+   "RightForeArm": [
+    -0.385,
+    1.452
+   ],
+   "RightHand": [
+    -0.541,
+    1.611
+   ],
+   "LeftLeg": [
+    0.113,
+    0.843
+   ],
+   "LeftShin": [
+    0.117,
+    0.477
+   ],
+   "LeftFoot": [
+    0.096,
+    0.074
+   ],
+   "LeftToeBase": [
+    0.09,
+    0.045
+   ],
+   "RightLeg": [
+    -0.085,
+    0.812
+   ],
+   "RightShin": [
+    0.014,
+    0.436
+   ],
+   "RightFoot": [
+    0.085,
+    0.175
+   ],
+   "RightToeBase": [
+    0.093,
+    0.076
+   ]
+  },
+  "tags": [
+   "ジャズ",
+   "ジャズダンス",
+   "足技",
+   "2小節",
+   "キック",
+   "足上げ",
+   "ターン",
+   "回転",
+   "ワイドスタンス",
+   "移動"
+  ],
+  "description": "ジャズダンスの振り",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "e20506bf6e84",
+  "name": "Basic Box Step",
+  "duration": 4.7,
+  "frames": 142,
+  "bars": 2,
+  "usage": "auto",
+  "sourceBpm": 102.1,
+  "category": "foot",
+  "energy": 4,
+  "travel": 1.82,
+  "turnDegrees": 55,
+  "handSpeed": 1.21,
+  "footSpeed": 0.79,
+  "accents": [
+   0.6,
+   1.4,
+   1.633,
+   1.933,
+   2.433,
+   2.8,
+   3.2,
+   3.4,
+   3.833,
+   4.1,
+   4.333
+  ],
+  "thumb": {
+   "Hips": [
+    0.0,
+    1.003
+   ],
+   "Spine1": [
+    0.0,
+    1.053
+   ],
+   "Spine2": [
+    -0.0,
+    1.124
+   ],
+   "Chest": [
+    -0.001,
+    1.199
+   ],
+   "Neck1": [
+    -0.001,
+    1.462
+   ],
+   "Neck2": [
+    0.011,
+    1.537
+   ],
+   "Head": [
+    0.023,
+    1.598
+   ],
+   "LeftShoulder": [
+    0.03,
+    1.432
+   ],
+   "LeftArm": [
+    0.166,
+    1.414
+   ],
+   "LeftForeArm": [
+    0.206,
+    1.131
+   ],
+   "LeftHand": [
+    0.245,
+    0.918
+   ],
+   "RightShoulder": [
+    0.001,
+    1.432
+   ],
+   "RightArm": [
+    -0.159,
+    1.421
+   ],
+   "RightForeArm": [
+    -0.187,
+    1.141
+   ],
+   "RightHand": [
+    -0.061,
+    0.95
+   ],
+   "LeftLeg": [
+    0.1,
+    0.918
+   ],
+   "LeftShin": [
+    0.077,
+    0.486
+   ],
+   "LeftFoot": [
+    0.074,
+    0.069
+   ],
+   "LeftToeBase": [
+    0.008,
+    0.034
+   ],
+   "RightLeg": [
+    -0.101,
+    0.92
+   ],
+   "RightShin": [
+    -0.17,
+    0.492
+   ],
+   "RightFoot": [
+    -0.138,
+    0.221
+   ],
+   "RightToeBase": [
+    -0.208,
+    0.134
+   ]
+  },
+  "tags": [
+   "基本ステップ",
+   "ステップ",
+   "ボックスステップ",
+   "足技",
+   "2小節",
+   "バウンス"
+  ],
+  "description": "基本のボックスステップ",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "f9f6afbcfa23",
+  "name": "Basic Crab Step",
+  "duration": 3.8,
+  "frames": 115,
+  "bars": 2,
+  "usage": "manual",
+  "sourceBpm": 126.3,
+  "category": "foot",
+  "energy": 3,
+  "travel": 1.35,
+  "turnDegrees": 29,
+  "handSpeed": 1.18,
+  "footSpeed": 0.59,
+  "accents": [
+   0.167,
+   0.6,
+   1.333,
+   1.567,
+   1.8,
+   2.2,
+   2.633,
+   3.233,
+   3.533
+  ],
+  "thumb": {
+   "Hips": [
+    0.0,
+    0.951
+   ],
+   "Spine1": [
+    -0.014,
+    1.0
+   ],
+   "Spine2": [
+    -0.042,
+    1.065
+   ],
+   "Chest": [
+    -0.073,
+    1.134
+   ],
+   "Neck1": [
+    -0.162,
+    1.381
+   ],
+   "Neck2": [
+    -0.157,
+    1.445
+   ],
+   "Head": [
+    -0.142,
+    1.492
+   ],
+   "LeftShoulder": [
+    -0.119,
+    1.36
+   ],
+   "LeftArm": [
+    -0.009,
+    1.369
+   ],
+   "LeftForeArm": [
+    0.012,
+    1.122
+   ],
+   "LeftHand": [
+    0.213,
+    1.248
+   ],
+   "RightShoulder": [
+    -0.146,
+    1.35
+   ],
+   "RightArm": [
+    -0.297,
+    1.296
+   ],
+   "RightForeArm": [
+    -0.238,
+    1.031
+   ],
+   "RightHand": [
+    -0.3,
+    1.159
+   ],
+   "LeftLeg": [
+    0.119,
+    0.898
+   ],
+   "LeftShin": [
+    0.153,
+    0.469
+   ],
+   "LeftFoot": [
+    0.081,
+    0.079
+   ],
+   "LeftToeBase": [
+    0.152,
+    0.018
+   ],
+   "RightLeg": [
+    -0.075,
+    0.845
+   ],
+   "RightShin": [
+    -0.166,
+    0.437
+   ],
+   "RightFoot": [
+    -0.083,
+    0.069
+   ],
+   "RightToeBase": [
+    -0.21,
+    0.037
+   ]
+  },
+  "tags": [
+   "基本ステップ",
+   "ステップ",
+   "クラブステップ",
+   "足技",
+   "2小節",
+   "スクワット",
+   "しゃがみ"
+  ],
+  "description": "基本のクラブステップ",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "8155e1a14b4e",
+  "name": "Basic Slide",
+  "duration": 3.6,
+  "frames": 109,
+  "bars": 2,
+  "usage": "manual",
+  "sourceBpm": 133.3,
+  "category": "foot",
+  "energy": 4,
+  "travel": 1.48,
+  "turnDegrees": 32,
+  "handSpeed": 1.55,
+  "footSpeed": 0.8,
+  "accents": [
+   0.067,
+   0.6,
+   1.433,
+   1.667,
+   2.067,
+   2.533,
+   3.033,
+   3.3
+  ],
+  "thumb": {
+   "Hips": [
+    0.0,
+    1.017
+   ],
+   "Spine1": [
+    0.001,
+    1.067
+   ],
+   "Spine2": [
+    0.002,
+    1.138
+   ],
+   "Chest": [
+    0.003,
+    1.213
+   ],
+   "Neck1": [
+    0.001,
+    1.476
+   ],
+   "Neck2": [
+    -0.003,
+    1.546
+   ],
+   "Head": [
+    -0.005,
+    1.602
+   ],
+   "LeftShoulder": [
+    0.022,
+    1.446
+   ],
+   "LeftArm": [
+    0.172,
+    1.445
+   ],
+   "LeftForeArm": [
+    0.272,
+    1.176
+   ],
+   "LeftHand": [
+    0.346,
+    0.94
+   ],
+   "RightShoulder": [
+    -0.008,
+    1.445
+   ],
+   "RightArm": [
+    -0.161,
+    1.437
+   ],
+   "RightForeArm": [
+    -0.322,
+    1.216
+   ],
+   "RightHand": [
+    -0.396,
+    1.059
+   ],
+   "LeftLeg": [
+    0.099,
+    0.93
+   ],
+   "LeftShin": [
+    0.063,
+    0.5
+   ],
+   "LeftFoot": [
+    0.039,
+    0.095
+   ],
+   "LeftToeBase": [
+    0.024,
+    0.043
+   ],
+   "RightLeg": [
+    -0.102,
+    0.935
+   ],
+   "RightShin": [
+    -0.089,
+    0.502
+   ],
+   "RightFoot": [
+    -0.092,
+    0.091
+   ],
+   "RightToeBase": [
+    -0.085,
+    0.041
+   ]
+  },
+  "tags": [
+   "基本ステップ",
+   "ステップ",
+   "スライド",
+   "足技",
+   "2小節",
+   "足上げ",
+   "バウンス"
+  ],
+  "description": "基本のスライド",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
+ },
+ {
+  "id": "58b6cdf4b625",
+  "name": "Basic Voguing",
+  "duration": 5.3,
+  "frames": 160,
+  "bars": 2,
+  "usage": "auto",
+  "sourceBpm": 90.6,
+  "category": "power",
+  "energy": 5,
+  "travel": 1.68,
+  "turnDegrees": 198,
+  "handSpeed": 2.14,
+  "footSpeed": 0.78,
+  "accents": [
+   0.7,
+   1.2,
+   1.6,
+   2.133,
+   2.567,
+   3.1,
+   3.5,
+   4.067,
+   4.267,
+   5.1
+  ],
+  "thumb": {
+   "Hips": [
+    0.0,
+    1.045
+   ],
+   "Spine1": [
+    -0.003,
+    1.095
+   ],
+   "Spine2": [
+    -0.011,
+    1.163
+   ],
+   "Chest": [
+    -0.017,
+    1.239
+   ],
+   "Neck1": [
+    -0.022,
+    1.499
+   ],
+   "Neck2": [
+    -0.02,
+    1.561
+   ],
+   "Head": [
+    -0.014,
+    1.611
+   ],
+   "LeftShoulder": [
+    -0.002,
+    1.46
+   ],
+   "LeftArm": [
+    0.151,
+    1.473
+   ],
+   "LeftForeArm": [
+    0.353,
+    1.316
+   ],
+   "LeftHand": [
+    0.175,
+    1.344
+   ],
+   "RightShoulder": [
+    -0.032,
+    1.459
+   ],
+   "RightArm": [
+    -0.187,
+    1.486
+   ],
+   "RightForeArm": [
+    -0.424,
+    1.368
+   ],
+   "RightHand": [
+    -0.231,
+    1.307
+   ],
+   "LeftLeg": [
+    0.106,
+    0.965
+   ],
+   "LeftShin": [
+    0.101,
+    0.534
+   ],
+   "LeftFoot": [
+    0.093,
+    0.129
+   ],
+   "LeftToeBase": [
+    0.102,
+    0.07
+   ],
+   "RightLeg": [
+    -0.095,
+    0.953
+   ],
+   "RightShin": [
+    -0.113,
+    0.52
+   ],
+   "RightFoot": [
+    -0.156,
+    0.108
+   ],
+   "RightToeBase": [
+    -0.152,
+    0.054
+   ]
+  },
+  "tags": [
+   "基本ステップ",
+   "ヴォーグ",
+   "手振り",
+   "パワー",
+   "2小節",
+   "アーム",
+   "ステップ",
+   "足上げ",
+   "スクワット",
+   "しゃがみ",
+   "ワイドスタンス"
+  ],
+  "description": "基本のヴォーギング",
+  "pack": "user",
+  "provenance": {
+   "origin": "",
+   "owner": "",
+   "license": "",
+   "credit": ""
+  }
  }
 ]
