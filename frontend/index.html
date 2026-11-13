@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dance Studio Bricks</title>
+</head>
+<body>
+<header class="top">
+  <div class="logo"><svg width="30" height="30" viewBox="0 0 30 30"><rect x="1" y="4" width="13" height="7" rx="1.5" fill="#ff8a70"/><rect x="16" y="4" width="13" height="7" rx="1.5" fill="#e9d9b0"/><rect x="1" y="13" width="6" height="7" rx="1.5" fill="#e9d9b0"/><rect x="9" y="13" width="13" height="7" rx="1.5" fill="#ff8a70"/><rect x="24" y="13" width="5" height="7" rx="1.5" fill="#e9d9b0"/><rect x="1" y="22" width="13" height="7" rx="1.5" fill="#ff8a70"/><rect x="16" y="22" width="13" height="7" rx="1.5" fill="#e9d9b0"/></svg>Dance Studio <b>Bricks</b></div>
+  <div class="sep"></div>
+  <div class="song"><span class="t" id="songName">曲が未選択です</span><span class="s" id="songSub">「曲を読み込む」から音声を選びます</span></div>
+  <div class="meta">
+    <div><label>テンポ</label><span id="tempo">--</span></div>
+    <div><label>拍子</label><span id="meter">--</span></div>
+    <div><label>小節数</label><span id="barCount">--</span></div>
+  </div>
+  <div class="tempo-fix" id="tempoFix" hidden><button id="tempoHalf" title="テンポを半分として数え直す">½</button><button id="tempoDouble" title="テンポを倍として数え直す">×2</button></div>
+  <div class="grow"></div>
+  <button class="btn" id="btnSong">曲を読み込む</button>
+  <button class="btn accent-text" id="btnFlow">流れの辞書を編集</button>
+  <div class="sep"></div>
+  <button class="btn" id="btnArrangeFilter" title="自動配置や入れ替えで使うジャンル・雰囲気・動きタグを絞り込みます">対象: すべて ▾</button>
+  <button class="btn pri" id="btnArrange"><svg width="17" height="17" viewBox="0 0 17 17"><path d="M8.500 0l2 6.200 6.500 2.300-6.500 2.300-2 6.200-2-6.200L0 8.500l6.500-2.300z" fill="#231410"/></svg>自動配置</button>
+  <button class="btn" id="btnShuffle">ロック以外を入れ替え</button>
+  <div class="sep"></div>
+  <button class="btn" id="btnExport">書き出し</button>
+</header>
+
+<main class="mid">
+  <section class="pane lib">
+    <div class="head left-tabs" id="leftTabs"><span class="on" data-tab="library">ライブラリ<small id="libCount">0</small></span><span data-tab="order">順番リスト<small id="orderCount">0</small></span></div>
+    <div class="tab-body" id="tabOrder" hidden><div id="orderList"></div></div>
+    <div class="tab-body" id="tabLibrary">
+    <div class="tools">
+      <div class="search"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="#8b8e9a" stroke-width="1.800" stroke-linecap="round"><circle cx="7" cy="7" r="5"/><path d="M11 11l4 4"/></svg><input id="search" placeholder="名前・タグ・「キック」「楽しそう」「かわいい」（Enterで意味検索）" spellcheck="false"></div>
+      <div class="chips" id="catChips"></div>
+      <div class="chips tag-chips" id="tagChips"></div>
+    </div>
+    <div class="grid" id="grid"></div>
+    <div class="foot"><button class="btn pri" id="btnImport">＋ モーションデータを読み込み</button></div>
+    </div>
+  </section>
+
+  <section class="pane stage" id="stage">
+    <div class="vtabs" id="viewTabs"><span class="on" data-view="3d">3D</span><span data-view="front">正面</span><span data-view="top">上面</span></div>
+    <div class="cast" id="castBar"></div>
+    <div class="vinfo"><button class="pill env-chip" id="envChip" hidden></button><button class="pill model-pill" id="modelPill" title="VRM / GLB / FBX のモデルで踊らせます">モデル <b id="modelName">標準マネキン</b></button><button class="pill ui-hide-pill" id="btnHideUi" title="画面内のUIを隠してステージだけを表示します（H）">UI非表示</button></div>
+    <div class="ui-restore-bar" id="uiRestoreBar" hidden><button class="pill ui-ctrl-btn" id="btnUiPlay" title="再生 / 停止（スペース）">再生</button><button class="pill ui-show-btn" id="btnShowUi" title="UIを再表示します（H / Esc）">UIを表示 <small>H</small></button></div>
+    <div id="stage3d"></div>
+    <div class="now" id="nowCard" hidden><div><div class="big" id="nowName"></div><div class="lbl" id="nowSub"></div></div></div>
+    <div class="mini"><div class="h">ステージ配置<small>幅 8m × 奥行 6m</small></div><div id="minimap"></div></div>
+  </section>
+
+  <section class="pane insp" id="inspector"></section>
+</main>
+
+<section class="tl" id="tl">
+  <div class="trans">
+    <button class="tbtn" id="btnPrev" title="前の区間へ"><svg width="15" height="15" viewBox="0 0 15 15" fill="#f0eee8"><rect width="3" height="15"/><path d="M15 0v15L4 7.500z"/></svg></button>
+    <button class="tbtn play" id="btnPlay" title="再生 / 停止（スペース）"><svg width="16" height="16" viewBox="0 0 16 16" fill="#231410" id="playIcon"><path d="M2 0l13 8-13 8z"/></svg></button>
+    <button class="tbtn" id="btnNext" title="次の区間へ"><svg width="15" height="15" viewBox="0 0 15 15" fill="#f0eee8"><rect x="12" width="3" height="15"/><path d="M0 0v15l11-7.500z"/></svg></button>
+    <span class="tc" id="timecode">00:00.00</span><span class="tcs" id="barBeat">--</span>
+    <div class="leg" id="legend"></div>
+    <div class="grow"></div>
+    <button class="chip chip-accent" id="btnInsert">＋ モーション挿入</button>
+    <button class="chip" id="btnInsertFit" title="挿入・ドラッグ時の長さ調整モードを切り替えます">長さ: 自動調整</button>
+    <button class="chip" id="btnSplit" title="白いバーの位置でフレーズを2つに分割します（S）">✂ 分割</button>
+    <button class="chip" id="btnRangeArrange" title="表示中の範囲だけ自動配置します">表示範囲だけ自動配置</button>
+    <div class="snap">スナップ<div class="seg" id="snapSeg"><span data-snap="bar">小節</span><span data-snap="beat">拍</span><span data-snap="free">自由</span></div></div>
+    <span class="chip"><b id="viewLabel" class="n">--</b> 小節</span>
+  </div>
+  <div id="lanes"></div>
+  <div class="empty" id="tlEmpty">曲を読み込み、フレーズを読み込んでから「自動配置」を押します</div>
+</section>
+
+<div id="toast" hidden></div>
+<div id="busy" hidden><div class="spinner"></div><div id="busyText"></div></div>
+<div id="modal" hidden></div>
+<audio id="audio" preload="auto"></audio>
+<svg width="0" height="0" style="position:absolute"><defs>
+  <pattern id="brickP" width="14" height="12" patternUnits="userSpaceOnUse"><rect width="14" height="12" fill="#e9d9b0"/><path d="M0 0H14M0 6H14M4 0V6M11 6V12" stroke="#7a6c49" stroke-width="1.300"/></pattern>
+</defs></svg>
+<script type="module" src="/src/main.ts"></script>
+</body>
+</html>

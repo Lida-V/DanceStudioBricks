@@ -1,0 +1,7 @@
+default-mannequin.glb
+=====================
+Model: Universal Animation Library Mannequin (UAL1_Standard.glb, animation tracks removed)
+Author / Owner: Quaternius (Tomás Laulhé)
+Source: https://quaternius.com/packs/universalanimationlibrary.html
+License: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
+License URL: https://creativecommons.org/publicdomain/zero/1.0/

@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "dance-studio-bricks": {
+      "command": "backend/.venv/Scripts/python.exe",
+      "args": [
+        "-X",
+        "utf8",
+        "-W",
+        "ignore",
+        "-m",
+        "dsb.mcp_server"
+      ],
+      "env": {
+        "PYTHONPATH": "backend"
+      }
+    }
+  }
+}

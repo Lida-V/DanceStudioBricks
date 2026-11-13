@@ -1,0 +1,8 @@
+numpy
+scipy
+soundfile
+soxr
+librosa
+fastapi
+uvicorn
+mcp
