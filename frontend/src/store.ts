@@ -41,6 +41,7 @@ export const S = {
   history: { undo: 0, redo: 0 }, leftTab: "library", interacting: false, draggingPhrase: null as string | null,
   insertFit: "auto" as InsertFit,
   uiHidden: false,
+  pickedDancer: null as string | null,  // the dancer chosen as a whole (dragging it moves all of its phrases)
   clipboard: null as Clip | null,  // the phrase copied with Ctrl+C, as it was at that moment
   cast: [] as CastMember[], collisions: [] as CloseCall[], modelBones: [] as string[],
   previews: {} as Record<string, Motion>,  // joint positions per dancer, for the mannequins

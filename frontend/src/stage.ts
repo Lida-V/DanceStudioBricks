@@ -27,6 +27,7 @@ let controls: OrbitControls;
 let markers = new THREE.Group();
 let boundaryLine: THREE.Line;
 let dropRing: THREE.Mesh;
+let pickRing: THREE.Mesh;
 
 const LIMB = new THREE.CylinderGeometry(1, 1, 1, 14);
 const BALL = new THREE.SphereGeometry(1, 18, 14);
@@ -388,9 +389,21 @@ export function initStage() {
   dropRing.rotation.x = -Math.PI / 2;
   dropRing.visible = false;
   scene.add(dropRing);
+  pickRing = new THREE.Mesh(new THREE.RingGeometry(0.36, 0.43, 48), new THREE.MeshBasicMaterial({ color: 0xffffff, transparent: true, opacity: 0.95, side: THREE.DoubleSide, depthTest: false }));
+  pickRing.rotation.x = -Math.PI / 2;
+  pickRing.renderOrder = 5;
+  pickRing.visible = false;
+  scene.add(pickRing);
   new ResizeObserver(resize).observe(host);
   resize();
-  subscribe(() => { resolveJoints(); syncActors(); rebuildMarkers(); drawMini(); poseAt(S.playhead); });
+  subscribe(() => {
+    // A dancer is chosen as a whole only while no phrase is chosen.
+    if (S.pickedDancer && (S.selected || !dancers().some((dancer) => dancer.id === S.pickedDancer))) { S.pickedDancer = null; }
+    resolveJoints(); syncActors(); rebuildMarkers(); drawMini(); poseAt(S.playhead);
+  });
+  window.addEventListener("keydown", (event) => {
+    if (event.key === "Escape" && S.pickedDancer && !editing) { S.pickedDancer = null; refresh(); }
+  });
   document.getElementById("viewTabs")!.addEventListener("click", (event) => {
     const view = (event.target as HTMLElement).dataset.view;
     if (!view) { return; }
@@ -480,7 +493,35 @@ function poseActor(dancerId: string, actor: Actor, frame: number | null) {
 
 export function poseAt(time: number) {
   for (const [id, actor] of actors) { poseActor(id, actor, time * (S.composed?.fps ?? FPS)); }
+  placePickRing();
   dirty = true;
+}
+
+/** Where a dancer's hips are right now, with whatever a drag has added. False when there is nothing to show. */
+function hipsOf(dancerId: string, out: THREE.Vector3): boolean {
+  const motion = S.previews[dancerId];
+  const count = S.jointNames.length;
+  const actor = actors.get(dancerId);
+  if (!motion || !count || !actor || special.hips < 0) { return false; }
+  const frames = motion.data.length / (count * 3);
+  readJoint(motion.data, count, Math.min(frames - 1.001, Math.max(0, S.playhead * (S.composed?.fps ?? FPS))), special.hips, out);
+  out.add(actor.body.group.position);
+  return true;
+}
+
+const ringAt = new THREE.Vector3();
+
+/** The ring under the dancer chosen as a whole. */
+function placePickRing() {
+  if (!pickRing) { return; }
+  const id = S.pickedDancer;
+  const index = dancers().findIndex((dancer) => dancer.id === id);
+  const shown = !!id && index >= 0 && !S.selected && !S.uiHidden && !dancers()[index].hidden && hipsOf(id, ringAt);
+  pickRing.visible = shown;
+  if (shown) {
+    pickRing.position.set(ringAt.x, 0.018, ringAt.z);
+    (pickRing.material as THREE.MeshBasicMaterial).color.set(DANCER_COLORS[index % DANCER_COLORS.length]);
+  }
 }
 
 /**
@@ -535,6 +576,34 @@ function pick(event: MouseEvent): { kind: "move" | "rotate"; id: string } | null
   const hits = raycaster.intersectObjects(picks, false);
   const hit = hits.find((item) => item.object.userData.kind === "rotate") ?? hits.find((item) => (item.object as THREE.Sprite).isSprite) ?? hits[0];
   return hit ? (hit.object.userData as { kind: "move" | "rotate"; id: string }) : null;
+}
+
+const bodyAt = new THREE.Vector3();
+const screenAt = new THREE.Vector3();
+
+/** The dancer whose body is under the pointer (the nearest one when several overlap). */
+function dancerAt(event: MouseEvent): string | null {
+  if (S.uiHidden) { return null; }
+  const rect = renderer.domElement.getBoundingClientRect();
+  const px = event.clientX - rect.left, py = event.clientY - rect.top;
+  const onScreen = (x: number, y: number, z: number): [number, number, number] => {
+    screenAt.set(x, y, z).project(camera);
+    return [(screenAt.x + 1) / 2 * rect.width, (1 - screenAt.y) / 2 * rect.height, screenAt.z];
+  };
+  let best: string | null = null, nearest = Infinity;
+  for (const dancer of dancers()) {
+    if (dancer.hidden || !hipsOf(dancer.id, bodyAt)) { continue; }
+    const top = onScreen(bodyAt.x, bodyAt.y + 0.75, bodyAt.z), foot = onScreen(bodyAt.x, 0, bodyAt.z);
+    if (top[2] > 1 || foot[2] > 1) { continue; }  // behind the camera
+    const ax = foot[0] - top[0], ay = foot[1] - top[1];
+    const length2 = ax * ax + ay * ay;
+    const along = length2 > 1e-6 ? Math.max(0, Math.min(1, ((px - top[0]) * ax + (py - top[1]) * ay) / length2)) : 0;
+    const off = Math.hypot(px - (top[0] + ax * along), py - (top[1] + ay * along));
+    if (off > Math.max(10, Math.sqrt(length2) * 0.2)) { continue; }
+    const away = camera.position.distanceTo(bodyAt);
+    if (away < nearest) { nearest = away; best = dancer.id; }
+  }
+  return best;
 }
 
 function floorAt(event: MouseEvent): THREE.Vector3 | null {
@@ -623,15 +692,92 @@ function bindDirectEdit() {
     if (!editing && event.buttons === 0) {
       const over = pick(event);
       const locked = over && clips().find((c) => c.id === over.id)?.locked;
-      canvas.style.cursor = over ? (locked ? "not-allowed" : over.kind === "rotate" ? "ew-resize" : "move") : "";
+      canvas.style.cursor = over ? (locked ? "not-allowed" : over.kind === "rotate" ? "ew-resize" : "move") : dancerAt(event) ? "grab" : "";
     }
   });
+  let toldHowToMove = false;
+  /** A press on a dancer's body chooses that dancer; dragging it then moves all of its phrases together. */
+  const dragDancer = (who: string, event: PointerEvent) => {
+    controls.enabled = false;
+    editing = true;
+    canvas.setPointerCapture(event.pointerId);
+    const from = floorAt(event)?.clone() ?? null;
+    let originals: { clip: Clip; x: number; z: number }[] = [];
+    let dx = 0, dz = 0, started = false, ready = false;
+    const chosen = (async () => {
+      // Choosing another dancer changes who is edited, and that answer has to land before the drag starts holding answers back.
+      if (who !== activeDancer()?.id) {
+        try { S.selected = null; await applyChanges(await call("POST", `/api/dancers/${who}/select`)); }
+        catch (error) { toast((error as Error).message, "error"); }
+      }
+      S.selected = null;
+      S.pickedDancer = who;
+      refresh();
+      originals = (dancers().find((dancer) => dancer.id === who)?.clips ?? []).filter((clip) => !clip.locked).map((clip) => ({ clip, x: clip.x, z: clip.z }));
+      ready = true;
+    })();
+    const bodies = () => { const actor = actors.get(who); return actor ? [actor.body.group, ...(actor.rig ? [actor.rig.root] : [])] : []; };
+    const move = (e: PointerEvent) => {
+      if (!ready || !from) { return; }
+      if (!started && Math.hypot(e.clientX - event.clientX, e.clientY - event.clientY) < 4) { return; }
+      if (!started) { started = true; beginInteraction(); canvas.style.cursor = "grabbing"; }
+      const spot = floorAt(e);
+      if (!spot) { return; }
+      const step = e.shiftKey ? 2 : 20;
+      // Phrases that stand on the stage stay on it: the whole group stops when the first of them reaches an edge.
+      const inside = originals.filter((item) => item.x >= -4 && item.x <= 4 && item.z >= 0 && item.z <= 6);
+      const limit = (wanted: number, low: number, high: number) => inside.length ? Math.max(low, Math.min(high, wanted)) : wanted;
+      dx = limit(Math.round((spot.x - from.x) * step) / step, -4 - Math.min(...inside.map((item) => item.x)), 4 - Math.max(...inside.map((item) => item.x)));
+      dz = limit(Math.round((spot.z - from.z) * step) / step, 0 - Math.min(...inside.map((item) => item.z)), 6 - Math.max(...inside.map((item) => item.z)));
+      for (const item of originals) { item.clip.x = Math.round((item.x + dx) * 1000) / 1000; item.clip.z = Math.round((item.z + dz) * 1000) / 1000; }
+      for (const body of bodies()) { body.position.set(dx, 0, dz); }
+      rebuildMarkers();
+      drawMini();
+      poseAt(S.playhead);
+    };
+    const release = async () => {
+      canvas.removeEventListener("pointermove", move);
+      canvas.removeEventListener("pointerup", release);
+      canvas.removeEventListener("pointercancel", release);
+      controls.enabled = true;
+      editing = false;
+      canvas.style.cursor = "";
+      await chosen;
+      const name = dancers().find((dancer) => dancer.id === who)?.name ?? "";
+      if (started && (dx !== 0 || dz !== 0)) {
+        endInteraction(true);
+        try {
+          const data = await call("POST", `/api/dancers/${who}/move`, { dx, dz });
+          await applyChanges(data);
+          toast(`「${name}」のフレーズ ${data.moved} 個を ${Math.hypot(dx, dz).toFixed(2)} m 動かしました${data.kept ? `。ロック中の ${data.kept} 個はそのままです` : ""}（Ctrl+Z で戻せます）`);
+        } catch (error) {
+          toast((error as Error).message, "error");
+          await applyState(await call("GET", "/api/state"));
+        }
+      } else {
+        if (started) { endInteraction(); }
+        for (const item of originals) { item.clip.x = item.x; item.clip.z = item.z; }
+        if (!toldHowToMove) { toldHowToMove = true; toast(`「${name}」を選択しました。ドラッグすると、このダンサーのフレーズの位置がまとめて動きます（Esc で解除）`); }
+      }
+      for (const body of bodies()) { body.position.set(0, 0, 0); }
+      rebuildMarkers();
+      drawMini();
+      seek(S.playhead);
+    };
+    canvas.addEventListener("pointermove", move);
+    canvas.addEventListener("pointerup", release);
+    canvas.addEventListener("pointercancel", release);
+  };
   // Registered for the capture phase so it runs before the camera controls see the press.
   canvas.addEventListener("pointerdown", (event) => {
     if (event.button === 2) { rightPress = { x: event.clientX, y: event.clientY }; }
     if (event.button !== 0) { return; }
     const target = pick(event);
-    if (!target) { return; }
+    if (!target) {
+      const who = dancerAt(event);
+      if (who) { dragDancer(who, event); }
+      return;
+    }
     const clip = clips().find((c) => c.id === target.id);
     if (!clip) { return; }
     controls.enabled = false;

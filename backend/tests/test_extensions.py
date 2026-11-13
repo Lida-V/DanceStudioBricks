@@ -856,6 +856,46 @@ class AlignToThePhraseBefore(unittest.TestCase):
             self.studio.align_clip("two")
 
 
+class MoveTheWholeDancer(unittest.TestCase):
+    """Dragging a dancer shifts all of its phrases together."""
+
+    def setUp(self):
+        self.studio = studio_with_two_clips(self)
+        self.dancer = self.studio.dancers[0]["id"]
+        self.before = [(clip["x"], clip["z"], clip["facing"], clip["start"], clip["end"]) for clip in self.studio.clips]
+
+    def test_every_phrase_moves_by_the_same_distance(self):
+        result = self.studio.move_dancer(self.dancer, 0.75, -0.4)
+        self.assertEqual((result["moved"], result["kept"]), (len(self.before), 0))
+        for clip, (x, z, facing, start, end) in zip(self.studio.clips, self.before):
+            self.assertAlmostEqual(clip["x"], x + 0.75, places=3)
+            self.assertAlmostEqual(clip["z"], z - 0.4, places=3)
+            self.assertEqual((clip["facing"], clip["start"], clip["end"]), (facing, start, end))
+        self.studio.undo()
+        self.assertEqual([(clip["x"], clip["z"]) for clip in self.studio.clips], [(x, z) for x, z, *_ in self.before])
+
+    def test_locked_phrases_stay(self):
+        locked = self.studio.clips[0]
+        self.studio.update_clip(locked["id"], {"locked": True})
+        result = self.studio.move_dancer(self.dancer, 1.0, 0.0)
+        self.assertEqual((result["moved"], result["kept"]), (len(self.before) - 1, 1))
+        self.assertEqual((self.studio.clips[0]["x"], self.studio.clips[0]["z"]), self.before[0][:2])
+        self.assertAlmostEqual(self.studio.clips[1]["x"], self.before[1][0] + 1.0, places=3)
+
+    def test_no_distance_leaves_no_undo_step(self):
+        steps = len(self.studio.undo_stack)
+        self.assertEqual(self.studio.move_dancer(self.dancer, 0.0, 0.0)["moved"], 0)
+        self.assertEqual(len(self.studio.undo_stack), steps)
+
+    def test_only_that_dancer_moves(self):
+        other = self.studio.add_dancer(copy_from=self.dancer)
+        second = self.studio.dancers[1]
+        was = [(clip["x"], clip["z"]) for clip in second["clips"]]
+        self.studio.move_dancer(self.dancer, 0.5, 0.5)
+        self.assertEqual([(clip["x"], clip["z"]) for clip in second["clips"]], was)
+        self.assertIn("project", other)
+
+
 class HiddenDancer(unittest.TestCase):
     def test_hiding_is_kept_and_lifted(self):
         studio = studio_with_two_clips(self)

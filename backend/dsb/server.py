@@ -116,6 +116,11 @@ class NewDancer(BaseModel):
     copyFrom: str | None = None
 
 
+class MoveDancer(BaseModel):
+    dx: float = 0.0
+    dz: float = 0.0
+
+
 class Formation(BaseModel):
     time: float
     spots: dict
@@ -268,6 +273,11 @@ def add_dancer(body: NewDancer):
 @app.post("/api/dancers/sync")
 def sync_dancers():
     return studio.sync_dancers()
+
+
+@app.post("/api/dancers/{dancer_id}/move")
+def move_dancer(dancer_id: str, body: MoveDancer):
+    return studio.move_dancer(dancer_id, body.dx, body.dz)
 
 
 @app.post("/api/dancers/{dancer_id}/select")

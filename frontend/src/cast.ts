@@ -1,4 +1,4 @@
-import { S, activeDancer, applyChanges, barBeatAt, call, dancerColor, dancers, formatTime, subscribe, toast, withBusy, type Formation, type Spot } from "./store";
+import { S, activeDancer, applyChanges, barBeatAt, call, dancerColor, dancers, formatTime, refresh, subscribe, toast, withBusy, type Formation, type Spot } from "./store";
 import { MAIN_BONES, boneLabel } from "./model";
 import { openActionMenu } from "./insertMenu";
 import { bridge, closeModal, escapeHtml } from "./panels";
@@ -24,7 +24,7 @@ async function send(method: string, path: string, body?: unknown): Promise<any |
 
 function renderCast() {
   const active = activeDancer()?.id ?? "";
-  const chips = dancers().map((dancer) => `<button class="cast-chip ${dancer.id === active ? "on" : ""} ${dancer.hidden ? "hidden-dancer" : ""}" data-dancer="${dancer.id}" title="${dancer.hidden ? "非表示中です。" : ""}クリックで編集の対象にします。右クリックで表示の切り替えと削除"><i style="background:${dancerColor(dancer.id)}"></i>${escapeHtml(dancer.name)}</button>`).join("");
+  const chips = dancers().map((dancer) => `<button class="cast-chip ${dancer.id === active ? "on" : ""} ${dancer.hidden ? "hidden-dancer" : ""} ${dancer.id === S.pickedDancer && !S.selected ? "picked" : ""}" data-dancer="${dancer.id}" title="${dancer.hidden ? "非表示中です。" : ""}クリックでこのダンサーを選びます（ステージで体をドラッグすると、フレーズの位置がまとめて動きます）。右クリックで表示の切り替えと削除"><i style="background:${dancerColor(dancer.id)}"></i>${escapeHtml(dancer.name)}</button>`).join("");
   const close = S.collisions.length ? `<button class="cast-chip warn" id="castWarn" title="ダンサー同士が近づきすぎる場面があります。クリックでその場面へ">▲ 接近 ${S.collisions.length}</button>` : "";
   document.getElementById("castBar")!.innerHTML = `${chips}<button class="cast-chip add" id="castAdd" title="ダンサーを追加">＋</button><button class="cast-chip" id="castFormation" title="全員の立ち位置を決めます">フォーメーション</button>${close}`;
   const model = S.project?.models?.[active];
@@ -357,6 +357,9 @@ export function initCast() {
     const chip = target.closest<HTMLElement>("[data-dancer]");
     if (chip) {
       if (chip.dataset.dancer !== activeDancer()?.id) { S.selected = null; await send("POST", `/api/dancers/${chip.dataset.dancer}/select`); }
+      S.selected = null;
+      S.pickedDancer = chip.dataset.dancer!;
+      refresh();
       return;
     }
     if (target.closest("#castAdd")) { openAddDancer(); }

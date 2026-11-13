@@ -533,8 +533,11 @@ def dancer_manage(
     dancer_id: str | None = None,
     name: str | None = None,
     copy_from: str | None = None,
+    dx: float = 0.0,
+    dz: float = 0.0,
+    hidden: bool | None = None,
 ) -> dict[str, Any]:
-    """Manage dancers (`action`: `'list'`|`'add'`|`'select'`|`'rename'`|`'delete'`|`'sync'`). Up to 12 dancers; `'sync'` copies the active dancer's phrases/timing to all other dancers."""
+    """Manage dancers (`action`: `'list'`|`'add'`|`'select'`|`'rename'`|`'delete'`|`'sync'`|`'move'`|`'show'`). Up to 12 dancers; `'sync'` copies the active dancer's phrases/timing to all other dancers; `'move'` shifts every unlocked phrase of `dancer_id` by (`dx`, `dz`) metres on the floor; `'show'` sets `hidden` (stage display only)."""
     by_id, bars, st = _library_and_bars()
     act = action.strip().lower()
     if act == "list":
@@ -554,6 +557,14 @@ def dancer_manage(
         if not dancer_id:
             raise RuntimeError("dancer_id を指定してください")
         changes = request("DELETE", f"/api/dancers/{urllib.parse.quote(dancer_id)}")
+    elif act == "move":
+        if not dancer_id:
+            raise RuntimeError("dancer_id を指定してください")
+        changes = request("POST", f"/api/dancers/{urllib.parse.quote(dancer_id)}/move", {"dx": dx, "dz": dz})
+    elif act == "show":
+        if not dancer_id or hidden is None:
+            raise RuntimeError("dancer_id と hidden を指定してください")
+        changes = request("PATCH", f"/api/dancers/{urllib.parse.quote(dancer_id)}", {"hidden": hidden})
     elif act == "sync":
         changes = request("POST", "/api/dancers/sync", {})
     else:

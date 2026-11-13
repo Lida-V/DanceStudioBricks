@@ -225,6 +225,7 @@ table.options tr.current td { box-shadow: inset 0 0 0 1px var(--line2); backgrou
 .cast-chip:hover { color: var(--text); border-color: var(--line2); }
 .cast-chip.on { background: #3a2c2a; border-color: var(--accent); color: var(--text); font-weight: 700; }
 .cast-chip i { width: 11px; height: 11px; border-radius: 6px; }
+.cast-chip.picked { box-shadow: 0 0 0 2px var(--accent2); }
 .cast-chip.hidden-dancer { opacity: 0.5; text-decoration: line-through; }
 .cast-chip.hidden-dancer i { background: transparent !important; border: 1px solid var(--sub); }
 #actionMenu { position: fixed; z-index: 58; min-width: 210px; display: flex; flex-direction: column; gap: 2px; background: var(--panel); border: 1px solid var(--line2); border-radius: 10px; box-shadow: 0 14px 36px #000b; padding: 8px; }

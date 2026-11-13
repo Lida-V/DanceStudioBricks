@@ -1217,6 +1217,24 @@ class Studio:
             self._save()
             return self.changes()
 
+    def move_dancer(self, dancer_id: str, dx: float, dz: float) -> dict:
+        """Shift every phrase of one dancer by the same distance on the floor. Locked phrases stay where they are."""
+        with self.lock:
+            dancer = self._dancer(dancer_id)
+            dx, dz = round(float(dx), 3), round(float(dz), 3)
+            free = [clip for clip in dancer["clips"] if not clip.get("locked")]
+            if not free:
+                raise StudioError("動かせるフレーズがありません" if dancer["clips"] else "このダンサーにはフレーズがありません")
+            kept = len(dancer["clips"]) - len(free)
+            if dx == 0.0 and dz == 0.0:
+                return {**self.changes(), "moved": 0, "kept": kept}
+            self._checkpoint()
+            for clip in free:
+                clip["x"], clip["z"] = round(clip["x"] + dx, 3), round(clip["z"] + dz, 3)
+            self._save()
+            self._recompose()
+            return {**self.changes(), "moved": len(free), "kept": kept}
+
     def select_dancer(self, dancer_id: str) -> dict:
         with self.lock:
             self.project["active"] = self._dancer(dancer_id)["id"]
