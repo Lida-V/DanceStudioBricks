@@ -19,7 +19,7 @@ export interface ClipAccent { t: number; sound: number | null; matched: boolean;
 export interface ClipReport { speed: number; localSpeed: [number, number]; accents: ClipAccent[]; matched: number; candidates: number; curve: number[]; }
 export interface Composed { clips: Record<string, ClipReport>; joins: Join[]; generated: number; reused: number; engineError: string | null; seconds: number; version: number; frames: number; fps: number; }
 export interface FlowRule { categories: string[]; energy: number; move: number; text: string; }
-export interface Dancer { id: string; name: string; clips: Clip[]; }
+export interface Dancer { id: string; name: string; clips: Clip[]; hidden?: boolean; }
 export interface Spot { x: number; z: number; facing?: number | null; }
 export interface Formation { id: string; time: number; name: string; spots: Record<string, Spot>; }
 export interface ModelRef { path: string; name: string; mapping: Record<string, string>; }

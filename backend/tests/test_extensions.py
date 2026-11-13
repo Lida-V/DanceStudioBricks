@@ -808,6 +808,65 @@ class RestPose(unittest.TestCase):
         self.assertLess(float(np.abs(self.written("a").poses[0, self.skeleton.index("LeftArm"), 6])), 0.95)  # on an A-pose rest the T-pose lifts the arms
 
 
+class AlignToThePhraseBefore(unittest.TestCase):
+    """A phrase can be stood where the one before it ends, so the join has no distance to cover."""
+
+    def setUp(self):
+        from dsb.motion import place, world_positions
+        self.place, self.world_positions = place, world_positions
+        self.studio = studio_with_two_clips(self)
+        self.skeleton = legs_skeleton()
+        frames = 121  # 4.0 seconds at 30 fps
+        poses = bent_legs(frames, np.linspace(0.0, 1.2, frames))
+        poses[:, 0, 3:7] = np.array([yaw_quat(float(t)) for t in np.linspace(0.0, np.deg2rad(60.0), frames)])
+        self.poses = poses
+        self.studio.library.skeleton = self.skeleton
+        self.studio.library._poses["walk"] = poses
+        self.studio.library.items["walk"] = {"id": "walk", "duration": 4.0, "accents": []}
+        self.studio.clips = [
+            {"id": "one", "phraseId": "walk", "start": 0.0, "end": 3.0, "x": -0.5, "z": 2.5, "facing": 30.0, "locked": False, "speedMode": "manual", "match": 0, "trimEnd": 3.0},
+            {"id": "two", "phraseId": "walk", "start": 3.75, "end": 7.5, "x": 1.37, "z": 3.1, "facing": -80.0, "locked": False, "speedMode": "manual", "match": 0},
+        ]
+
+    def clip(self, clip_id):
+        return next(c for c in self.studio.clips if c["id"] == clip_id)
+
+    def hips(self, clip, source_seconds):
+        placed = self.place(self.poses, self.skeleton, clip["x"], clip["z"], clip["facing"], clip.get("trimStart", 0.0))
+        return placed[round(source_seconds * 30), 0, [0, 2]]
+
+    def test_the_phrase_starts_where_the_one_before_ends(self):
+        self.studio.align_clip("two")
+        gap = np.linalg.norm(self.hips(self.clip("two"), 0.0) - self.hips(self.clip("one"), 3.0))
+        self.assertLess(gap, 0.002)
+        self.assertEqual(self.clip("two")["facing"], -80.0)
+        self.assertEqual((self.clip("one")["x"], self.clip("one")["z"]), (-0.5, 2.5))
+        self.studio.undo()
+        self.assertEqual((self.clip("two")["x"], self.clip("two")["z"]), (1.37, 3.1))
+
+    def test_the_heading_follows_when_asked(self):
+        self.studio.align_clip("two", facing=True)
+        self.assertAlmostEqual(self.clip("two")["facing"], 30.0 + 45.0, delta=0.6)  # 60 degrees over 4 s, cut at 3 s
+
+    def test_the_first_phrase_and_a_locked_one_are_refused(self):
+        with self.assertRaises(StudioError):
+            self.studio.align_clip("one")
+        self.studio.update_clip("two", {"locked": True})
+        with self.assertRaises(StudioError):
+            self.studio.align_clip("two")
+
+
+class HiddenDancer(unittest.TestCase):
+    def test_hiding_is_kept_and_lifted(self):
+        studio = studio_with_two_clips(self)
+        dancer = studio.dancers[0]["id"]
+        studio.update_dancer(dancer, {"hidden": True})
+        self.assertTrue(studio.dancers[0]["hidden"])
+        self.assertEqual(studio.dancers[0]["name"], "ダンサー 1")
+        studio.update_dancer(dancer, {"hidden": False})
+        self.assertNotIn("hidden", studio.dancers[0])
+
+
 class SeededLibrary(unittest.TestCase):
     """The phrases shipped with the app fill an empty library on the first start, and never touch one that exists."""
 

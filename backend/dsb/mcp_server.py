@@ -443,6 +443,14 @@ def clip_update(clip_id: str, changes: dict[str, Any]) -> dict[str, Any]:
 
 
 @mcp.tool()
+def clip_align(clip_id: str, facing: bool = False) -> dict[str, Any]:
+    """Move a clip to stand where the clip before it ends (hips' floor position), so the join between them covers no distance and the feet do not slide. With `facing=True` the heading is matched too."""
+    by_id, bars, _ = _library_and_bars()
+    res = request("POST", f"/api/clips/{urllib.parse.quote(clip_id)}/align", {"facing": facing})
+    return _summarize_mutation(res, by_id, bars)
+
+
+@mcp.tool()
 def clip_cut(clip_id: str, at: float, mode: str = "split") -> dict[str, Any]:
     """Cut or split a timeline clip at `at` seconds (`mode`: `'split'` into two clips, `'before'` to trim front, `'after'` to trim tail). Automatically updates stage origin when cutting front."""
     by_id, bars, _ = _library_and_bars()

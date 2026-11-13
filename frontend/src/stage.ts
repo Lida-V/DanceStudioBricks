@@ -3,7 +3,7 @@ import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js";
 import { S, ApiError, DANCER_COLORS, activeDancer, call, applyChanges, applyState, beginInteraction, clips, dancers, endInteraction, isDoublePress, loadPreview, markGenerating, phraseOf, refresh, selectedClip, subscribe, toast, warnLockedDrag, type Clip, type ModelRef } from "./store";
 import { openInsertMenu, openPhraseMenu } from "./insertMenu";
 import { Rig, loadDefaultRig, loadRig } from "./model";
-import { exactInsertLabel, insertLabel, insertPhrase, jumpToClip, replaceClip, snapTime } from "./timeline";
+import { clipActions, exactInsertLabel, insertLabel, insertPhrase, jumpToClip, replaceClip, snapTime } from "./timeline";
 import { seek } from "./transport";
 
 const BONES: [string, string, number][] = [
@@ -310,7 +310,7 @@ function rebuildMarkers() {
   if (picked) { addGizmo(markers, picked); }
   // The other dancers' routes, faint and not to be grabbed.
   dancers().forEach((dancer, index) => {
-    if (dancer.id === activeDancer()?.id || !dancer.clips.length) { return; }
+    if (dancer.id === activeDancer()?.id || !dancer.clips.length || dancer.hidden) { return; }
     const color = new THREE.Color(DANCER_COLORS[index % DANCER_COLORS.length]);
     const route = dancer.clips.map((c) => new THREE.Vector3(c.x, 0.008, c.z));
     if (route.length > 1) { markers.add(new THREE.Line(new THREE.BufferGeometry().setFromPoints(route), new THREE.LineBasicMaterial({ color, transparent: true, opacity: 0.28 }))); }
@@ -459,7 +459,7 @@ function poseActor(dancerId: string, actor: Actor, frame: number | null) {
   const count = S.jointNames.length;
   const rig = actor.rig?.ready ? actor.rig : null;
   const turns = S.turns[dancerId];
-  if (!motion || !count) {
+  if (!motion || !count || dancers().find((dancer) => dancer.id === dancerId)?.hidden) {
     actor.body.group.visible = false;
     if (actor.rig) { actor.rig.root.visible = false; }
     return;
@@ -571,10 +571,10 @@ function bindDirectEdit() {
       openPhraseMenu(event.clientX, event.clientY, [
         { title: "モーションを差し替え", where: `${list.indexOf(picked) + 1} 番「${name}」を差し替え`, choose: (phraseId) => replaceClip(picked.id, phraseId), switchLabel: "挿入へ切替", at: picked.start, replaceClip: picked },
         { title: "モーションを挿入", where: insWhere, choose: insChoose, switchLabel: "差し替えに戻す", at: insAt },
-      ]);
+      ], clipActions(picked));
       return;
     }
-    openInsertMenu(event.clientX, event.clientY, insWhere, insChoose, insAt);
+    openInsertMenu(event.clientX, event.clientY, insWhere, insChoose, insAt, clipActions());
   });
   const stageEl = document.getElementById("stage")!;
   const hideStageDrop = () => {
@@ -730,7 +730,7 @@ function drawMini() {
   const picked = selectedClip();
   let text = `<svg width="258" height="150" id="miniSvg"><rect x="${MX(-4)}" y="${MZ(0)}" width="200" height="108" rx="3" fill="#ffffff08" stroke="#ff8a70" stroke-opacity=".5" stroke-dasharray="5 4"/>`;
   dancers().forEach((dancer, index) => {
-    if (dancer.id === activeDancer()?.id || !dancer.clips.length) { return; }
+    if (dancer.id === activeDancer()?.id || !dancer.clips.length || dancer.hidden) { return; }
     const color = DANCER_COLORS[index % DANCER_COLORS.length];
     text += `<polyline points="${dancer.clips.map((c) => `${MX(c.x)},${MZ(c.z)}`).join(" ")}" fill="none" stroke="${color}" stroke-opacity=".3"/>`;
     text += dancer.clips.map((c) => `<circle cx="${MX(c.x)}" cy="${MZ(c.z)}" r="2.500" fill="${color}" fill-opacity=".5"/>`).join("");

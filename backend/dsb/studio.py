@@ -605,6 +605,26 @@ class Studio:
             self._recompose()
             return self.changes()
 
+    def align_clip(self, clip_id: str, facing: bool = False) -> dict:
+        """Stand a phrase where the phrase before it ends, so the join between them has no distance to cover.
+
+        The hips' floor position at the start of this phrase goes to the hips' floor position at the end of the one before.
+        With `facing`, the heading is matched too.
+        """
+        with self.lock:
+            clip = self._clip(clip_id)
+            earlier = [c for c in self.clips if c["start"] < clip["start"]]
+            if not earlier:
+                raise StudioError("前にフレーズがありません")
+            prev = earlier[-1]
+            trim_start, trim_end = self._trim(prev)
+            x, z, heading_at_end = pose_spot(self.library.poses(prev["phraseId"]), self.library.get_skeleton(), prev["x"], prev["z"],
+                                             prev["facing"], trim_start, trim_end)
+            changes: dict = {"x": round(x, 3), "z": round(z, 3)}
+            if facing:
+                changes["facing"] = heading_at_end
+            return self.update_clip(clip_id, changes)
+
     def cut_clip(self, clip_id: str, at: float, mode: str = "split") -> dict:
         """Cut a timeline phrase at timeline time `at`: split into two (`split`), drop before `at` (`before`), or drop after `at` (`after`)."""
         with self.lock:
@@ -1189,6 +1209,11 @@ class Studio:
             if not name:
                 raise StudioError("名前を入力してください")
             dancer["name"] = name
+            if "hidden" in changes:  # only what the stage shows; the dancer still counts for close calls and exports
+                if changes["hidden"]:
+                    dancer["hidden"] = True
+                else:
+                    dancer.pop("hidden", None)
             self._save()
             return self.changes()
 

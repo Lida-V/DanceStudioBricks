@@ -216,6 +216,15 @@ def update_clip(clip_id: str, body: dict):
     return studio.update_clip(clip_id, body)
 
 
+class AlignClip(BaseModel):
+    facing: bool = False
+
+
+@app.post("/api/clips/{clip_id}/align")
+def align_clip(clip_id: str, body: AlignClip):
+    return studio.align_clip(clip_id, body.facing)
+
+
 @app.post("/api/clips/{clip_id}/cut")
 def cut_clip(clip_id: str, body: CutClip):
     return studio.cut_clip(clip_id, body.at, body.mode)

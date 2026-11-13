@@ -20,6 +20,47 @@ const FIT_OPTIONS: [InsertFit, string, string][] = [
   ["raw", "原寸", "モーション本来の秒数のまま挿入します"],
 ];
 
+/** One command in a right-click menu. */
+export interface MenuAction {
+  label: string;
+  run: () => void;
+  title?: string;
+  disabled?: boolean;
+  danger?: boolean;
+}
+
+const actionButtons = (actions: MenuAction[]) => actions.map((action, index) =>
+  `<button type="button" class="menu-action ${action.danger ? "danger" : ""}" data-action="${index}" ${action.disabled ? "disabled" : ""} title="${escapeHtml(action.title ?? "")}">${escapeHtml(action.label)}</button>`).join("");
+
+/** A short list of commands at the pointer (for things that are not a choice of phrase). */
+export function openActionMenu(clientX: number, clientY: number, title: string, actions: MenuAction[]) {
+  closeOpenMenu?.();
+  const box = document.createElement("div");
+  box.id = "actionMenu";
+  box.innerHTML = `<div class="menu-title">${escapeHtml(title)}</div>${actionButtons(actions)}`;
+  document.body.appendChild(box);
+  const close = () => {
+    box.remove();
+    window.removeEventListener("mousedown", onOutside, true);
+    window.removeEventListener("keydown", onKey, true);
+    closeOpenMenu = null;
+  };
+  const onOutside = (event: MouseEvent) => { if (!box.contains(event.target as Node)) { close(); } };
+  const onKey = (event: KeyboardEvent) => { if (event.key === "Escape") { close(); } };
+  box.addEventListener("click", (event) => {
+    const button = (event.target as HTMLElement).closest<HTMLButtonElement>("[data-action]");
+    if (!button || button.disabled) { return; }
+    close();
+    actions[Number(button.dataset.action)].run();
+  });
+  box.addEventListener("contextmenu", (event) => event.preventDefault());
+  box.style.left = `${Math.max(8, Math.min(clientX, window.innerWidth - box.offsetWidth - 8))}px`;
+  box.style.top = `${Math.max(8, Math.min(clientY, window.innerHeight - box.offsetHeight - 8))}px`;
+  window.addEventListener("mousedown", onOutside, true);
+  window.addEventListener("keydown", onKey, true);
+  closeOpenMenu = close;
+}
+
 export interface MenuMode {
   title: string;
   where: string;
@@ -30,12 +71,13 @@ export interface MenuMode {
 }
 
 /** The list of library phrases that opens on a right click, ranked by musical match at the target spot. */
-export function openPhraseMenu(clientX: number, clientY: number, modes: [MenuMode] | [MenuMode, MenuMode]) {
+export function openPhraseMenu(clientX: number, clientY: number, modes: [MenuMode] | [MenuMode, MenuMode], actions: MenuAction[] = []) {
   closeOpenMenu?.();
   let modeIndex = 0;
   const box = document.createElement("div");
   box.id = "insertMenu";
   box.innerHTML = `<div class="ins-head"><div class="ins-title-row"><b id="insTitle"></b>${modes.length > 1 ? '<button class="mini-btn ins-switch" id="insSwitch" type="button"></button>' : ""}</div><span id="insWhere"></span></div>
+    ${actions.length ? `<div class="ins-actions" id="insActions">${actionButtons(actions)}</div>` : ""}
     <div class="ins-fit-bar" id="insFitBar"><small>長さ</small><div class="ins-fit-chips" id="insFitChips"></div></div>
     <div class="search"><input placeholder="名前・「キック」「楽しそう」「かわいい」等で絞り込み" spellcheck="false"></div>
     <div class="ins-list"></div>`;
@@ -177,6 +219,12 @@ export function openPhraseMenu(clientX: number, clientY: number, modes: [MenuMod
     const row = (event.target as HTMLElement).closest<HTMLElement>("[data-index]");
     if (row) { pickIndex(Number(row.dataset.index)); }
   });
+  box.querySelector("#insActions")?.addEventListener("click", (event) => {
+    const button = (event.target as HTMLElement).closest<HTMLButtonElement>("[data-action]");
+    if (!button || button.disabled) { return; }
+    close();
+    actions[Number(button.dataset.action)].run();
+  });
   box.addEventListener("contextmenu", (event) => event.preventDefault());
 
   syncHead();
@@ -187,6 +235,6 @@ export function openPhraseMenu(clientX: number, clientY: number, modes: [MenuMod
   input.focus();
 }
 
-export function openInsertMenu(clientX: number, clientY: number, where: string, choose: (phraseId: string) => void, at?: number) {
-  openPhraseMenu(clientX, clientY, [{ title: "モーションを挿入", where, choose, at }]);
+export function openInsertMenu(clientX: number, clientY: number, where: string, choose: (phraseId: string) => void, at?: number, actions: MenuAction[] = []) {
+  openPhraseMenu(clientX, clientY, [{ title: "モーションを挿入", where, choose, at }], actions);
 }

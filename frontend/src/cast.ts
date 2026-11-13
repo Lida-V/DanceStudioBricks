@@ -1,5 +1,6 @@
 import { S, activeDancer, applyChanges, barBeatAt, call, dancerColor, dancers, formatTime, subscribe, toast, withBusy, type Formation, type Spot } from "./store";
 import { MAIN_BONES, boneLabel } from "./model";
+import { openActionMenu } from "./insertMenu";
 import { bridge, closeModal, escapeHtml } from "./panels";
 import { isModelLoading, onModelChange, rigOf } from "./stage";
 import { followPlayhead } from "./timeline";
@@ -23,7 +24,7 @@ async function send(method: string, path: string, body?: unknown): Promise<any |
 
 function renderCast() {
   const active = activeDancer()?.id ?? "";
-  const chips = dancers().map((dancer) => `<button class="cast-chip ${dancer.id === active ? "on" : ""}" data-dancer="${dancer.id}" title="このダンサーを編集します"><i style="background:${dancerColor(dancer.id)}"></i>${escapeHtml(dancer.name)}</button>`).join("");
+  const chips = dancers().map((dancer) => `<button class="cast-chip ${dancer.id === active ? "on" : ""} ${dancer.hidden ? "hidden-dancer" : ""}" data-dancer="${dancer.id}" title="${dancer.hidden ? "非表示中です。" : ""}クリックで編集の対象にします。右クリックで表示の切り替えと削除"><i style="background:${dancerColor(dancer.id)}"></i>${escapeHtml(dancer.name)}</button>`).join("");
   const close = S.collisions.length ? `<button class="cast-chip warn" id="castWarn" title="ダンサー同士が近づきすぎる場面があります。クリックでその場面へ">▲ 接近 ${S.collisions.length}</button>` : "";
   document.getElementById("castBar")!.innerHTML = `${chips}<button class="cast-chip add" id="castAdd" title="ダンサーを追加">＋</button><button class="cast-chip" id="castFormation" title="全員の立ち位置を決めます">フォーメーション</button>${close}`;
   const model = S.project?.models?.[active];
@@ -44,6 +45,25 @@ export function collisionList(): string {
 function goTo(time: number) {
   seek(time);
   followPlayhead();
+}
+
+async function setHidden(ids: string[], hidden: boolean) {
+  for (const id of ids) { await send("PATCH", `/api/dancers/${id}`, { hidden }); }
+}
+
+/** Right click on a dancer: show or hide it on the stage, or remove it. */
+function openDancerMenu(dancerId: string, clientX: number, clientY: number) {
+  const dancer = dancers().find((d) => d.id === dancerId);
+  if (!dancer) { return; }
+  const others = dancers().filter((d) => d.id !== dancerId);
+  const alone = others.length === 0;
+  openActionMenu(clientX, clientY, dancer.name, [
+    { label: dancer.hidden ? "表示する" : "非表示にする", run: () => void setHidden([dancerId], !dancer.hidden), title: "ステージに出すかどうかだけを切り替えます。振り、接近の検出、書き出しは変わりません" },
+    { label: "このダンサーだけ表示", run: async () => { await setHidden(others.filter((d) => !d.hidden).map((d) => d.id), true); if (dancer.hidden) { await setHidden([dancerId], false); } }, disabled: alone },
+    { label: "全員を表示", run: () => void setHidden(dancers().filter((d) => d.hidden).map((d) => d.id), false), disabled: !dancers().some((d) => d.hidden) },
+    { label: "削除", danger: true, disabled: alone, title: alone ? "最後の 1 人は削除できません" : "このダンサーと、その振りを削除します",
+      run: async () => { const name = dancer.name; if (await send("DELETE", `/api/dancers/${dancerId}`)) { toast(`「${name}」を削除しました（Ctrl+Z で戻せます）`); } } },
+  ]);
 }
 
 function openAddDancer() {
@@ -342,6 +362,12 @@ export function initCast() {
     if (target.closest("#castAdd")) { openAddDancer(); }
     else if (target.closest("#castFormation")) { openFormation(); }
     else if (target.closest("#castWarn") && S.collisions.length) { goTo(S.collisions[0].start); }
+  });
+  document.getElementById("castBar")!.addEventListener("contextmenu", (event) => {
+    const chip = (event.target as HTMLElement).closest<HTMLElement>("[data-dancer]");
+    if (!chip) { return; }
+    event.preventDefault();
+    openDancerMenu(chip.dataset.dancer!, event.clientX, event.clientY);
   });
   document.getElementById("modelPill")!.addEventListener("click", openModel);
   document.getElementById("inspector")!.addEventListener("click", (event) => {

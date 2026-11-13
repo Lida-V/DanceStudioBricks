@@ -1,6 +1,6 @@
 import { S, CAT_COLOR, InsertFit, Phrase, applyChanges, barBeatAt, beginInteraction, call, clipDuration, clipTrim, clips, endInteraction, formatTime, isDoublePress, isTrimmed, markGenerating, phraseOf, refresh, selectedClip, toast, warnLockedDrag, Clip, Join } from "./store";
 import { openFormation } from "./cast";
-import { FIT_LABELS, openInsertMenu, openPhraseMenu } from "./insertMenu";
+import { FIT_LABELS, openInsertMenu, openPhraseMenu, type MenuAction } from "./insertMenu";
 import { poseAt } from "./stage";
 import { seek, togglePlay } from "./transport";
 
@@ -514,10 +514,10 @@ export function initTimeline() {
       openPhraseMenu(event.clientX, event.clientY, [
         { title: "モーションを差し替え", where: `${clips().indexOf(picked) + 1} 番「${name}」を差し替え`, choose: (phraseId) => replaceClip(picked.id, phraseId), switchLabel: "挿入へ切替", at: picked.start, replaceClip: picked },
         { title: "モーションを挿入", where: insWhere, choose: (phraseId) => insertPhrase(phraseId, at, undefined, true), switchLabel: "差し替えに戻す", at },
-      ]);
+      ], clipActions(picked));
       return;
     }
-    openInsertMenu(event.clientX, event.clientY, insWhere, (phraseId) => insertPhrase(phraseId, at, undefined, true), at);
+    openInsertMenu(event.clientX, event.clientY, insWhere, (phraseId) => insertPhrase(phraseId, at, undefined, true), at, clipActions());
   });
   host.addEventListener("mousemove", (event) => {
     const target = event.target as HTMLElement;
@@ -853,6 +853,43 @@ export async function insertPhrase(phraseId: string, start: number, place?: { x:
 }
 
 /** Ctrl+C: remember the selected phrase as it is now. The copy can be pasted any number of times, for another dancer too, and after the phrase itself is gone. */
+/** Stand a phrase where the one before it ends, so the join between them has no distance to cover. */
+export async function alignClip(clipId: string, facing: boolean) {
+  const clip = clips().find((c) => c.id === clipId);
+  if (!clip) { return; }
+  const from = { x: clip.x, z: clip.z };
+  try {
+    await applyChanges(await call("POST", `/api/clips/${clipId}/align`, { facing }));
+    const now = clips().find((c) => c.id === clipId);
+    const moved = now ? Math.hypot(now.x - from.x, now.z - from.z) : 0;
+    toast(`前のフレーズの終わりの位置${facing ? "と向き" : ""}に合わせました（${moved.toFixed(2)} m 移動。Ctrl+Z で戻せます）`);
+  } catch (error) {
+    toast((error as Error).message, "error");
+  }
+}
+
+export async function deleteClip(clipId: string) {
+  try { await applyChanges(await call("DELETE", `/api/clips/${clipId}`)); }
+  catch (error) { toast((error as Error).message, "error"); }
+}
+
+/** The commands of the right-click menu: for the selected phrase, or for an empty spot. */
+export function clipActions(clip?: Clip): MenuAction[] {
+  const paste: MenuAction = { label: "貼り付け", run: () => void pasteCopiedClip(), disabled: !S.clipboard, title: clip ? "コピーしたフレーズを、このフレーズの次に貼り付けます（Ctrl+V）" : "コピーしたフレーズを、白いバーの位置に貼り付けます（Ctrl+V）" };
+  if (!clip) { return S.clipboard ? [paste] : []; }
+  const first = clips()[0]?.id === clip.id;
+  const fixed = !!clip.locked;
+  const why = first ? "前にフレーズがありません" : fixed ? "ロック中です" : "";
+  return [
+    { label: "前の終わりに位置を合わせる", run: () => void alignClip(clip.id, false), disabled: first || fixed, title: why || "このフレーズの始まりを、前のフレーズが終わる位置へ動かします。つなぎで足が滑るのを抑えます" },
+    { label: "位置と向きを合わせる", run: () => void alignClip(clip.id, true), disabled: first || fixed, title: why || "位置に加えて、体の向きも前のフレーズの終わりに合わせます" },
+    { label: "コピー", run: () => void copySelectedClip(), title: "Ctrl+C" },
+    paste,
+    { label: clip.locked ? "ロックを解除" : "ロック", run: () => toggleLock(clip.id) },
+    { label: "削除", run: () => void deleteClip(clip.id), disabled: fixed, danger: true, title: fixed ? "ロック中です" : "Delete" },
+  ];
+}
+
 export function copySelectedClip(): boolean {
   const clip = selectedClip();
   if (!clip) { return false; }
