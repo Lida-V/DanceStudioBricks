@@ -118,4 +118,6 @@ backend/.venv/Scripts/python.exe -m unittest discover -s backend/tests
 
 MotionBricks、Beat This!、EmbeddingGemma 2、SOMA、モーション素材、読み込むモデルには、それぞれのライセンスが適用されます。利用する前に各配布元の条件を確認してください。
 
-SOMA の標準 T ポーズの回転（`backend/dsb/soma_rest.py`）は、NVIDIA Kimodo（Apache-2.0）の骨格定義から取り出した値です。
+SOMA の標準 T ポーズの回転（`backend/dsb/soma_rest.py`）は、NVIDIA Kimodo（Apache-2.0）の骨格定義から取り出した値です。同じファイルの関節の並びと骨の寸法は、SOMA（NVIDIA、Apache-2.0）の骨格のもので、書き出す BVH と FBX にも入ります。
+
+標準のマネキン（`frontend/public/models/default-mannequin.glb`）は、Quaternius の Universal Animation Library Mannequin（CC0 1.0）です。
