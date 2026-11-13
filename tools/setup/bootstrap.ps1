@@ -52,8 +52,12 @@ try {
     if ($backendStale) {
         Need-Tool "uv" "uv" "astral-sh.uv"
         Write-Host "Python 環境を準備しています..."
-        & uv venv --allow-existing --python 3.11 (Join-Path $root "backend\.venv")
-        Check "Python 環境の作成"
+        # An environment that exists is only updated. Creating it again fails while one of its processes runs
+        # (the MCP server of an AI agent keeps python.exe open).
+        if (-not (Test-Path $python)) {
+            & uv venv --allow-existing --python 3.11 (Join-Path $root "backend\.venv")
+            Check "Python 環境の作成"
+        }
         & uv pip install --python $python -r $reqFile
         Check "Python パッケージの導入"
         New-Item -ItemType File -Force $backendReady | Out-Null
