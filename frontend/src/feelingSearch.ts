@@ -1,4 +1,5 @@
 import { Clip, Phrase, S, clipDuration, clips, phraseOf } from "./store";
+import { queryToJapanese, tagToJapanese } from "./i18n";
 
 const META_OR_VERB_RE = /(?:モーション|もーしょん|ダンス|だんす|ムーブ|むーぶ|フレーズ|ふれーず|振り付け|振付|ふりつけ|動き|うごき|している|してる|してた|して|した|する|される|ような|ように|のある|がある|の入った|が入った|入りの|入り|系の|風の|的な|めの|めな|っぽい|っぽく|っぽさ|らしい|らしく|らしさ|そうな|そうに|そう|みたいな|みたいに|みたい|な感じ|の感じ|感じ|な雰囲気|雰囲気|気味|調|やで|だよ|だな|かな|とか|など|なんて)$/;
 const KATA_KANJI_PARTICLE_RE = /([ァ-ヶー一-龠々])(?:から|まで|だけ|のみ|でも|では|には|とは|での|への|や|で|の|を|に|が|は|も|と)$/;
@@ -312,7 +313,7 @@ function impressionWords(item: Phrase): string[] {
 }
 
 function splitQuery(query: string): { tokens: string[]; isOr: boolean } {
-  const raw = query.trim();
+  const raw = queryToJapanese(query).trim();  // tags are stored in Japanese; "kick" has to find "キック"
   if (!raw) { return { tokens: [], isOr: false }; }
   const isOr = /[|｜]/.test(raw) || /(?:やで|とか|または)/.test(raw) || /[ァ-ヶー一-龠々]や[ァ-ヶー一-龠々]/.test(raw);
   const preSplit = raw
@@ -448,7 +449,7 @@ export function cleanFilterTags(filterTags: string[]): string[] {
   const seen = new Set<string>();
   for (const raw of filterTags) {
     for (const part of String(raw).split(/[,、，・/／|｜]+/)) {
-      const trimmed = part.trim();
+      const trimmed = tagToJapanese(part.trim());
       if (!trimmed) { continue; }
       const cleaned = cleanQueryToken(trimmed) || trimmed;
       const norm = normalizeToken(cleaned);

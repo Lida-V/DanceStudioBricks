@@ -8,6 +8,8 @@ const path = require("node:path");
 const ROOT = path.resolve(__dirname, "..");
 const PORT = 8765;
 const URL = `http://127.0.0.1:${PORT}/`;
+// Native texts are Japanese on a Japanese system and English elsewhere. Only valid once the app is ready.
+const say = (ja, en) => (app.getLocale().toLowerCase().startsWith("ja") ? ja : en);
 let backend = null;
 let window = null;
 
@@ -22,28 +24,28 @@ function isUp() {
 async function startBackend() {
   if (await isUp()) { return; }
   const python = path.join(ROOT, "backend", ".venv", "Scripts", "python.exe");
-  if (!fs.existsSync(python)) { throw new Error("バックエンドの環境が見つかりません: " + python); }
+  if (!fs.existsSync(python)) { throw new Error(say("バックエンドの環境が見つかりません: ", "The backend environment was not found: ") + python); }
   fs.mkdirSync(path.join(ROOT, "runtime"), { recursive: true });
   const log = fs.openSync(path.join(ROOT, "runtime", "backend.log"), "a");
   backend = spawn(python, ["-X", "utf8", "-W", "ignore", "-m", "uvicorn", "dsb.server:app", "--app-dir", path.join(ROOT, "backend"), "--host", "127.0.0.1", "--port", String(PORT)],
     { cwd: ROOT, stdio: ["ignore", log, log], windowsHide: true });
   for (let i = 0; i < 240; i++) {
     if (await isUp()) { return; }
-    if (backend.exitCode !== null) { throw new Error("バックエンドが起動できませんでした。runtime/backend.log を確認してください"); }
+    if (backend.exitCode !== null) { throw new Error(say("バックエンドが起動できませんでした。runtime/backend.log を確認してください", "The backend could not start. See runtime/backend.log")); }
     await new Promise((done) => setTimeout(done, 500));
   }
-  throw new Error("バックエンドの起動がタイムアウトしました");
+  throw new Error(say("バックエンドの起動がタイムアウトしました", "The backend timed out while starting"));
 }
 
-const PICKERS = {
-  "file-motion": { title: "モーションデータ（BVH）を選択", many: true, filters: [{ name: "BVH", extensions: ["bvh"] }] },
-  "file-song": { title: "曲を選択", filters: [{ name: "音声", extensions: ["wav", "flac", "mp3", "ogg", "aiff", "aif"] }] },
-  "file-model": { title: "モデル（VRM / GLB / FBX）を選択", filters: [{ name: "モデル", extensions: ["vrm", "glb", "fbx"] }] },
-  "file-pmx": { title: "MMD モデル（PMX）を選択", filters: [{ name: "PMX", extensions: ["pmx"] }] },
-};
+const pickers = () => ({
+  "file-motion": { title: say("モーションデータ（BVH）を選択", "Choose motion data (BVH)"), many: true, filters: [{ name: "BVH", extensions: ["bvh"] }] },
+  "file-song": { title: say("曲を選択", "Choose a song"), filters: [{ name: say("音声", "Audio"), extensions: ["wav", "flac", "mp3", "ogg", "aiff", "aif"] }] },
+  "file-model": { title: say("モデル（VRM / GLB / FBX）を選択", "Choose a model (VRM / GLB / FBX)"), filters: [{ name: say("モデル", "Model"), extensions: ["vrm", "glb", "fbx"] }] },
+  "file-pmx": { title: say("MMD モデル（PMX）を選択", "Choose an MMD model (PMX)"), filters: [{ name: "PMX", extensions: ["pmx"] }] },
+});
 
 ipcMain.handle("pick", async (_event, kind) => {
-  const picker = PICKERS[kind];
+  const picker = pickers()[kind];
   if (!picker) { return []; }
   const result = await dialog.showOpenDialog(window, { title: picker.title, properties: picker.many ? ["openFile", "multiSelections"] : ["openFile"], filters: picker.filters });
   return result.canceled ? [] : result.filePaths;

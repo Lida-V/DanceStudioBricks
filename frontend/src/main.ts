@@ -1,5 +1,6 @@
 import "./base.css";
 import "./app.css";
+import { initLanguage, lang, setLang } from "./i18n";
 import { S, CAT_COLOR, InsertFit, applyChanges, applyState, call, clips, onPlayhead, phraseOf, refresh, selectedClip, subscribe, toast, withBusy } from "./store";
 import { initCast } from "./cast";
 import { FIT_LABELS } from "./insertMenu";
@@ -60,6 +61,7 @@ function renderLegend() {
 }
 
 async function main() {
+  initLanguage();
   initStage();
   initTimeline();
   initTransport();
@@ -87,6 +89,9 @@ async function main() {
   document.getElementById("btnImport")!.onclick = () => importMotion();
   document.getElementById("btnFlow")!.onclick = () => { if (S.project) { openFlow(); } };
   document.getElementById("btnExport")!.onclick = openExport;
+  const langButton = document.getElementById("btnLang")!;
+  langButton.textContent = lang === "ja" ? "EN" : "日本語";
+  langButton.onclick = () => setLang(lang === "ja" ? "en" : "ja");
   document.getElementById("tempoHalf")!.onclick = () => loadSong((S.song?.tempoFactor ?? 1) === 2 ? 1 : 0.5);
   document.getElementById("tempoDouble")!.onclick = () => loadSong((S.song?.tempoFactor ?? 1) === 0.5 ? 1 : 2);
   const run = async (label: string, path: string, body: unknown = {}) => {
